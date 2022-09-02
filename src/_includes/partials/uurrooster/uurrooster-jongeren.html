@@ -1,0 +1,40 @@
+{% set schedules = collections.schedules[0].data.jongeren %}
+
+
+{% if schedules.jongeren.textTop %}
+<div class="table-text top">{{ schedules.jongeren.textTop | markdown | safe }}</div>
+{% endif%}
+
+{% if schedules.jongeren.title %}
+<div class="table-title">{{ schedules.jongeren.title | safe }}</div>
+{% endif%}
+
+{% if schedules.jongeren.table %}
+<div class="table-container">
+  {{ schedules.jongeren.table | markdown | safe }}
+</div>{% endif %}
+
+{% if schedules.jongeren.textBottom %}
+<div class="table-text bottom">{{ schedules.jongeren.textBottom | markdown | safe }}</div>
+{% endif %}
+
+
+
+{% if schedules.openingsurenSchool.title %}
+<div class="table-title">{{ schedules.openingsurenSchool.title | safe }}</div>
+{% endif%}
+
+{% if schedules.openingsurenSchool.table %}
+<div class="table-container">
+  {{ schedules.openingsurenSchool.table | markdown | safe }}
+</div>{% endif %}
+
+
+{% if schedules.openingsurenSecretariaat.title %}
+<div class="table-title">{{ schedules.openingsurenSecretariaat.title | safe }}</div>
+{% endif%}
+
+{% if schedules.openingsurenSecretariaat.table %}
+<div class="table-container">
+  {{ schedules.openingsurenSecretariaat.table | markdown | safe }}
+</div>{% endif %}

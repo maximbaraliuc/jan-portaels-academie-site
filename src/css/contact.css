@@ -1,0 +1,26 @@
+
+h2:not(:nth-of-type(1)) {
+  margin-top: 6rem;
+}
+.contact-address {
+  line-height: 160%;
+}
+
+.contact-address a {
+  display: inline-block;
+  font-style: normal;
+  padding-left: 0.8rem;
+  color: var(--color-home);
+}
+.contact-address a:hover {
+  text-decoration: none;
+
+}
+
+
+
+/* GOOGLE MAP ON PAGE */
+.google-map {
+  height: 400px;
+  margin-bottom: 1rem;
+}

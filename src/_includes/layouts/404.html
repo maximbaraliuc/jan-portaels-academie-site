@@ -1,0 +1,10 @@
+{% extends "layouts/base.html" %}
+{% set pageType = "home-section" %}
+{% set extraCSS = "/css/404.css" %}
+
+{% block content %}
+<div class="_404-wrapper">
+  <div class="_404-number">404</div>
+  <div class="_404-message">{{ title }}</div>
+</div>
+{% endblock %}

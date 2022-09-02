@@ -1,0 +1,39 @@
+{% set contact = collections.contact[0].data %}
+
+<footer>
+  <!-- All information but copyrights block -->
+  <div class="footer-container">
+    <div class="footer-logo">
+      <lottie-player src="https://assets8.lottiefiles.com/private_files/lf30_wr530fwc.json" background="transparent"
+        speed="1" loop autoplay></lottie-player>
+    </div>
+    <div class="footer-contact">
+      <div class="footer-block-title"><i class="fa-solid fa-address-book"></i> <strong>Contact</strong> </div>
+
+      <address class="footer-address"> <i class="fa-solid fa-location-dot"></i> <a href="{{ contact.googleMapAddress }}"
+          target="_blank">{{
+          contact.physicalAddress}}</a><br> <i class="fa-solid fa-phone"></i> <a
+          href="tel:{{ contact.telephoneNumber | removeSpaces }}">{{ contact.telephoneNumber }}</a><br> <i
+          class="fa-solid fa-at"></i>
+        <a href="mailto: {{ emailDirectie }}">Directie</a>
+        <br> <i class="fa-solid fa-at"></i> <a href="mailto: {{ emailSecretariaat }}">Secretariaat</a><br>
+      </address>
+    </div>
+    <div class="footer-map">
+      <div class="footer-block-title"><i class="fa-solid fa-map-location-dot"></i> <strong>Locatie</strong> </div> <a
+        href="{{ googleMapAddress }}" title="naar google map" target="_blank"><img src="/media/map-placeholder.png"
+          alt="screenshot of the location on google map"></a>
+    </div>
+    <div class="footer-links">
+      <div class="footer-admin-links"><a
+          href="https://data-onderwijs.vlaanderen.be/onderwijsaanbod/instelling?sn=49312"><img
+            src="/media/vlaanderen-onderwijs.svg" alt="Vlaanderen logo"></a><a
+          href="https://www.vilvoorde.be/kunstonderwijs"><img src="/media/logo-vilvoorde-stem.svg"
+            alt="Vilvoorde city logo"></a> </div>
+    </div>
+  </div>
+  <div class="footer-copyright">
+    <p>&copy; 2022 Stedelijke academie voor beeldenden kunsten Jan Portaels &nbsp;&nbsp;|&nbsp;&nbsp; designed by <a
+        href="mailto:m.baraliuc@gmail.com">Maxim Baraliuc</a></p>
+  </div>
+</footer>

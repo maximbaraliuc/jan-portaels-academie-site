@@ -1,0 +1,134 @@
+:root {
+  --clr-required: #A165A0;
+  --clr-optional: #00BFB9;
+  --clr-autofill: #FF6233;
+}
+html {
+  scroll-padding-top: 5rem;
+}
+
+ul, li {
+  list-style: none;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+  color: var(--clr-font-dark);
+}
+.side-navigation {
+  position: sticky;
+  top: 0px;
+  background-color: white;
+  box-shadow: var(--atelier-shadow);
+  border-radius: var(--search-bar-corner-rad);
+  padding-inline: 1rem;
+}
+.side-navigation ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.side-navigation li {
+  display: flex;
+}
+.side-navigation a {
+  background-color: white;
+  padding: 0.5rem 0.75rem;
+  /* border: 1px solid var(--clr-menu-separator); */
+  border-radius: var(--search-bar-corner-rad);
+  width: 100%;
+  font-weight: bold;
+  transition: all 0.2s;
+  color: hsl(0, 0%, 50%);
+
+}
+.side-navigation a:hover {
+  /* transform: translateY(-2px); */
+  color: var(--clr-font-dark);
+
+
+}
+.side-navigation a:active {
+  transform: translateY(4px);
+  transition: all 0s;
+
+}
+
+/* ========================================= */
+
+.tutorial-wrapper {
+  width: var(--width-main);
+  margin-block: 2rem;
+}
+
+.tutorial-container {
+  display: flex;
+  gap: 1rem;
+}
+.tutorial-container > div {
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: var(--atelier-shadow);
+  background-color: white;
+}
+
+.cms img,
+.published img {
+  width: 100%;
+}
+.clr-required span {
+  font-weight: bold;
+  color: var(--clr-required);
+}
+.clr-optional span {
+  font-weight: bold;
+  color: var(--clr-optional);
+}
+.clr-autofill span {
+  font-weight: bold;
+  color: var(--clr-autofill);
+}
+.screenshots-section {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  width: 60%;
+  margin-inline: auto;
+}
+.screenshots-section img {
+  width: 100%;
+  margin: 1rem;
+  border-radius: 8px;
+  box-shadow: var(--atelier-shadow);
+}
+
+
+.tut-text {
+  margin-inline: 2rem;
+}
+
+hr {
+  width: 100%;
+  border: 1px solid var(--clr-menu-separator);
+}
+/* ===================================================== */
+/* MEDIA QUERY */
+/* ===================================================== */
+
+/* Screen size between: 1024 - 1366 */
+@media screen and (max-width: 1365px) {
+
+}
+
+/* Screen size between: 768 - 1024 */
+@media screen and (max-width: 1023px) {
+  .tutorial-wrapper {
+    width: 100%;
+  }
+
+}
+
+/* Screen size between: 0 - 768 */
+@media screen and (max-width: 767px) {
+
+}

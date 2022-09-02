@@ -1,0 +1,69 @@
+{
+  "blocks": [
+    {
+      "title": "Activiteiten",
+      "pages": [
+        {
+          "title": "Nieuws",
+          "url": "/nieuws/1/index.html"
+        },
+        { "title": "Tentoonstellingen" }
+      ]
+    },
+    {
+      "title": "Ateliers",
+      "pages": [
+        {
+          "title": "Beeldatelier voor kinderen",
+          "url": "/beeldatelier-voor-kinderen.html"
+        },
+        { "title": "Beeldatelier voor jongeren", "url": "/beeldatelier-voor-jongeren.html" },
+        { "title": "Kunstateliers voor volwassenen", "url": "/kunstateliers-voor-volwassenen.html" }
+      ]
+    },
+    {
+      "title": "Kunsttheorie",
+      "pages": [
+        {
+          "title": "Kunst en cultuurfilosofie",
+          "url": "/kunsttheorie.html"
+        },
+        { "title": "Beeldende en audiovisuele cultuur", "url": "/kunsttheorie.html#audiovisuele" }
+      ]
+    },
+    {
+      "title": "Info",
+      "pages": [
+        {
+          "title": "Vakantiekalender",
+          "url": "/info.html"
+        },
+        { "title": "Reglementen", "url": "/info.html" },
+        { "title": "Openingsuren", "url": "/info.html" },
+        { "title": "Lessenrooster", "url": "/info.html" }
+      ]
+    },
+    {
+      "title": "Inschrijven",
+      "pages": [
+        {
+          "title": "Inschrijfmomenten",
+          "url": "/inschrijven.html"
+        },
+        { "title": "Inschrijftarieven", "url": "/inschrijven.html#tarieven" },
+        { "title": "Lessenrooster", "url": "/inschrijven.html#lessenrooster" }
+      ]
+    },
+    {
+      "title": "Contact",
+      "pages": [
+        {
+          "title": "Adres",
+          "url": "/contact.html"
+        },
+        { "title": "Openingsuren", "url": "/contact.html#contact-openingsuren" },
+        { "title": "Plaats", "url": "/contact.html#contact-plaats" }
+      ]
+    }
+  ]
+}

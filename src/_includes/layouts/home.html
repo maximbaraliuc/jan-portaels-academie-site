@@ -1,0 +1,56 @@
+{% extends "layouts/base.html" %}
+{% set pageType = "home-section" %}
+
+{% set cmsScript = "https://identity.netlify.com/v1/netlify-identity-widget.js" %}
+{% set newsPost01 = collections.blog[0] %}
+{% set newsPost02 = collections.blog[1] %}
+{% set newsPost03 = collections.blog[2] %}
+
+
+{% block content %}
+
+<!-- Simple image gallery (css grid) -->
+<div class="image-gallery-container">
+  <div class="image-gallery"><img src="{{ media.image_01 }}" alt="{{ media.image_01_alt_text }}">
+  </div>
+  <div class="image-gallery"> <img src="{{ media.image_02 }}" alt="{{ media.image_02_alt_text }}"> </div>
+  <!-- Element size - bigger, vertical span -->
+  <div class="image-gallery"> <img src="{{ media.image_03 }}" alt="{{ media.image_03_alt_text }}"> </div>
+  <!-- Element size - bigger, horizontal span -->
+  <div class="image-gallery"> <img src="{{ media.image_04 }}" alt="{{ media.image_04_alt_text }}">
+  </div>
+  <div class="image-gallery"> <img src="{{ media.image_05 }}" alt="{{ media.image_05_alt_text }}"> </div>
+  <div class="image-gallery"> <img src="{{ media.image_06 }}" alt="{{ media.image_06_alt_text }}">
+  </div>
+</div>
+
+
+<!-- Welcome text -->
+<div class="about-description">
+  {{ welcome_text | markdown | safe }}
+</div>
+
+
+
+<!-- Latest news or notifications cards -->
+<article class="nieuws-card-container">
+
+  <div class="nieuws-card">
+    <h3><i class="fa-solid fa-feather"></i>{{ newsPost01.data.title }}</h3>
+    <p>{{ newsPost01.templateContent | htmlToText | truncate(200) | safe}}</p>
+    <a href="/nieuws/posts/{{ newsPost01.fileSlug }}/index.html" class="card-button">Lees verder</a>
+  </div>
+
+  <div class="nieuws-card">
+    <h3><i class="fa-solid fa-highlighter"></i>{{ newsPost02.data.title }}</h3>
+    <p>{{ newsPost02.templateContent | htmlToText | truncate(200) | safe}}</p>
+    <a href="/nieuws/posts/{{ newsPost02.fileSlug }}/index.html" class="card-button">Lees verder</a>
+  </div>
+
+  <div class="nieuws-card">
+    <h3><i class="fa-solid fa-pen"></i>{{ newsPost03.data.title }}</h3>
+    <p>{{ newsPost03.templateContent | htmlToText | truncate(200) | safe}}</p>
+    <a href="/nieuws/posts/{{ newsPost03.fileSlug }}/index.html" class="card-button">Lees verder</a>
+  </div>
+</article>
+{% endblock %}

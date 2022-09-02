@@ -1,0 +1,25 @@
+{% extends "layouts/base.html" %}
+{% set pageType = "activiteiten-section" %}
+{% set extraCSS = "/css/nieuws.css" %}
+
+{% set expoItem = pagination.items %}
+
+
+{% block content %}
+<article class="expo-container">
+  {% set item = expoItem[0] %}
+  <h1>{{ item.data.title | safe }}</h1>
+
+  <div class="post-date"><i class="fa-solid fa-calendar-days"></i>{{ item.date | readablePostDate}}</div>
+  <div class="expo-content">{{ item.templateContent | safe}}</div>
+
+  {% if item.data.images[0].file %}
+  <div class="expo-gallery">
+    {% for image in item.data.images %}
+    <div class="expo-images"><img src="{{ image.file }}" alt="{{ image.altText }}" loading="lazy"></div>
+    {% endfor%}
+  </div>
+  {% endif %}
+  {% include "partials/activiteiten/nieuws-post-pagination.html" %}
+</article>
+{% endblock %}

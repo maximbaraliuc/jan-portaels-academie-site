@@ -1,0 +1,32 @@
+{% extends "layouts/base.html" %}
+{% set pageType = "ateliers-section" %}
+{% set extraCSS = "/css/ateliers.css" %}
+{% set pageHeaderTitle = title %}
+
+
+
+{% block content %}
+{% set onePerPage = true %}
+{% for item in collections.ateliers %}
+{% if item.data.name === "jongeren" %}
+
+{% set schedules = collections.schedules[0].data.jongeren %}
+{% if schedules.jongeren.table %}
+{% set uurrooster %}
+<details>
+  <summary>Uurrooster</summary>
+  <div class="details-content">
+    {% include "partials/uurrooster/uurrooster-jongeren.html" %}
+  </div>
+</details>
+{% endset %}
+{% endif %}
+
+{% set atelier = item %}
+{% set showAteliers = item.data.show3D %}
+
+{% include "partials/ateliers/atelier-template.html" %}
+
+{% endif %}
+{% endfor %}
+{% endblock %}

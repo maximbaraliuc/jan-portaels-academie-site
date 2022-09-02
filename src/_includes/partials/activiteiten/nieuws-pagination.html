@@ -1,0 +1,42 @@
+{# Only renders this section if there are links to render #}
+
+{% if pagination.href.next or pagination.href.previous %}
+
+<div>
+  <nav class="pagination-links" aria-label="Pagination links">
+    {% if pagination.href.previous %}
+    <div class="link-a full">
+      <a href="{{ pagination.href.previous }}" data-direction="backwards">
+        <span><i class="fa-solid fa-caret-left"></i>{{ paginationPrevText if paginationPrevText else 'Vorige'
+          }}</span></a>
+    </div>
+    {% else %}
+    <div class="link-a empty">
+      <div>
+
+        <span><i class="fa-solid fa-caret-left"></i>{{ paginationPrevText if paginationPrevText else 'Vorige'
+          }}</span>
+      </div>
+    </div>
+    {% endif %}
+
+    {% if pagination.href.next %}
+    <div class="link-b full">
+      <a href="{{ pagination.href.next }}" data-direction="forwards">
+        <span>{{ paginationNextText if paginationNextText else 'Volgende' }}<i
+            class="fa-solid fa-caret-right"></i></span>
+      </a>
+    </div>
+    {% else %}
+    <div class="link-b empty">
+      <div>
+        <span>{{ paginationNextText if paginationNextText else 'Volgende' }}<i
+            class="fa-solid fa-caret-right"></i></span>
+
+      </div>
+    </div>
+    {% endif %}
+  </nav>
+</div>
+
+{% endif %}

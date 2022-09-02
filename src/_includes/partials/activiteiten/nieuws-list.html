@@ -1,0 +1,9 @@
+{% for item in postListItems %}
+<article class="blog-card">
+  <h2>{{ item.data.title }}</h2>
+  <div class="post-date"><i class="fa-solid fa-calendar-days"></i>{{ item.date | readablePostDate}}</div>
+  <div class="nieuws-content">{{ item.templateContent | htmlToText | truncate(250) | safe}}</div>
+  <br>
+  <div class="blog-btn"><a href="../posts/{{ item.fileSlug }}/index.html"><strong>Lees verder</strong></a></div>
+</article>
+{% endfor %}

@@ -1,0 +1,100 @@
+{% if not multiplePerPage %}
+{% if atelier.data.title %}<h1>{{ atelier.data.title }}</h1>{% endif %}
+{% endif %}
+
+
+{% if atelier.data.video %}
+<div class="video-wrap">
+  <video src="{{ atelier.data.video }}" controls height="400" loop muted preload="auto"></video>
+</div>
+{% endif %}
+
+<article class="atelier-block">
+  {% if atelier.data.description.title %}<h2 id="{{ atelier.data.name }}">{{ atelier.data.description.title }}</h2>{%
+  endif
+  %}
+
+  <div class="atelier-description-container">
+    <div class="atelier-description">
+      {% if atelier.data.description.text %}{{ atelier.data.description.text | markdown | safe }}{% endif %}
+    </div>
+  </div>
+
+  {% if atelier.data.gallery %}
+  <div class="atelier-gallery-container"><i class="fa-solid fa-chevron-left btn-left"></i><i
+      class="fa-solid fa-chevron-right btn-right"></i>
+    <div class="atelier-gallery">
+      {% for item in atelier.data.gallery %}
+      <img src="{{ item.file }}" alt="{{ item.altText }}" loading="lazy">
+      {% endfor %}
+    </div>
+  </div>
+  {% endif %}
+
+  {{ uurrooster | safe }}
+
+  {% if atelier.data.uurroosterFile.fileLink %}
+  {% set timetableFile = atelier.data.uurroosterFile %}
+  <div class="download-file"><a href="{{ timetableFile.fileLink }}" target="_blank">{{ timetableFile.fileName }}<i
+        class="fa-solid fa-file-lines"></i></a>
+  </div>
+  {% endif %}
+
+  {% if atelier.data.materials %}
+  <details>
+    <summary>Materiaallijst</summary>
+    <div class="details-content">
+      {{ atelier.data.materials | markdown | safe }}
+    </div>
+  </details>
+  {% endif %}
+
+  {% if atelier.data.extraText %}
+  <div>{{ atelier.data.extraText | markdown | safe}}</div>
+  {% endif %}
+
+
+  {% if showAteliers %}
+  {% block ateliers3D %}
+  <section class="atelier-3d" id="atelier-3d">
+
+    <div class="atelier-iframe-wrap">
+      <h3>Atelier 01</h3>
+      <iframe class="atelier-iframe" src="https://my.matterport.com/show/?m=XTxkuiJgjXm" allowfullscreen
+        allow="xr-spatial-tracking"></iframe>
+    </div>
+
+    <div class="atelier-iframe-wrap">
+      <h3>Atelier 02</h3>
+      <iframe class="atelier-iframe" src="https://my.matterport.com/show/?m=ns3QKVyDW5G" allowfullscreen
+        allow="xr-spatial-tracking"></iframe>
+    </div>
+
+    <div class="atelier-iframe-wrap">
+      <h3>Atelier 04</h3>
+      <iframe class="atelier-iframe" src="https://my.matterport.com/show/?m=5MA27P4wYmJ" allowfullscreen
+        allow="xr-spatial-tracking"></iframe>
+    </div>
+
+    <div class="atelier-iframe-wrap">
+      <h3>Atelier 04</h3>
+      <iframe class="atelier-iframe" src="https://my.matterport.com/show/?m=3jUBgKZUgKM" allowfullscreen
+        allow="xr-spatial-tracking"></iframe>
+    </div>
+
+    <div class="atelier-iframe-wrap">
+      <h3>Atelier 05</h3>
+      <iframe class="atelier-iframe" src="https://my.matterport.com/show/?m=bcpj6Ww5dJy" allowfullscreen
+        allow="xr-spatial-tracking"></iframe>
+    </div>
+
+    <div class="atelier-iframe-wrap">
+      <h3>Atelier 06</h3>
+      <iframe class="atelier-iframe" src="https://my.matterport.com/show/?m=e9oCNhGXUXz" allowfullscreen
+        allow="xr-spatial-tracking"></iframe>
+    </div>
+
+  </section>
+  {% endblock %}
+  {% endif %}
+</article>

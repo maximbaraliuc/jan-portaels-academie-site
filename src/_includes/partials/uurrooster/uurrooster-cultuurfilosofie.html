@@ -1,0 +1,19 @@
+{% set schedules = collections.schedules[0].data.volwassenen %}
+
+
+{% if schedules.cultuurfilosofie.textTop %}
+<div class="table-text top">{{ schedules.cultuurfilosofie.textTop | markdown | safe }}</div>
+{% endif%}
+
+{% if schedules.cultuurfilosofie.title %}
+<div class="table-title">{{ schedules.cultuurfilosofie.title | safe }}</div>
+{% endif%}
+
+{% if schedules.cultuurfilosofie.table %}
+<div class="table-container">
+  {{ schedules.cultuurfilosofie.table | markdown | safe }}
+</div>{% endif %}
+
+{% if schedules.cultuurfilosofie.textBottom %}
+<div class="table-text bottom">{{ schedules.cultuurfilosofie.textBottom | markdown | safe }}</div>
+{% endif %}

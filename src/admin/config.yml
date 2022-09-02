@@ -1,0 +1,742 @@
+backend:
+  name: git-gateway
+  branch: main # Branch to update (optional; defaults to master)
+
+logo_url: https://jan-portaels-cms.netlify.app/media/logo-home.png
+
+# This line should *not* be indented
+publish_mode: editorial_workflow
+
+# These lines should *not* be indented
+media_folder: "src/media/uploads" # Media files will be stored in the repo under static/media/uploads
+public_folder: "/media/uploads" # The src attribute for uploaded media will begin with /media/uploads
+
+collections:
+
+  # News posts collection
+
+  - label: "Nieuwsberichten"
+    name: "nieuws"
+    folder: "/src/posts"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Publish date", name: "date", widget: "hidden", default: "git Last Modified" }
+
+      - label: "Featured image"
+        name: "featuredImage"
+        widget: "object"
+        collapsed: true
+        hint: "The article body starts with this picture."
+        fields:
+          - {
+              label: "Image file",
+              name: "file",
+              widget: "image",
+              choose_url: false,
+              allow_multiple: false,
+              required: false,
+            }
+          - {
+              label: "Alt text",
+              name: "altText",
+              widget: "string",
+              hint: "It is **recommended** to add an alternative text for an image.",
+              required: false,
+            }
+      - { label: "Main text", name: "body", widget: "markdown", minimal: true, editor_components: [], hint: "Do not add media in this text area", }
+
+      - label: "Images on page"
+        name: "images"
+        widget: "list"
+        label_singular: "image"
+        collapsed: true
+        fields:
+          - { label: "Image file", name: "file", widget: "image", choose_url: false, allow_multiple: false }
+          - {
+              label: "Alt text",
+              name: "altText",
+              widget: "string",
+              hint: "It is **recommended** to add an alternative text for an image.",
+              required: false,
+            }
+      - label: "Upload files"
+        name: "files"
+        widget: "list"
+        collapsed: true
+        label_singular: "files"
+        fields:
+          - { label: "File display name", name: "name", widget: "string", hint: "This text will appear on the file's download button.", }
+          - {
+              label: "Add file",
+              name: "link",
+              widget: "file",
+              allow_multiple: false,
+              choose_url: false,
+              hint: "The file name should not contain space in it, to be downloadable. Replace spaces with '-' or '_' for example: 'correct-file-name.pdf'",
+            }
+      - { label: "Extra text", name: "extraText", widget: "markdown", required: false }
+
+
+  # Expo's collection
+
+  - label: "Tentoonstellingen"
+    name: "expo"
+    folder: "/src/expo"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Publish date", name: "date", widget: "hidden", default: "git Last Modified" }
+      - { label: "Main text", name: "body", widget: "markdown", minimal: true, editor_components: [], hint: "Do not add media in this text area", }
+      - label: "Image gallery"
+        name: "images"
+        widget: "list"
+        label_singular: "image"
+        fields:
+          - { label: "Image file", name: "file", widget: "image", choose_url: false, allow_multiple: false }
+          - {
+              label: "Alt text",
+              name: "altText",
+              widget: "string",
+              hint: "It is **recommended** to add an alternative text for an image.",
+              required: false,
+            }
+
+
+  # Ateliers collection
+
+  - label: "Ateliers"
+    name: "ateliers"
+    folder: "/src/ateliers"
+    slug: "{{slug}}"
+    create: false
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "File name", name: "name", widget: "hidden" }
+      - label: "Atelier description"
+        name: "description"
+        widget: "object"
+        collapsed: true
+        fields:
+          - { label: "Title", name: "title", widget: "string", required: false }
+          - {
+              label: "Description text",
+              name: "text",
+              widget: "markdown",
+              minimal: true,
+              editor_components: [],
+              hint: "Do not add media in this text area",
+            }
+
+      - label: "Image gallery"
+        name: "gallery"
+        widget: "list"
+        label_singular: "media"
+        fields:
+          - { label: "Image file", name: "file", widget: "image", choose_url: false, allow_multiple: false }
+          - {
+              label: "Alt text",
+              name: "altText",
+              widget: "string",
+              hint: "It is **recommended** to add an alternative text for an image.",
+              required: false
+            }
+      - label: "Timetable file"
+        name: "uurroosterFile"
+        widget: "object"
+        collapsed: true
+        fields:
+          - { label: "File display name", name: "fileName", widget: "string", hint: "This text will appear on the file's download button.", required: false, }
+          - label: "Timetable file"
+            name: "fileLink"
+            widget: "file"
+            allow_multiple: false
+            choose_url: false
+            hint: "The file name should not contain space in it, to be downloadable. Replace spaces with '-' or '_' for example: 'correct-file-name.pdf'"
+            required: false
+      - {
+          label: "List of materials",
+          name: "materials",
+          widget: "markdown",
+          editor_components: [],
+          minimal: true,
+          required: false,
+        }
+      - {
+          label: "Additional text",
+          name: "extraText",
+          widget: "markdown",
+          minimal: true,
+          editor_components: [],
+          hint: "Do not add media in this text area",
+          required: false,
+        }
+      - { label: "Show ateliers 3D views if available", name: "show3D", widget: "boolean", required: false }
+      - {
+          label: "Featured video",
+          name: "video",
+          widget: "file",
+          choose_url: false,
+          allow_multiple: false,
+          required: false,
+          hint: "Select a video file. It will sit at the top of the article",
+        }
+
+
+  # Home page
+
+  - label: "Home page"
+    name: "homepages"
+    files:
+      - label: "Home"
+        name: "homepage"
+        file: "/src/index.md"
+        fields:
+          - { label: "Layout", name: "layout", widget: "hidden", default: "layouts/home.html" }
+          - { label: "Section", name: "section", widget: "hidden", default: "Home" }
+          - {
+              label: "Welcome text",
+              name: "welcome_text",
+              widget: "markdown",
+              editor_components: [],
+              minimal: true,
+              default:
+                "Kunst zit soms in een klein hoekje. Onze academie biedt u veel vrijheid en een onuitputtelijke drang naar meer
+                en beter. U krijgt iets dat langer dan een leven meegaat.",
+            }
+          - label: "Image gallery"
+            name: "media"
+            widget: "object"
+            collapsed: false
+            fields:
+              - { label: "Image - 01", name: "image_01", widget: "image", choose_url: false }
+              - {
+                  label: "Alt text for image - 01",
+                  name: "image_01_alt_text",
+                  widget: "string",
+                  hint: "It is **recommended** to add an alternative text for an image.",
+                  required: false,
+                }
+              - { label: "Image - 02", name: "image_02", widget: "image", choose_url: false }
+              - {
+                  label: "Alt text for image - 0",
+                  name: "image_02_alt_text",
+                  widget: "string",
+                  hint: "It is **recommended** to add an alternative text for an image.",
+                  required: false,
+                }
+              - { label: "Image - 03", name: "image_03", widget: "image", choose_url: false }
+              - {
+                  label: "Alt text for image - 03",
+                  name: "image_03_alt_text",
+                  widget: "string",
+                  hint: "It is **recommended** to add an alternative text for an image.",
+                  required: false,
+                }
+              - { label: "Image - 04", name: "image_04", widget: "image", choose_url: false }
+              - {
+                  label: "Alt text for image - 04",
+                  name: "image_04_alt_text",
+                  widget: "string",
+                  hint: "It is **recommended** to add an alternative text for an image.",
+                  required: false,
+                }
+              - { label: "Image - 05", name: "image_05", widget: "image", choose_url: false }
+              - {
+                  label: "Alt text for image - 05",
+                  name: "image_05_alt_text",
+                  widget: "string",
+                  hint: "It is **recommended** to add an alternative text for an image.",
+                  required: false,
+                }
+              - { label: "Image - 06", name: "image_06", widget: "image", choose_url: false }
+              - {
+                  label: "Alt text for image - 06",
+                  name: "image_06_alt_text",
+                  widget: "string",
+                  hint: "It is **recommended** to add an alternative text for an image.",
+                  required: false,
+                }
+
+
+  # Info page
+
+  - label: "Info"
+    name: "infopages"
+    files:
+      - label: "Info pagina"
+        name: "infopage"
+        file: "/src/info.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - {
+              label: "Holiday's calendar (vakantiekalender)",
+              name: "calender",
+              widget: "markdown",
+              editor_components: [],
+              minimal: true,
+              required: false,
+            }
+          - label: "Regulations (reglementen)"
+            name: "reglementen"
+            widget: "list"
+            collapsed: true
+            label_singular: "files"
+            fields:
+              - { label: "File display name", name: "fileName", widget: "string", hint: "This text will appear on the file's download button.", required: false, }
+              - {
+                  label: "Add a file",
+                  name: "fileLink",
+                  widget: "file",
+                  allow_multiple: false,
+                  choose_url: false,
+                  hint: "The file name should not contain space in it, to be downloadable. Replace spaces with '-' or '_' for example: 'correct-file-name.pdf'",
+                  required: false,
+                }
+
+          - label: "Timetable files"
+            name: "timetables"
+            widget: "list"
+            collapsed: true
+            label_singular: "file"
+            fields:
+              - { label: "File display name", name: "fileName", widget: "string", hint: "This text will appear on the file's download button.", required: false, }
+              - label: "Timetable file"
+                name: "fileLink"
+                widget: "file"
+                allow_multiple: false
+                choose_url: false
+                hint: "The file name should not contain space in it, to be downloadable. Replace spaces with '-' or '_' for example: 'correct-file-name.pdf'"
+                required: false
+          - {
+              label: "Main text",
+              name: "body",
+              widget: "markdown",
+              editor_components: [],
+              minimal: true,
+              hint: "Do not add media in this text area",
+              required: false,
+            }
+
+
+  # Inschrijven page
+
+  - label: "Inschrijven"
+    name: "inschrijvenpages"
+    files:
+      - label: "Inschrijven pagina"
+        name: "inschrijvenpage"
+        file: "/src/inschrijven.md"
+        fields:
+          - { label: "Title", name: "title", widget: "string", required: false, }
+          - label: "Registration times (inschrijfmomenten)"
+            name: "inschrijfmomenten"
+            widget: "object"
+            collapsed: true
+            fields:
+              - { label: "Titel", name: "title", widget: "string", required: false }
+              - {
+                  label: "Text",
+                  name: "text",
+                  widget: "markdown",
+                  editor_components: [],
+                  hint: "Do not add media in this text area",
+                  minimal: true,
+                  required: false,
+                }
+          - label: "Fees (tarieven)"
+            name: "tarieven"
+            widget: "object"
+            collapsed: true
+            fields:
+              - { label: "Fees table caption", name: "title", widget: "string",required: false, hint: "Always use the title if you have a table for it."}
+              - { label: "Text at the top", name: "textTop", widget: "markdown", required: false, minimal: true, editor_components: [], hint: "Do not add media in this text area",}
+              - {
+                  label: "Table body",
+                  name: "table",
+                  widget: "markdown",
+                  hint: "Copy-paste **just the table** or edit a table already present or write it in here in markdown. The table should have the same number of cells on each row to be displayed correctly.",
+                  editor_components: [],
+                  buttons: [bold, italic, link],
+                  required: false,
+                }
+              - { label: "Text at the bottom", name: "textBottom", widget: "markdown", required: false, minimal: true, editor_components: [],}
+
+              - label: "Tarieven file to download"
+                name: "tarievenFile"
+                widget: "object"
+                collapsed: true
+                fields:
+                  - { label: "File display name", name: "fileName", widget: "string", hint: "This text will appear on the file's download button.", required: false, }
+                  - label: "Prices file"
+                    name: "fileLink"
+                    widget: "file"
+                    allow_multiple: false
+                    choose_url: false
+                    hint: "The file name should not contain space in it, to be downloadable. Replace spaces with '-' or '_' for example: 'correct-file-name.pdf'"
+                    required: false
+
+          - label: "Timetable (uurrooster) extra information. (the timetables tables are autogenerated on the page)"
+            name: "uurroosterInschrijven"
+            widget: "object"
+            collapsed: true
+            fields:
+              - {
+                  label: "Text at the top",
+                  name: "textTop",
+                  widget: "markdown",
+                  editor_components: [],
+                  minimal: true,
+                  required: false,
+                }
+              - {
+                  label: "Text at the bottom",
+                  name: "textBottom",
+                  widget: "markdown",
+                  editor_components: [],
+                  minimal: true,
+                  required: false,
+                }
+              - label: "Timetable files"
+                name: "timetables"
+                widget: "list"
+                collapsed: true
+                label_singular: "file"
+                fields:
+                  - { label: "File display name", name: "fileName", widget: "string", hint: "This text will appear on the file's download button.", required: false, }
+                  - label: "Timetable file"
+                    name: "fileLink"
+                    widget: "file"
+                    allow_multiple: false
+                    choose_url: false
+                    hint: "The file name should not contain space in it, to be downloadable. Replace spaces with '-' or '_' for example: 'correct-file-name.pdf'"
+                    required: false
+          - {
+              label: "Main text",
+              name: "body",
+              widget: "markdown",
+              editor_components: [],
+              minimal: true,
+              required: false,
+            }
+
+
+  # Contact information
+
+  - label: "Contact"
+    name: "contactpages"
+    files:
+      - label: "Contact gegevens"
+        name: "contact page"
+        file: "/src/contact.md"
+        fields:
+          - { label: "Layout", name: "layout", widget: "hidden", default: "layouts/contact.html" }
+          - { label: "Section", name: "section", widget: "hidden", default: "Contact" }
+          - { label: "Permalink", name: "permalink", widget: "hidden", default: "/contact.html" }
+          - { label: "Title", name: "title", widget: "string",}
+          - { label: "Address in google maps", name: "googleMapAddress", widget: "string" }
+          - { label: "Physical Address", name: "physicalAddress", widget: "string", }
+          - { label: "Telephone Number", name: "telephoneNumber", widget: "string", }
+          - { label: "Email - Directie", name: "emailDirectie", widget: "string", }
+          - { label: "Email - Secretariaat", name: "emailSecretariaat", widget: "string",}
+
+          - label: "School's opening hours"
+            name: "openingsurenSchool"
+            widget: "object"
+            collapsed: true
+            fields:
+              - { label: "Table caption", name: "title", widget: "string",required: false, hint: "Always use the title if you have a table for it."}
+              - {
+                  label: "Table - School's opening hours",
+                  name: "table",
+                  widget: "markdown",
+                  hint: "Copy-paste **just the table** or edit a table already present or write it in here in markdown. The table should have the same number of cells on each row to be displayed correctly.",
+                  editor_components: [],
+                  buttons: [bold, italic, link],
+                  required: false,
+                }
+          - label: "Secretariat's opening hours"
+            name: "openingsurenSecretariaat"
+            widget: "object"
+            collapsed: true
+            fields:
+              - { label: "Table caption", name: "title", widget: "string",required: false, hint: "Always use the title if you have a table for it."}
+              - {
+                  label: "Table - Secretariat's opening hours",
+                  name: "table",
+                  widget: "markdown",
+                  hint: "Copy-paste **just the table** or edit a table already present or write it in here in markdown. The table should have the same number of cells on each row to be displayed correctly.",
+                  editor_components: [],
+                  buttons: [bold, italic, link],
+                  required: false,
+                }
+          - {
+              label: "Text content",
+              name: "body",
+              widget: "markdown",
+              editor_components: [],
+              minimal: true,
+              required: false,
+            }
+          - { label: "Google maps embed link", name: "googleEmbed", widget: "" }
+
+
+  # Schedule tables
+
+  - label: "Uurroosters"
+    name: "scheduletables"
+    files:
+      - label: "Uurrooster tabellen"
+        name: "schedules"
+        file: "/src/schedules/schedules.md"
+        fields:
+          - label: "Kinderen"
+            name: "kinderen"
+            widget: "object"
+            collapsed: true
+            fields:
+              - { label: "Codename", name: "codename", widget: "hidden", default: "kinderen" }
+              - label: "Peutie"
+                name: "peutie"
+                widget: "object"
+                collapsed: true
+                fields:
+                  - { label: "Table caption", name: "title", widget: "string",required: false, hint: "Always use the title if you have a table for it."}
+                  - { label: "Text at the top", name: "textTop", widget: "markdown", required: false, minimal: true, editor_components: [],}
+                  - {
+                      label: "Table body",
+                      name: "table",
+                      widget: "markdown",
+                      hint: "Copy-paste **just the table** or edit a table already present or write it in here in markdown. The table should have the same number of cells on each row to be displayed correctly.",
+                      editor_components: [],
+                      buttons: [bold, italic, link],
+                      required: false,
+                    }
+                  - { label: "Text at the bottom", name: "textBottom", widget: "markdown", required: false, minimal: true, editor_components: [],}
+              - label: "Spiegelstraat"
+                name: "spiegelstraat"
+                widget: "object"
+                collapsed: true
+                fields:
+                  - { label: "Table caption", name: "title", widget: "string",required: false, hint: "Always use the title if you have a table for it."}
+                  - { label: "Text at the top", name: "textTop", widget: "markdown", required: false, minimal: true, editor_components: [],}
+                  - {
+                      label: "Table body",
+                      name: "table",
+                      widget: "markdown",
+                      hint: "Copy-paste **just the table** or edit a table already present or write it in here in markdown. The table should have the same number of cells on each row to be displayed correctly.",
+                      editor_components: [],
+                      buttons: [bold, italic, link],
+                      required: false,
+                    }
+                  - { label: "Text at the bottom", name: "textBottom", widget: "markdown", required: false, minimal: true, editor_components: [],}
+              - label: "Koningslo"
+                name: "koningslo"
+                widget: "object"
+                collapsed: true
+                fields:
+                  - { label: "Table caption", name: "title", widget: "string",required: false, hint: "Always use the title if you have a table for it."}
+                  - { label: "Text at the top", name: "textTop", widget: "markdown", required: false, minimal: true, editor_components: [],}
+                  - {
+                      label: "Table body",
+                      name: "table",
+                      widget: "markdown",
+                      hint: "Copy-paste **just the table** or edit a table already present or write it in here in markdown. The table should have the same number of cells on each row to be displayed correctly.",
+                      editor_components: [],
+                      buttons: [bold, italic, link],
+                      required: false,
+                    }
+                  - { label: "Text at the bottom", name: "textBottom", widget: "markdown", required: false, minimal: true, editor_components: [],}
+              - label: "Faubourg (Kastanjelaar)"
+                name: "faubourg"
+                widget: "object"
+                collapsed: true
+                fields:
+                  - { label: "Table caption", name: "title", widget: "string",required: false, hint: "Always use the title if you have a table for it."}
+                  - { label: "Text at the top", name: "textTop", widget: "markdown", required: false, minimal: true, editor_components: [],}
+                  - {
+                      label: "Table body",
+                      name: "table",
+                      widget: "markdown",
+                      hint: "Copy-paste **just the table** or edit a table already present or write it in here in markdown. The table should have the same number of cells on each row to be displayed correctly.",
+                      editor_components: [],
+                      buttons: [bold, italic, link],
+                      required: false,
+                    }
+                  - { label: "Text at the bottom", name: "textBottom", widget: "markdown", required: false, minimal: true, editor_components: [],}
+
+          - label: "Jongeren"
+            name: "jongeren"
+            widget: "object"
+            collapsed: true
+            fields:
+              - { label: "Codename", name: "codename", widget: "hidden", default: "jongeren" }
+              - label: "Uurrooster"
+                name: "jongeren"
+                widget: "object"
+                collapsed: true
+                fields:
+                  - { label: "Table caption", name: "title", widget: "string",required: false, hint: "Always use the title if you have a table for it."}
+                  - { label: "Text at the top", name: "textTop", widget: "markdown", required: false, minimal: true, editor_components: [],}
+                  - {
+                      label: "Table body",
+                      name: "table",
+                      widget: "markdown",
+                      hint: "Copy-paste **just the table** or edit a table already present or write it in here in markdown. The table should have the same number of cells on each row to be displayed correctly.",
+                      editor_components: [],
+                      buttons: [bold, italic, link],
+                      required: false,
+                    }
+                  - { label: "Text at the bottom", name: "textBottom", widget: "markdown", required: false, minimal: true, editor_components: [],}
+
+          - label: "Volwassenen"
+            name: "volwassenen"
+            widget: "object"
+            collapsed: true
+            fields:
+              - { label: "Codename", name: "codename", widget: "hidden", default: "volwassenen" }
+              - label: "Beeldhouwen"
+                name: "beeldhouwen"
+                widget: "object"
+                collapsed: true
+                fields:
+                  - { label: "Table caption", name: "title", widget: "string",required: false, hint: "Always use the title if you have a table for it."}
+                  - { label: "Text at the top", name: "textTop", widget: "markdown", required: false, minimal: true, editor_components: [],}
+                  - {
+                      label: "Table body",
+                      name: "table",
+                      widget: "markdown",
+                      hint: "Copy-paste **just the table** or edit a table already present or write it in here in markdown. The table should have the same number of cells on each row to be displayed correctly.",
+                      editor_components: [],
+                      buttons: [bold, italic, link],
+                      required: false,
+                    }
+                  - { label: "Text at the bottom", name: "textBottom", widget: "markdown", required: false, minimal: true, editor_components: [],}
+
+              - label: "Schilderkunst"
+                name: "schilderkunst"
+                widget: "object"
+                collapsed: true
+                fields:
+                  - { label: "Table caption", name: "title", widget: "string",required: false, hint: "Always use the title if you have a table for it."}
+                  - { label: "Text at the top", name: "textTop", widget: "markdown", required: false, minimal: true, editor_components: [],}
+                  - {
+                      label: "Table body",
+                      name: "table",
+                      widget: "markdown",
+                      hint: "Copy-paste **just the table** or edit a table already present or write it in here in markdown. The table should have the same number of cells on each row to be displayed correctly.",
+                      editor_components: [],
+                      buttons: [bold, italic, link],
+                      required: false,
+                    }
+                  - { label: "Text at the bottom", name: "textBottom", widget: "markdown", required: false, minimal: true, editor_components: [],}
+
+              - label: "Tekenkunst"
+                name: "tekenkunst"
+                widget: "object"
+                collapsed: true
+                fields:
+                  - { label: "Table caption", name: "title", widget: "string",required: false, hint: "Always use the title if you have a table for it."}
+                  - { label: "Text at the top", name: "textTop", widget: "markdown", required: false, minimal: true, editor_components: [],}
+                  - {
+                      label: "Table body",
+                      name: "table",
+                      widget: "markdown",
+                      hint: "Copy-paste **just the table** or edit a table already present or write it in here in markdown. The table should have the same number of cells on each row to be displayed correctly.",
+                      editor_components: [],
+                      buttons: [bold, italic, link],
+                      required: false,
+                    }
+                  - { label: "Text at the bottom", name: "textBottom", widget: "markdown", required: false, minimal: true, editor_components: [],}
+
+              - label: "Grafiekkunst"
+                name: "grafiekkunst"
+                widget: "object"
+                collapsed: true
+                fields:
+                  - { label: "Table caption", name: "title", widget: "string",required: false, hint: "Always use the title if you have a table for it."}
+                  - { label: "Text at the top", name: "textTop", widget: "markdown", required: false, minimal: true, editor_components: [],}
+                  - {
+                      label: "Table body",
+                      name: "table",
+                      widget: "markdown",
+                      hint: "Copy-paste **just the table** or edit a table already present or write it in here in markdown. The table should have the same number of cells on each row to be displayed correctly.",
+                      editor_components: [],
+                      buttons: [bold, italic, link],
+                      required: false,
+                    }
+                  - { label: "Text at the bottom", name: "textBottom", widget: "markdown", required: false, minimal: true, editor_components: [],}
+
+              - label: "Projectatelier"
+                name: "projectatelier"
+                widget: "object"
+                collapsed: true
+                fields:
+                  - { label: "Table caption", name: "title", widget: "string",required: false, hint: "Always use the title if you have a table for it."}
+                  - { label: "Text at the top", name: "textTop", widget: "markdown", required: false, minimal: true, editor_components: [],}
+                  - {
+                      label: "Table body",
+                      name: "table",
+                      widget: "markdown",
+                      hint: "Copy-paste **just the table** or edit a table already present or write it in here in markdown. The table should have the same number of cells on each row to be displayed correctly.",
+                      editor_components: [],
+                      buttons: [bold, italic, link],
+                      required: false,
+                    }
+                  - { label: "Text at the bottom", name: "textBottom", widget: "markdown", required: false, minimal: true, editor_components: [],}
+
+              - label: "Cross-over"
+                name: "crossover"
+                widget: "object"
+                collapsed: true
+                fields:
+                  - { label: "Table caption", name: "title", widget: "string",required: false, hint: "Always use the title if you have a table for it."}
+                  - { label: "Text at the top", name: "textTop", widget: "markdown", required: false, minimal: true, editor_components: [],}
+                  - {
+                      label: "Table body",
+                      name: "table",
+                      widget: "markdown",
+                      hint: "Copy-paste **just the table** or edit a table already present or write it in here in markdown. The table should have the same number of cells on each row to be displayed correctly.",
+                      editor_components: [],
+                      buttons: [bold, italic, link],
+                      required: false,
+                    }
+                  - { label: "Text at the bottom", name: "textBottom", widget: "markdown", required: false, minimal: true, editor_components: [],}
+
+              - label: "Kunst en Cultuurfilosofie"
+                name: "cultuurfilosofie"
+                widget: "object"
+                collapsed: true
+                fields:
+                  - { label: "Table caption", name: "title", widget: "string",required: false, hint: "Always use the title if you have a table for it."}
+                  - { label: "Text at the top", name: "textTop", widget: "markdown", required: false, minimal: true, editor_components: [],}
+                  - {
+                      label: "Table body",
+                      name: "table",
+                      widget: "markdown",
+                      hint: "Copy-paste **just the table** or edit a table already present or write it in here in markdown. The table should have the same number of cells on each row to be displayed correctly.",
+                      editor_components: [],
+                      buttons: [bold, italic, link],
+                      required: false,
+                    }
+                  - { label: "Text at the bottom", name: "textBottom", widget: "markdown", required: false, minimal: true, editor_components: [],}
+
+              - label: "Beeldende en Audiovisuele Cultuur"
+                name: "audiovisuele"
+                widget: "object"
+                collapsed: true
+                fields:
+                  - { label: "Table caption", name: "title", widget: "string",required: false, hint: "Always use the title if you have a table for it."}
+                  - { label: "Text at the top", name: "textTop", widget: "markdown", required: false, minimal: true, editor_components: [],}
+                  - {
+                      label: "Table body",
+                      name: "table",
+                      widget: "markdown",
+                      hint: "Copy-paste **just the table** or edit a table already present or write it in here in markdown. The table should have the same number of cells on each row to be displayed correctly.",
+                      editor_components: [],
+                      buttons: [bold, italic, link],
+                      required: false,
+                    }
+                  - { label: "Text at the bottom", name: "textBottom", widget: "markdown", required: false, minimal: true, editor_components: [],}

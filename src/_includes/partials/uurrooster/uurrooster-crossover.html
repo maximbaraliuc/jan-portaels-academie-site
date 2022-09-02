@@ -1,0 +1,19 @@
+{% set schedules = collections.schedules[0].data.volwassenen %}
+
+
+{% if schedules.crossover.textTop %}
+<div class="table-text top">{{ schedules.crossover.textTop | markdown | safe }}</div>
+{% endif%}
+
+{% if schedules.crossover.title %}
+<div class="table-title">{{ schedules.crossover.title | safe }}</div>
+{% endif%}
+
+{% if schedules.crossover.table %}
+<div class="table-container">
+  {{ schedules.crossover.table | markdown | safe }}
+</div>{% endif %}
+
+{% if schedules.crossover.textBottom %}
+<div class="table-text bottom">{{ schedules.crossover.textBottom | markdown | safe }}</div>
+{% endif %}

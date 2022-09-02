@@ -1,0 +1,269 @@
+{% extends "layouts/base.html" %}
+{% set pageType = "ateliers-section" %}
+{% set extraCSS = "/css/ateliers.css" %}
+{% set pageHeaderTitle = title %}
+{% set multiplePerPage = true %}
+
+
+{% set isAtelier3D = "" %}
+
+
+{% block content %}
+
+<h1>{{ pageHeaderTitle }}</h1>
+<div class="atelier-card-wrap">
+  <a class="atelier-card" href="#beeldhouwen">
+    <img src="/media/atelier-beeldhouwen-thumbnail.jpg"
+      alt="close-up foto van een sculptuur die lijkt op een opgevouwen of verfrommelde doek"><span>Beeldhouwen
+      en
+      ruimtelijke kunst</span>
+  </a>
+  <a class="atelier-card" href="#schilderkunst">
+    <img src="/media/atelier-schilderkunst-thumbnail.jpg" alt="collages van 4 handen schilderen">
+    <span>Schilderkunst</span>
+  </a>
+  <a class="atelier-card" href="#tekenkunst">
+    <img src="/media/atelier-tekenkunst-thumbnail.jpg" alt="een blauw aquarellandschap van een schip in de haven">
+    <span>Tekenkunst</span>
+  </a>
+  <a class="atelier-card" href="#grafiekkunst">
+    <img src="/media/atelier-grafiekkunst-thumbnail.jpg" alt="poster met een groot roze 89-nummer">
+    <span>Grafiekkunst</span>
+  </a>
+  <a class="atelier-card" href="#projectatelier">
+    <img src="/media/atelier-projectatelier-thumbnail.jpg" alt="vrouw maakt een foto naast grote aquarelkunst">
+    <span>Projectatelier</span>
+  </a>
+  <a class="
+         atelier-card" href="#crossover">
+    <img src="/media/atelier-crossover-thumbnail.jpg"
+      alt="abstracte kunstwerken die delen van een menselijk lichaam weerspiegelen"> <span>Cross-over</span>
+  </a>
+</div>
+
+<div class="atelier-top-text">
+  <p>Volwassenen kunnen een kunstatelier volgen in de 4de graad: een diepgaande opleiding van 2 keer 4 lestijden per
+    week gedurende 5 jaar. Aansluitend is er nog een kortlopende opleiding "specialisatie" gedurende 2 jaar mogelijk van
+    2 keer 4 lestijden per week.</p>
+  <p>In graad 4 is vanaf het 3de jaar in het lestijdenpakket 1 keer 4 uur per maand kunst- en cultuurfilosofie
+    opgenomen. In de specialisatie geldt dat voor de 2 jaren.</p>
+</div>
+
+<!-- Beeldhouwen -->
+{% for item in collections.ateliers %}
+{% if item.data.name === "beeldhouwen" %}
+{% set atelier = item %}
+{% if item.data.show3D %}
+{% set isAtelier3D = item.data.show3D %}
+{% endif %}
+
+
+
+{% set schedules = collections.schedules[0].data.volwassenen %}
+{% if schedules.beeldhouwen.table %}
+{% set uurrooster %}
+<details>
+  <summary>Uurrooster</summary>
+  <div class="details-content">
+    {% include "partials/uurrooster/uurrooster-beeldhouwen.html" %}
+  </div>
+</details>
+{% endset %}
+{% endif %}
+
+
+{% include "partials/ateliers/atelier-template.html" %}
+
+{% endif %}
+{% endfor %}
+
+<hr>
+
+<!-- Schilderkunst -->
+{% for item in collections.ateliers %}
+{% if item.data.name === "schilderkunst" %}
+{% set atelier = item %}
+{% if item.data.show3D %}
+{% set isAtelier3D = item.data.show3D %}
+{% endif %}
+
+{% set schedules = collections.schedules[0].data.volwassenen %}
+{% if schedules.schilderkunst.table %}
+{% set uurrooster %}
+<details>
+  <summary>Uurrooster</summary>
+  <div class="details-content">
+    {% include "partials/uurrooster/uurrooster-schilderkunst.html" %}
+  </div>
+</details>
+{% endset %}
+{% endif %}
+
+{% include "partials/ateliers/atelier-template.html" %}
+
+{% endif %}
+{% endfor %}
+
+<hr>
+
+
+
+<!-- Tekenkunst -->
+{% for item in collections.ateliers %}
+{% if item.data.name === "tekenkunst" %}
+{% set atelier = item %}
+{% if item.data.show3D %}
+{% set isAtelier3D = item.data.show3D %}
+{% endif %}
+
+{% set schedules = collections.schedules[0].data.volwassenen %}
+{% if schedules.tekenkunst.table %}
+{% set uurrooster %}
+<details>
+  <summary>Uurrooster</summary>
+  <div class="details-content">
+    {% include "partials/uurrooster/uurrooster-tekenkunst.html" %}
+  </div>
+</details>
+{% endset %}
+{% endif %}
+
+
+
+{% include "partials/ateliers/atelier-template.html" %}
+
+{% endif %}
+{% endfor %}
+
+<hr>
+
+
+<!-- Grafiekkunst -->
+{% for item in collections.ateliers %}
+{% if item.data.name === "grafiekkunst" %}
+{% set atelier = item %}
+{% if item.data.show3D %}
+{% set isAtelier3D = item.data.show3D %}
+{% endif %}
+
+{% set schedules = collections.schedules[0].data.volwassenen %}
+{% if schedules.grafiekkunst.table %}
+{% set uurrooster %}
+<details>
+  <summary>Uurrooster</summary>
+  <div class="details-content">
+    {% include "partials/uurrooster/uurrooster-grafiekkunst.html" %}
+  </div>
+</details>
+{% endset %}
+{% endif %}
+
+{% include "partials/ateliers/atelier-template.html" %}
+
+{% endif %}
+{% endfor %}
+
+<hr>
+
+<!-- Projectatelier -->
+{% for item in collections.ateliers %}
+{% if item.data.name === "projectatelier" %}
+{% set atelier = item %}
+{% if item.data.show3D %}
+{% set isAtelier3D = item.data.show3D %}
+{% endif %}
+
+{% set schedules = collections.schedules[0].data.volwassenen %}
+{% if schedules.projectatelier.table %}
+{% set uurrooster %}
+<details>
+  <summary>Uurrooster</summary>
+  <div class="details-content">
+    {% include "partials/uurrooster/uurrooster-projectatelier.html" %}
+  </div>
+</details>
+{% endset %}
+{% endif %}
+
+
+{% include "partials/ateliers/atelier-template.html" %}
+
+{% endif %}
+{% endfor %}
+
+<hr>
+
+<!-- Cross-over -->
+{% for item in collections.ateliers %}
+{% if item.data.name === "crossover" %}
+{% set atelier = item %}
+{% if item.data.show3D %}
+{% set isAtelier3D = item.data.show3D %}
+{% endif %}
+
+{% set schedules = collections.schedules[0].data.volwassenen %}
+{% if schedules.crossover.table %}
+{% set uurrooster %}
+<details>
+  <summary>Uurrooster</summary>
+  <div class="details-content">
+    {% include "partials/uurrooster/uurrooster-crossover.html" %}
+  </div>
+</details>
+{% endset %}
+{% endif %}
+
+
+
+{% include "partials/ateliers/atelier-template.html" %}
+
+{% endif %}
+{% endfor %}
+
+
+
+{% if isAtelier3D %}
+{% block ateliers3D %}
+<section class="atelier-3d" id="atelier-3d">
+
+  <div class="atelier-iframe-wrap">
+    <h3>Atelier 01</h3>
+    <iframe class="atelier-iframe" src="https://my.matterport.com/show/?m=XTxkuiJgjXm" allowfullscreen
+      allow="xr-spatial-tracking"></iframe>
+  </div>
+
+  <div class="atelier-iframe-wrap">
+    <h3>Atelier 02</h3>
+    <iframe class="atelier-iframe" src="https://my.matterport.com/show/?m=ns3QKVyDW5G" allowfullscreen
+      allow="xr-spatial-tracking"></iframe>
+  </div>
+
+  <div class="atelier-iframe-wrap">
+    <h3>Atelier 04</h3>
+    <iframe class="atelier-iframe" src="https://my.matterport.com/show/?m=5MA27P4wYmJ" allowfullscreen
+      allow="xr-spatial-tracking"></iframe>
+  </div>
+
+  <div class="atelier-iframe-wrap">
+    <h3>Atelier 04</h3>
+    <iframe class="atelier-iframe" src="https://my.matterport.com/show/?m=3jUBgKZUgKM" allowfullscreen
+      allow="xr-spatial-tracking"></iframe>
+  </div>
+
+  <div class="atelier-iframe-wrap">
+    <h3>Atelier 05</h3>
+    <iframe class="atelier-iframe" src="https://my.matterport.com/show/?m=bcpj6Ww5dJy" allowfullscreen
+      allow="xr-spatial-tracking"></iframe>
+  </div>
+
+  <div class="atelier-iframe-wrap">
+    <h3>Atelier 06</h3>
+    <iframe class="atelier-iframe" src="https://my.matterport.com/show/?m=e9oCNhGXUXz" allowfullscreen
+      allow="xr-spatial-tracking"></iframe>
+  </div>
+
+</section>
+{% endblock %}
+{% endif %}
+
+{% endblock %}

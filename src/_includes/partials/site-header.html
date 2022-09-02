@@ -1,0 +1,46 @@
+<header>
+  <!-- Navigation menu: Logo + menu buttons/dropdown lists + searchbar -->
+  <nav class="navigation">
+    <a class="logo-text" href="/" title="go to home page"><img class="logo" src="/media/logo-home.png"
+        alt="logo in text form"></a>
+    <a class="logo-no-text" href="/" title="go to home page"><img class="logo" src="/media/logo-home-notext.png"
+        alt="logo in text form"></a>
+
+    {% set latestExpo = collections.expo[0] %}
+    <ul class="menu-container"> {% for block in navigation.blocks %} <li class="js-menu-item js-off"> <span
+          class="menu-button {{ block.title | lower}}">{{ block.title }}</span>
+        <ul class="dropdown-list js-fade-off">
+          {% for page in block.pages %}
+          {% if page.title === "Tentoonstellingen" %}
+          {% if latestExpo.url %}
+          <li><a href="/expo{{ latestExpo.url }}">{{ page.title }}</a></li>
+          {% else %}
+          <li><a href="/geen-tentoonstellingen.html">{{ page.title }}</a></li>
+          {% endif %}
+          {% else %}
+          <li><a href="{{ page.url }}">{{ page.title}}</a></li>
+          {% endif %}
+          {% endfor%}
+        </ul>
+      </li> {% endfor%}
+    </ul>
+
+    <div class="social-links">
+      <a href="https://www.facebook.com/Stedelijke-Academie-voor-Beeldende-Kunsten-Jan-Portaels-397988950246649/"><i
+          class="fa-brands fa-facebook"></i></a>
+      <a href="https://www.instagram.com/academiejanportaels/?hl=en"><i class="fa-brands fa-instagram"></i></a>
+    </div>
+
+    <form action="https://www.google.com/search" class="searchform js-search-container js-off" method="get"
+      name="searchform" target="_blank">
+      <input name="sitesearch" type="hidden" value="www.academiebeeldendekunstenvilvoorde.be">
+      <input autocomplete="on" required="required" class="form-control js-search-input" name="q" placeholder="Zoeken..."
+        type="text">
+      <button class="js-close-button material-icons" type="button"> <i class="fa-solid fa-xmark"></i></button>
+      <button class="js-search-button material-icons" type="submit"> <i
+          class="fa-solid fa-magnifying-glass"></i></button>
+    </form>
+
+
+  </nav>
+</header>

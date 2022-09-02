@@ -1,0 +1,19 @@
+{% set schedules = collections.schedules[0].data.volwassenen %}
+
+
+{% if schedules.schilderkunst.textTop %}
+<div class="table-text top">{{ schedules.schilderkunst.textTop | markdown | safe }}</div>
+{% endif %}
+
+{% if schedules.schilderkunst.title %}
+<div class="table-title">{{ schedules.schilderkunst.title | safe }}</div>
+{% endif %}
+
+{% if schedules.schilderkunst.table %}
+<div class="table-container">
+  {{ schedules.schilderkunst.table | markdown | safe }}
+</div>{% endif %}
+
+{% if schedules.schilderkunst.textBottom %}
+<div class="table-text bottom">{{ schedules.schilderkunst.textBottom | markdown | safe }}</div>
+{% endif %}

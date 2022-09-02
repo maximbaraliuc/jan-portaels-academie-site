@@ -1,0 +1,60 @@
+{% extends "layouts/base.html" %}
+{% set pageType = "contact-section" %}
+{% set extraCSS = "/css/contact.css" %}
+
+
+{% block content %}
+<h1 id="contact-adres">{{ title }}</h1>
+
+<h2><i class="fa-solid fa-address-book"></i>&nbsp;Adres</h2>
+<address class="contact-address">
+  <i class="fa-solid fa-map-location-dot"></i>
+  <a href="{{ googleMapAddress }}" target="_blank">{{ physicalAddress }}</a><br>
+  <i class="fa-solid fa-phone"></i>
+  <a href="tel:{{ telephoneNumber | removeSpaces}}">{{
+    telephoneNumber }}</a><br>
+  <i class=" fa-solid fa-at"></i>
+  <a href="mailto:{{ emailDirectie }}">Directie</a> <br>
+  <i class="fa-solid fa-at"></i>
+  <a href="mailto:{{ emailSecretariaat }}">Secretariaat</a><br>
+</address>
+
+<h2 id="contact-openingsuren"><i class="fa-solid fa-calendar-days"></i>&nbsp;Openingsuren</h2>
+<div>
+  {% if openingsurenSchool.table or openingsurenSecretariaat.table %}
+  <div class="openingsuren-container">
+    <div class="openingsuren-table">
+      {% if openingsurenSchool.title %}
+      <div class="table-title">{{ openingsurenSchool.title | safe }}</div>
+      {% endif%}
+      {% if openingsurenSchool.table %}
+      <div class="table-container">
+        {{ openingsurenSchool.table | markdown | safe }}
+      </div>{% endif %}
+    </div>
+
+    <div class="openingsuren-table">
+      {% if openingsurenSecretariaat.title %}
+      <div class="table-title">{{ openingsurenSecretariaat.title | safe }}</div>
+      {% endif%}
+      {% if openingsurenSecretariaat.table %}
+      <div class="table-container">
+        {{ openingsurenSecretariaat.table | markdown | safe }}
+      </div>{% endif %}
+    </div>
+  </div>
+  {% endif %}
+</div>
+
+
+{% if content %}
+<div class="contact-text">
+  {{ content | safe }}
+</div>
+{% endif %}
+
+<h2 id="contact-plaats"><i class="fa-solid fa-location-dot"></i>&nbsp;Plaats</h2>
+<iframe class="google-map" src="{{ googleEmbed  }}" style="border: 0;" allowfullscreen="" loading="lazy"
+  referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+{% endblock %}

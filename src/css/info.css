@@ -1,0 +1,42 @@
+#vakantiekalender li {
+  margin-bottom: 0.5rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid var(--clr-menu-separator);
+  list-style: none;
+}
+/* ======================================================================= */
+
+.info-button {
+  margin-block: 1.5rem;
+  scroll-behavior: smooth;
+  width: min-content;
+}
+.info-button a {
+  display: block;
+  padding: 0.8rem 2rem;
+  border-radius: var(--search-bar-corner-rad);
+  border: 1px solid var(--main-accent-color);
+  color: var(--main-accent-color);
+  text-align: center;
+  font-weight: bold;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+  white-space: nowrap;
+}
+.info-button a:hover {
+  background-color: var(--main-accent-color);
+  color: var(--clr-bg-main);
+}
+.info-button a:active {
+  background-color: var(--main-accent-color);
+  color: var(--clr-bg-main);
+  transition: all 0s;
+}
+
+.info-button i {
+  padding-left: 0.5rem;
+}
+
+.details-content ul {
+  margin-inline: unset;
+}

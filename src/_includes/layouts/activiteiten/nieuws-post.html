@@ -1,0 +1,49 @@
+{% extends "layouts/base.html" %}
+{% set pageType = "activiteiten-section" %}
+{% set extraCSS = "/css/nieuws.css" %}
+
+{% set postListItem = pagination.items %}
+
+
+{% block content %}
+<article class="post-container-wrapper">
+  <div class="post-container">
+    {% set item = postListItem[0] %}
+    <h1>{{ item.data.title | safe }}</h1>
+
+    <div class="post-date"><i class="fa-solid fa-calendar-days"></i>{{ item.date | readablePostDate}}</div>
+    {% if item.data.featuredImage.file %}
+    <div class="main-image">
+      <img src="{{ item.data.featuredImage.file }}" alt="{{ item.data.featuredImage.altText }}">
+    </div>
+    {% endif %}
+
+    <div class="nieuws-content">{{ item.templateContent | safe}}</div>
+
+    {% if item.data.images[0] %}
+    <div class="nieuws-images-wrapper">
+      {% for image in item.data.images %}
+      <div class="nieuws-images"><img src="{{ image.file }}" alt="{{ image.altText }}" loading="lazy"></div>
+      {% endfor%}
+    </div>
+    {% endif %}
+
+    {% if item.data.files[0].link %}
+    <div class="nieuws-files-wrapper">
+      {% for file in item.data.files %}
+      <div class="nieuws-files"><a href="{{ file.link }}" target="_blank">{{ file.name }}<i
+            class="fa-solid fa-file-lines"></i></a></div>
+      {% endfor%}
+    </div>
+    {% endif %}
+
+    {% if item.data.extraText %}
+    <div class="nieuws-extra-text">
+      {{ item.data.extraText | markdown | safe }}
+    </div>
+    {% endif %}
+
+  </div>
+</article>
+{% include "partials/activiteiten/nieuws-post-pagination.html" %}
+{% endblock %}

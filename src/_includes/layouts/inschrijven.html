@@ -1,0 +1,95 @@
+{% extends "layouts/base.html" %}
+{% set pageType = "inschrijven-section" %}
+{% set extraCSS = "/css/inschrijven.css" %}
+
+
+{% block content %}
+<h1>{{ title }}</h1>
+<article>
+  <h2>{{ inschrijfmomenten.title }}</h2>
+
+  <div class="inschrijven-top-info">
+    {{ inschrijfmomenten.text | markdown | safe }}
+  </div>
+
+  {% if tarieven.table or tarieven.textTop or tarieven.textBottom %}
+  <details id="tarieven">
+    <summary><i class="fa-solid fa-wallet"></i>Tarieven</summary>
+    <div class="details-content">
+
+      {% if tarieven.textTop %}
+      <div class="table-text top">{{ tarieven.textTop | markdown | safe }}</div>
+      {% endif %}
+
+      {% if tarieven.title %}
+      <div class="table-title">{{ tarieven.title | safe }}</div>
+      {% endif %}
+
+      {% if tarieven.table %}
+      <div class="table-container">
+        {{ tarieven.table | markdown | safe }}
+      </div>{% endif %}
+
+      {% if tarieven.textBottom %}
+      <div class="table-text bottom">{{ tarieven.textBottom | markdown | safe }}</div>
+      {% endif %}
+    </div>
+  </details>
+  {% endif %}
+
+  {% set tarievenFile = tarieven.tarievenFile %}
+  {% if tarievenFile.fileLink %}
+  <div class="download-file"><a href="{{ tarievenFile.fileLink }}" target="_blank">{{ tarievenFile.fileName }}<i
+        class="fa-solid fa-file-lines"></i></a>
+  </div>
+  {% endif %}
+
+
+
+  <details id="lessenrooster">
+    <summary><i class="fa-solid fa-calendar-days"></i>Lessenrooster</summary>
+    <div class="details-content">
+      {% if uurroosterInschrijven.textTop %}
+      <div>
+        {{ uurroosterInschrijven.textTop | markdown | safe }}
+      </div>
+      {% endif %}
+
+      <!-- Kinderen -->
+      {% include "partials/uurrooster/uurrooster-kinderen.html" %}
+
+      <!-- Jongeren -->
+      {% include "partials/uurrooster/uurrooster-jongeren.html" %}
+
+      <!-- Volwassenen -->
+      {% include "partials/uurrooster/uurrooster-beeldhouwen.html" %}
+      {% include "partials/uurrooster/uurrooster-schilderkunst.html" %}
+      {% include "partials/uurrooster/uurrooster-tekenkunst.html" %}
+      {% include "partials/uurrooster/uurrooster-grafiekkunst.html" %}
+      {% include "partials/uurrooster/uurrooster-projectatelier.html" %}
+      {% include "partials/uurrooster/uurrooster-crossover.html" %}
+      {% include "partials/uurrooster/uurrooster-cultuurfilosofie.html" %}
+      {% include "partials/uurrooster/uurrooster-audiovisuele.html" %}
+
+      {% if uurroosterInschrijven.textBottom %}
+      <div>
+        {{ uurroosterInschrijven.textBottom | markdown | safe }}
+      </div>
+      {% endif %}
+
+    </div>
+  </details>
+
+  {% set timetables = uurroosterInschrijven.timetables %}
+  {% if timetables[0].fileLink %}
+  {% for item in timetables %}
+  <div class="download-file"><a href="{{ item.fileLink }}" target="_blank">{{ item.fileName }}<i
+        class="fa-solid fa-file-lines"></i></a>
+  </div>
+  {% endfor %}
+  {% endif %}
+
+
+  {{ content | markdown | safe }}
+</article>
+{% endblock %}

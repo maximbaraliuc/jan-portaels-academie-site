@@ -1,0 +1,18 @@
+{% set schedules = collections.schedules[0].data.volwassenen %}
+
+{% if schedules.audiovisuele.textTop %}
+<div class="table-text top">{{ schedules.audiovisuele.textTop | markdown | safe }}</div>
+{% endif%}
+
+{% if schedules.audiovisuele.title %}
+<div class="table-title">{{ schedules.audiovisuele.title | safe }}</div>
+{% endif%}
+
+{% if schedules.audiovisuele.table %}
+<div class="table-container">
+  {{ schedules.audiovisuele.table | markdown | safe }}
+</div>{% endif %}
+
+{% if schedules.audiovisuele.textBottom %}
+<div class="table-text bottom">{{ schedules.audiovisuele.textBottom | markdown | safe }}</div>
+{% endif %}

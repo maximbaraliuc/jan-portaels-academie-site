@@ -1,0 +1,18 @@
+{% for item in postListItems %}
+<h1>{{ item.data.title }}</h1>
+<div class="post-date">{{ item.date | readablePostDate}}</div>
+<div class="nieuws-content">{{ item.templateContent | safe}}</div>
+
+{% for image in item.data.images %}
+<div class="nieuws-images"><img src="{{ item.file }}" alt="{{ item.altText }}" loading="lazy"></div>
+{% endfor%}
+
+{% for image in item.data.files %}
+<div class="nieuws-files"><a href="{{ item.link }}" target="_blank">{{ item.name }}<i
+                  class="fa-solid fa-file-lines"></i></a></div>
+{% endfor%}
+<div class="nieuws-extra-text">
+      {{ image.extraText | markdown | safe }}
+</div>
+
+{% endfor %}

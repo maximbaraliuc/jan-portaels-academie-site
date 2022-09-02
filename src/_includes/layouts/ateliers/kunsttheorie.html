@@ -1,0 +1,62 @@
+{% extends "layouts/base.html" %}
+{% set pageType = "kunsttheorie-section" %}
+{% set extraCSS = "/css/ateliers.css" %}
+{% set pageHeaderTitle = title %}
+{% set multiplePerPage = true %}
+
+{% block content %}
+<h1>{{ pageHeaderTitle }}</h1>
+
+<div class="atelier-top-text">
+  <p>In graad 4 is vanaf het 3de jaar in het lestijdenpakket 1 keer 4 uur per maand kunst- en cultuurfilosofie
+    opgenomen. In de specialisatie geldt dat voor de 2 jaren.</p>
+</div>
+
+<!-- Cultuurfilosofie -->
+{% for item in collections.ateliers %}
+{% if item.data.name === "cultuurfilosofie" %}
+
+{% set schedules = collections.schedules[0].data.volwassenen %}
+{% if schedules.cultuurfilosofie.table %}
+{% set uurrooster %}
+<details>
+  <summary>Uurrooster</summary>
+  <div class="details-content">
+    {% include "partials/uurrooster/uurrooster-cultuurfilosofie.html" %}
+  </div>
+</details>
+{% endset %}
+{% endif %}
+
+{% set atelier = item %}
+{% include "partials/ateliers/atelier-template.html" %}
+
+{% endif %}
+{% endfor %}
+
+<hr>
+
+<!-- Audiovisuele -->
+{% for item in collections.ateliers %}
+{% if item.data.name === "audiovisuele" %}
+
+{% set schedules = collections.schedules[0].data.volwassenen %}
+{% if schedules.audiovisuele.table %}
+{% set uurrooster %}
+<details>
+  <summary>Uurrooster</summary>
+  <div class="details-content">
+    {% include "partials/uurrooster/uurrooster-audiovisuele.html" %}
+  </div>
+</details>
+{% endset %}
+{% endif %}
+
+
+{% set atelier = item %}
+{% include "partials/ateliers/atelier-template.html" %}
+
+{% endif %}
+{% endfor %}
+
+{% endblock %}

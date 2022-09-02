@@ -1,0 +1,81 @@
+{% set schedules = collections.schedules[0].data.kinderen %}
+{% if schedules.peutie.table or schedules.spiegelstraat.table or schedules.koningslo.table or
+schedules.faubourg.table %}
+
+
+
+{% if schedules.peutie.textTop %}
+<div class="table-text top">{{ schedules.peutie.textTop | markdown | safe }}</div>
+{% endif %}
+
+{% if schedules.peutie.title %}
+<div class="table-title">{{ schedules.peutie.title | safe }}</div>
+{% endif %}
+
+{% if schedules.peutie.table %}
+<div class="table-container">
+  {{ schedules.peutie.table | markdown | safe }}
+</div>
+{% endif %}
+
+{% if schedules.peutie.textBottom %}
+<div class="table-text bottom">{{ schedules.peutie.textBottom | markdown | safe }}</div>
+{% endif %}
+
+
+{% if schedules.spiegelstraat.textTop %}
+<div class="table-text top">{{ schedules.spiegelstraat.textTop | markdown | safe }}</div>
+{% endif %}
+
+{% if schedules.spiegelstraat.title %}
+<div class="table-title">{{ schedules.spiegelstraat.title | safe }}</div>
+{% endif %}
+
+{% if schedules.spiegelstraat.table %}
+<div class="table-container">
+  {{ schedules.spiegelstraat.table | markdown | safe }}
+</div>
+{% endif %}
+
+{% if schedules.spiegelstraat.textBottom %}
+<div class="table-text bottom">{{ schedules.spiegelstraat.textBottom | markdown | safe }}</div>
+{% endif %}
+
+
+{% if schedules.koningslo.textTop %}
+<div class="table-text top">{{ schedules.koningslo.textTop | markdown | safe }}</div>
+{% endif %}
+
+{% if schedules.koningslo.title %}
+<div class="table-title">{{ schedules.koningslo.title | safe }}</div>
+{% endif%}
+
+{% if schedules.koningslo.table %}
+<div class="table-container">
+  {{ schedules.koningslo.table | markdown | safe }}
+</div>
+{% endif %}
+
+{% if schedules.koningslo.textBottom %}
+<div class="table-text bottom">{{ schedules.koningslo.textBottom | markdown | safe }}</div>
+{% endif%}
+
+
+{% if schedules.faubourg.textTop %}
+<div class="table-text top">{{ schedules.faubourg.textTop | markdown | safe }}</div>
+{% endif%}
+
+{% if schedules.faubourg.title %}
+<div class="table-title">{{ schedules.faubourg.title | safe }}</div>
+{% endif%}
+
+{% if schedules.faubourg.table %}
+<div class="table-container">
+  {{ schedules.faubourg.table | markdown | safe }}
+</div>{% endif %}
+
+{% if schedules.faubourg.textBottom %}
+<div class="table-text bottom">{{ schedules.faubourg.textBottom | markdown | safe }}</div>
+{% endif %}
+
+{% endif %}

@@ -1,0 +1,112 @@
+{% extends "layouts/base.html" %}
+{% set pageType = "info-section" %}
+{% set extraCSS = "/css/info.css" %}
+
+
+{% block content %}
+<h1>{{ title }}</h1>
+<article>
+  <!-- Vakantiekalender -->
+  {% if calender %}
+  <details id="vakantiekalender">
+    <summary><i class="fa-solid fa-calendar-check"></i>Vakantiekalender</summary>
+    <div class="details-content">
+      {{ calender | markdown | safe}}
+    </div>
+  </details>
+  {% endif %}
+
+  <!-- Reglementen -->
+  {% if reglementen %}
+  <details id="reglementen">
+    <summary><i class="fa-solid fa-book"></i>Reglementen</summary>
+    <div class="details-content">
+      {% for item in reglementen %}
+      <div class="info-button"><a href="{{ item.fileLink }}" target="_blank">{{ item.fileName }}<i
+            class="fa-solid fa-file-lines"></i></a>
+      </div>
+      {% endfor %}
+    </div>
+  </details>
+  {% endif %}
+
+  <!-- Openingsuren -->
+  {% set contact = collections.contact[0].data %}
+  {% if contact.openingsurenSchool.table or contact.openingsurenSecretariaat.table %}
+  <details>
+    <summary><i class="fa-solid fa-clock"></i> Openingsuren</summary>
+    <div class="details-content">
+      <div class="openingsuren-container">
+
+        <div class="openingsuren-table">
+          {% if contact.openingsurenSchool.title %}
+          <div class="table-title">{{ contact.openingsurenSchool.title | safe }}</div>
+          {% endif%}
+          {% if contact.openingsurenSchool.table %}
+          <div class="table-container">
+            {{ contact.openingsurenSchool.table | markdown | safe }}
+          </div>{% endif %}
+        </div>
+
+        <div class="openingsuren-table">
+          {% if contact.openingsurenSecretariaat.title %}
+          <div class="table-title">{{ contact.openingsurenSecretariaat.title | safe }}</div>
+          {% endif%}
+          {% if contact.openingsurenSecretariaat.table %}
+          <div class="table-container">
+            {{ contact.openingsurenSecretariaat.table | markdown | safe }}
+          </div>{% endif %}
+        </div>
+
+
+      </div>
+    </div>
+  </details>
+  {% endif %}
+
+
+  <details id="lessenrooster">
+    <summary><i class="fa-solid fa-calendar-days"></i>Lessenrooster</summary>
+    <div class="details-content">
+      {% if uurroosterInschrijven.textTop %}
+      <div>
+        {{ uurroosterInschrijven.textTop | markdown | safe }}
+      </div>
+      {% endif %}
+
+      <!-- Kinderen -->
+      {% include "partials/uurrooster/uurrooster-kinderen.html" %}
+
+      <!-- Jongeren -->
+      {% include "partials/uurrooster/uurrooster-jongeren.html" %}
+
+      <!-- Volwassenen -->
+      {% include "partials/uurrooster/uurrooster-beeldhouwen.html" %}
+      {% include "partials/uurrooster/uurrooster-schilderkunst.html" %}
+      {% include "partials/uurrooster/uurrooster-tekenkunst.html" %}
+      {% include "partials/uurrooster/uurrooster-grafiekkunst.html" %}
+      {% include "partials/uurrooster/uurrooster-projectatelier.html" %}
+      {% include "partials/uurrooster/uurrooster-crossover.html" %}
+      {% include "partials/uurrooster/uurrooster-cultuurfilosofie.html" %}
+      {% include "partials/uurrooster/uurrooster-audiovisuele.html" %}
+
+      {% if uurroosterInschrijven.textBottom %}
+      <div>
+        {{ uurroosterInschrijven.textBottom | markdown | safe }}
+      </div>
+      {% endif %}
+
+    </div>
+  </details>
+
+  {% if timetables[0].fileLink %}
+  {% for item in timetables %}
+  <div class="info-button"><a href="{{ item.fileLink }}" target="_blank">{{ item.fileName }}<i
+        class="fa-solid fa-file-lines"></i></a>
+  </div>
+  {% endfor %}
+  {% endif %}
+
+  {{ content | markdown | safe }}
+</article>
+{% endblock %}

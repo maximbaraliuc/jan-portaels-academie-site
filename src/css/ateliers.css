@@ -1,0 +1,277 @@
+.atelier-block {
+  /* border-bottom: 1px solid var(--clr-menu-separator); */
+  margin-block: 4rem;
+  /* background-color: hsla(327, 49%, 35%, 0.1); */
+}
+hr {
+  border: 1px solid var(--clr-menu-separator);
+  /* margin-inline: 2rem; */
+  max-width: 90%;
+}
+.atelier-description-container {
+  padding: 6rem 8em;
+  margin-block: 0rem 4rem;
+  background-color: white;
+  border-radius: var(--search-bar-corner-rad);
+  border: 1px solid var(--clr-menu-separator);
+  border-left: 10px solid var(--main-accent-color);
+  box-shadow: var(--atelier-shadow);
+}
+
+.atelier-description {
+  font-size: 1.2rem;
+  /* font-weight: 500; */
+  /* font-style: italic; */
+  /* font-family: "Libre Baskerville", serif; */
+  /* font-style: italic; */
+}
+.atelier-top-text {
+  /* padding: 2rem 8rem; */
+  /* font-weight: 500; */
+  font-style: italic;
+  color: rgb(32, 32, 32);
+  font-size: 0.9rem;
+}
+/* ===================================================== */
+/* Gallery */
+/* ===================================================== */
+
+.atelier-gallery-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin-bottom: 4rem;
+  background-color: rgba(255, 255, 255, 1);
+  border: 1px solid var(--clr-menu-separator);
+  border-radius: var(--search-bar-corner-rad);
+  outline-offset: calc((-1rem) - 1px);
+  outline: 1rem solid white;
+  box-shadow: var(--atelier-shadow);
+
+}
+.atelier-gallery-container i {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  /* align-self: stretch; */
+  height: calc(100% - 3rem);
+  margin: 1.5rem;
+  padding-inline: 1rem;
+  color: black;
+  font-size: 2.5rem;
+  cursor: pointer;
+  transition: all 0.3s;
+
+  border: 2px solid black;
+  border-radius: var(--search-bar-corner-rad);
+  outline: 2px solid white;
+  text-shadow: 5px 0px white;
+}
+.btn-left {
+  left: 0;
+}
+.btn-right {
+  order: 1;
+  right: 0;
+}
+
+.atelier-gallery-container i:hover {
+  color: white;
+  text-shadow: 5px 0px black;
+}
+.atelier-gallery-container i:active {
+  background-color: rgb(30, 30, 30);
+  color: white;
+  transition: all 0s;
+}
+
+.atelier-gallery {
+  display: flex;
+  align-items: center;
+  column-gap: 1.5rem;
+  height: 350px;
+  width: 100%;
+
+  padding-block: 1rem;
+  overflow-y: hidden;
+  overflow-x: scroll;
+  scroll-snap-type: both mandatory;
+}
+
+.atelier-gallery img {
+  scroll-snap-align: start;
+  /* The max-width is important for scrolling with JavaScript */
+  max-width: 590px;
+  max-height: 100%;
+  /* border-radius: var(--search-bar-corner-rad); */
+  flex-shrink: 0;
+}
+.atelier-gallery {
+  scrollbar-color: hsl(0, 0%, 80%) hsl(0, 0%, 90%);
+  scrollbar-width: thin;
+}
+
+.atelier-gallery::-webkit-scrollbar {
+  background-color: hsl(0, 0%, 90%);
+  height: 8px;
+}
+.atelier-gallery::-webkit-scrollbar-thumb {
+  background-color: hsl(0, 0%, 80%);
+}
+
+/* ===================================================== */
+/* Atelier 3D Iframe */
+/* ===================================================== */
+
+.atelier-3d {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-block: 4rem;
+}
+.atelier-iframe-wrap {
+  width: 600px;
+  padding: 1rem;
+  border-radius: var(--search-bar-corner-rad);
+  box-shadow: var(--atelier-shadow);
+}
+
+.atelier-iframe {
+  /* width: minmax(300px, auto); */
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  /* height: 100%; */
+  border-width: 0;
+}
+
+/* ===================================================== */
+/* VIDEO */
+/* ===================================================== */
+
+.video-wrap {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+  /* margin-inline: auto; */
+  /* border-inline: 1px solid var(--clr-menu-separator); */
+}
+
+/* ===================================================== */
+/* ATELIERS CARDS */
+/* ===================================================== */
+
+.atelier-card-wrap {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0.5rem;
+}
+.atelier-card {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid var(--clr-menu-separator);
+  border-right: 5px solid var(--clr-menu-separator);
+  background-color: hsl(0, 0%, 100%);
+  border-radius: var(--search-bar-corner-rad);
+  text-decoration: none;
+  box-shadow: var(--atelier-shadow);
+  transition: all 0.3s;
+
+}
+.atelier-card img {
+  border-radius: var(--search-bar-corner-rad) 0px 0px
+    var(--search-bar-corner-rad);
+  width: 60px;
+  height: 60px;
+}
+.atelier-card span {
+  display: flex;
+  align-items: center;
+  padding-inline: 1rem;
+  color: black;
+  text-align: right;
+  font-weight: 700;
+  white-space: nowrap;
+  transition: all 0.3s;
+}
+
+.atelier-card:hover {
+  border-color: var(--main-accent-color);
+  box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.1);
+}
+
+.atelier-card:active {
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+  transform: translateY(5px);
+  transition: all 0s;
+}
+
+.atelier-card:hover span {
+  color: var(--main-accent-color);
+}
+
+/* ===================================================== */
+/* MEDIA QUERY */
+/* ===================================================== */
+
+/* Screen size between: 1024 - 1366 */
+@media screen and (max-width: 1365px) {
+  .atelier-iframe-wrap {
+    width: 450px;
+  }
+}
+
+/* Screen size between: 768 - 1024 */
+@media screen and (max-width: 1023px) {
+  .atelier-description-container {
+    padding: 4rem 6em;
+    /* margin-block: 0rem 6rem; */
+  }
+  .atelier-top-text {
+    padding: 4rem 6em;
+  }
+  .atelier-3d {
+    /* margin-top: 6rem; */
+    justify-content: space-around;
+  }
+  .atelier-card-wrap {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* Screen size between: 0 - 768 */
+@media screen and (max-width: 767px) {
+  .atelier-description-container {
+    padding: 2rem 3em;
+  }
+  .atelier-top-text {
+    padding: 2rem 3em;
+  }
+  .atelier-description {
+    font-size: 1rem;
+  }
+
+  .atelier-gallery-container i {
+    font-size: 1.5rem;
+    /* padding: 0.5rem; */
+  }
+  .atelier-gallery {
+    max-height: 250px;
+  }
+  .video-wrap video {
+    width: 100%;
+    height: unset;
+  }
+  .atelier-card-wrap {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .atelier-card {
+    flex-grow: 1;
+  }
+  .atelier-card span {
+    white-space: unset;
+    text-align: right;
+  }
+}

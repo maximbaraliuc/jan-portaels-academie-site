@@ -1,0 +1,117 @@
+{% extends "layouts/base.html" %}
+{% set pageType = "inschrijven-section" %}
+
+{% block content %}
+<h1></h1>
+<article>
+  <h2>{{ }}</h2>
+
+
+
+
+  <details id="Lessenrooster">
+    <summary>lessenrooster</summary>
+    <div class="details-content">
+
+      <!-- Kinderen -->
+      {% set child = collections.schedules[0].data.kinderen %}
+      {% if child.peutie.table or child.spiegelstraat.table or child.koningslo.table or
+      child.faubourg.table %}
+
+      {% if child.peutie.table %}
+      <div class="table-container">
+        {{ child.peutie.table | markdown | safe }}
+      </div>
+      {% endif%}
+
+      {% if child.spiegelstraat.table %}
+      <div class="table-container">
+        {{ child.spiegelstraat.table | markdown | safe }}
+      </div>
+      {% endif %}
+
+      {% if child.koningslo.table %}
+      <div class="table-container">
+        {{ child.koningslo.table | markdown | safe }}
+      </div>
+      {% endif %}
+
+      {% if child.faubourg.table %}
+      <div class="table-container">
+        {{ child.faubourg.table | markdown | safe }}
+      </div>
+      {% endif %}
+      {% endif %}
+
+      <!-- Jongeren -->
+
+      {% set teen = collections.schedules[0].data.jongeren %}
+      {% if teen.jongeren.table %}
+      <div class="table-container">
+        {{ teen.jongeren.table | markdown | safe }}
+      </div>
+      {% endif %}
+
+      <!-- Volwassenen -->
+      {% set schedules = collections.schedules[0].data.volwassenen %}
+
+      {% if schedules.beeldhouwen.table %}
+      <div class="table-container">
+        {{ schedules.beeldhouwen.table | markdown | safe }}
+      </div>
+      {% endif %}
+
+      {% if schedules.schilderkunst.table %}
+      <div class="table-container">
+        {{ schedules.schilderkunst.table | markdown | safe }}
+      </div>
+      {% endif %}
+
+      {% if schedules.tekenkunst.table %}
+      <div class="table-container">
+        {{ schedules.tekenkunst.table | markdown | safe }}
+      </div>
+      {% endif %}
+
+      {% if schedules.grafiekkunst.table %}
+      <div class="table-container">
+        {{ schedules.grafiekkunst.table | markdown | safe }}
+      </div>
+      {% endif %}
+
+      {% if schedules.projectatelier.table %}
+      <div class="table-container">
+        {{ schedules.projectatelier.table | markdown | safe }}
+      </div>
+      {% endif %}
+
+      {% if schedules.crossover.table %}
+      <div class="table-container">
+        {{ schedules.crossover.table | markdown | safe }}
+      </div>
+      {% endif %}
+
+      {% if schedules.cultuurfilosofie.table %}
+      <div class="table-container">
+        {{ schedules.cultuurfilosofie.table | markdown | safe }}
+      </div>
+      {% endif %}
+
+      {% if schedules.audiovisuele.table %}
+      <div class="table-container">
+        {{ schedules.audiovisuele.table | markdown | safe }}
+      </div>
+      {% endif %}
+
+
+
+
+
+
+    </div>
+  </details>
+
+</article>
+
+
+{% endblock %}

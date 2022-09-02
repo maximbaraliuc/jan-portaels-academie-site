@@ -1,0 +1,24 @@
+{
+  "name": "jan-portaels-cms",
+  "version": "1.0.0",
+  "description": "",
+  "main": ".eleventy.js",
+  "scripts": {
+    "start": "npx eleventy --serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maximbaraliuc/jan-portaels-cms.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maximbaraliuc/jan-portaels-cms/issues"
+  },
+  "homepage": "https://github.com/maximbaraliuc/jan-portaels-cms#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "^1.0.2",
+    "prettier": "2.7.1"
+  }
+}
