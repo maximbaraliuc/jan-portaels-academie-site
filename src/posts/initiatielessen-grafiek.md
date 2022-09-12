@@ -9,6 +9,8 @@ Op maandag 12 en woensdag 14 september 2022, steeds van 17u tot 21u30 organiseer
 
 De 2 lessen zijn aaneensluitend. Eerste les kennismaking, introductie en een beeld maken. Tweede les afdrukken en experimenteren met verschillende kleuren en dragers. Voorkennis is niet vereist, maar men mag altijd inspiratiemateriaal meenemen.
 
+
+
 Inschrijven via nathan.decorte@sovilvoorde.be
 
 Tot dan.
