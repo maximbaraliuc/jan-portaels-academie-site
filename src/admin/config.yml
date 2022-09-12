@@ -2,7 +2,7 @@ backend:
   name: git-gateway
   branch: main # Branch to update (optional; defaults to master)
 
-logo_url: https://jan-portaels-cms.netlify.app/media/logo-home.png
+logo_url: https://academiebeeldendekunstenvilvoorde.be/media/logo-home.png
 
 # This line should *not* be indented
 publish_mode: editorial_workflow
