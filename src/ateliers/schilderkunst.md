@@ -10,28 +10,28 @@ description:
 
 
     Onderzoek van de relevante beeldaspecten vorm, kleur, materie, compositie is een fundament. Aan de hand van die beeldaspecten wordt het medium schilderen op een individuele manier onderzocht. Het proces verloopt door studie, expressie, persoonlijk engagement en zelfonderzoek: het atelier is een laboratorium.
-uurroosterFile: ""
 gallery:
   - altText: alt text placeholder
-    file: /media/uploads/atelier-schilderkunst-10-1024.jpg
+    file: /media/uploads/img_1304.jpeg
   - altText: alt text placeholder
-    file: /media/uploads/atelier-schilderkunst-2-1024.jpg
+    file: /media/uploads/img_3403.jpeg
   - altText: alt text placeholder
-    file: /media/uploads/atelier-schilderkunst-3-1024.jpg
+    file: /media/uploads/img_4961.jpeg
   - altText: alt text placeholder
-    file: /media/uploads/atelier-schilderkunst-11-1024.jpg
+    file: /media/uploads/img_4867.jpeg
   - altText: alt text placeholder
-    file: /media/uploads/atelier-schilderkunst-12.jpg
+    file: /media/uploads/img_4688.jpeg
   - altText: alt text placeholder
-    file: /media/uploads/atelier-schilderkunst-4-1024.jpg
+    file: /media/uploads/img_3529.jpeg
   - altText: alt text placeholder
-    file: /media/uploads/atelier-schilderkunst-6-1024.jpg
+    file: /media/uploads/img_3471.jpeg
   - altText: alt text placeholder
-    file: /media/uploads/atelier-schilderkunst-12-1024.jpg
+    file: /media/uploads/img_3434.jpeg
   - altText: alt text placeholder
-    file: /media/uploads/atelier-schilderkunst-9.jpg
+    file: /media/uploads/img_3412.jpeg
   - altText: alt text placeholder
-    file: /media/uploads/atelier-schilderkunst-8.jpg
+    file: /media/uploads/img_3407.jpeg
+uurroosterFile: ""
 materials: ""
 extraText: ""
 show3D: false
