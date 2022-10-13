@@ -36,10 +36,11 @@ inschrijfmomenten:
 
     **Betaling** met ![bancontact logo](https://jan-portaels-dev.netlify.app/images/bancontact-logo.svg)
 tarieven:
-  title: "Inschrijvingstarieven"
+  title: Inschrijvingstarieven
   textTop: ""
   table: >-
-    |                                                         | normaal tarief | verminderd tarief |
+    |                                                         | normaal tarief |
+    verminderd tarief |
 
     | ------------------------------------------------------- | -------------- | ----------------- |
 
@@ -106,17 +107,17 @@ tarieven:
     **Een leerling die de leeftijd van 18 jaar niet bereikt heeft op 31 december van het schooljaar in kwestie, betaalt het verminderd inschrijvingsgeld:**
 
 
-    **Houder Vilvoordse vrijetijdspas:**
+    **Houder V-pas:**
 
 
     De houder betaalt 20 % van het normale tarief of van het verminderd tarief mits voorlegging van de nodige attesten vermeld in rubriek A en 20 % van de materiaalkost, reeds verrekend in het tarief.
   tarievenFile:
-    fileName: null
-    fileLink: null
+    ? fileName
+    ? fileLink
 uurroosterInschrijven:
   textTop: ""
   textBottom: ""
   timetables:
-    - fileName: null
-      fileLink: null
+    - ? fileName
+      ? fileLink
 ---
