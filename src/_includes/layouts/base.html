@@ -14,10 +14,10 @@
   <link rel="stylesheet" href="{{ extraCSS }}">
   {% endif %}
   {% if cmsScript %}
-  <script src="{{ cmsScript | safe}}"></script>{% endif %}
+  <script src="{{ cmsScript | safe}}" defer></script>{% endif %}
   <script src="/javascript/script.js" defer></script>
-  <script src="https://kit.fontawesome.com/4e41c7d293.js" crossorigin="anonymous"></script>
-  <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+  <script src="https://kit.fontawesome.com/4e41c7d293.js" crossorigin="anonymous" defer></script>
+  <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js" defer></script>
   <title>{{ site.name }} | {{ section }}</title>
   {% include "partials/favicon.html" %}
   {% include "partials/open-graph.html" %}
