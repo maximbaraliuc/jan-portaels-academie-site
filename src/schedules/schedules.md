@@ -54,7 +54,7 @@ jongeren:
     textBottom: null
 volwassenen:
   tekenkunst:
-    title: Tekenkunst
+    title: Tekenkunst - volwassenen (Spiegelstraat 62)
     textTop: null
     table: |-
       |               | ma  | di  | do  | za  | zo  |
