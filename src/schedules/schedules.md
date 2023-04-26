@@ -114,7 +114,7 @@ volwassenen:
       | 18:00 - 21:30 | ✔   | ✔   |
     textBottom: null
   schilderkunst:
-    title: Schilderkunst
+    title: Schilderkunst - volwassenen (Spiegelstraat 62)
     textTop: null
     table: |-
       |               | ma  | di  | wo  | do  |
