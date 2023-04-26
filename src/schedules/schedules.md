@@ -105,7 +105,7 @@ volwassenen:
       | 30 mei 23           | 1 juni 23             | 3 juni 23            | 6 juni 23           | 10 juni 23           |
     textBottom: null
   beeldhouwen:
-    title: Beeldhouwen en ruimtelijke kunst
+    title: Beeldhouwen en ruimtelijke kunst - volwassenen (Spiegelstraat 62)
     textTop: null
     table: |-
       |               | ma  | wo  |
