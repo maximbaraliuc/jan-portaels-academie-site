@@ -96,7 +96,7 @@ volwassenen:
 
       | 23 jan 24           | 25 jan 24             | 27 jan 24               | 30 jan 24           | 3 feb 24             |
 
-      | 27 febr 24          | 29 febr 24            | 2﻿ maart 24             | 5﻿ maart 24         | 9﻿ maart 24          |
+      | 27 feb 24           | 29 feb 24             | 2﻿ maart 24             | 5﻿ maart 24         | 9﻿ maart 24          |
 
       | 26 maart 24         | 28 maart 24           | 30 maart 24             | 16 april 24         | 20 april 24          |
 
