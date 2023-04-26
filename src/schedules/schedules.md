@@ -45,12 +45,12 @@ jongeren:
     title: Jongeren 3de graad - 12 tot 18 jaar - 1ste tot 6de middelbaar
       (Spiegelstraat 62)
     textTop: null
-    table: >-
+    table: |-
       |            | di                      | za                     |
-
       | ---------- | ----------------------- | ---------------------- |
-
-      | 9.00 - 12.30  | \-       | 3de graad, 1ste tot 4de middelbaar | | 13.30 - 17.00 | \-       | 3de graad, 1ste tot 4de middelbaar | | 18.00 - 21.30 | 3de graad, 4de tot 6de middelbaar | \-        |
+      | 9.00 - 12.30  | \-       | 1ste tot 4de middelbaar | 
+      13.30 - 17.00 | \-       |1ste tot 4de middelbaar | 
+      18.00 - 21.30 |4de tot 6de middelbaar | \-        |
     textBottom: null
 volwassenen:
   tekenkunst:
