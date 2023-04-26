@@ -2,16 +2,16 @@
 kinderen:
   codename: kinderen
   peutie:
-    title: Peutie - Aarschotsestraat 94 (kinderen 1ste tot 6de leerjaar)
+    title: "Peutie (Aarschotsestraat 94) "
     textTop: ""
     table: |-
       |               | wo  | do  | za                |
       | ------------- | --- | --- | ----------------- |
       | 9.00 - 10.40  | \-  | \-  | 1ste en 2de graad |
       | 10.50 - 12.30 | \-  | \-  | 1ste en 2de graad |
-    textBottom: null
+    textBottom: k﻿inderen 1ste tot 6de leerjaar
   spiegelstraat:
-    title: Vilvoorde - Spiegelstraat 62 (kinderen 1ste tot 6de leerjaar)
+    title: "Vilvoorde (Spiegelstraat 62) "
     textTop: null
     table: |-
       |               | wo                | do  | za                |
@@ -20,30 +20,29 @@ kinderen:
       | 10.50 - 12.30 | \-                | \-  | 1ste en 2de graad |
       | 13.30 - 15.10 | 1ste en 2de graad | \-  | 1ste en 2de graad |
       | 15.20 - 17.00 | 1ste en 2de graad | \-  |  -
-    textBottom: null
+    textBottom: k﻿inderen 1ste tot 6de leerjaar
   koningslo:
-    title: Koningslo - Streekbaan 189A (kinderen 1ste tot 6de leerjaar)
+    title: Koningslo (Streekbaan 189A)
     textTop: null
     table: |-
       |               | wo                | do  | za  |
       | ------------- | ----------------- | --- | --- |
       | 13.30 - 15.10 | 1ste en 2de graad | \-  | \-  |
       | 15.20 - 17.00 | 1ste en 2de graad | \-  | \-  |
-    textBottom: null
+    textBottom: k﻿inderen 1ste tot 6de leerjaar
   faubourg:
-    title: Houtem - K. Trekelstraat 36 (kinderen 1ste tot 6de leerjaar)
+    title: "Houtem (K. Trekelstraat 36) "
     textTop: null
     table: |-
       |               | wo  | do                | za  |
       | ------------- | --- | ----------------- | --- |
       | 13.30u - 15.10u | 1ste en 2de graad|- | \-  
         15.20u - 17.00u | 1ste en 2de graad|- | \-  ﻿
-    textBottom: null
+    textBottom: k﻿inderen 1ste tot 6de leerjaar
 jongeren:
   codename: jongeren
   jongeren:
-    title: Jongeren 3de graad - 12 tot 18 jaar - 1ste tot 6de middelbaar
-      (Spiegelstraat 62)
+    title: Jongeren 3de graad (Spiegelstraat 62)
     textTop: null
     table: |-
       |            | di                      | za                     |
@@ -51,10 +50,10 @@ jongeren:
       | 9.00 - 12.30  | \-       | 1ste tot 4de middelbaar | 
       13.30 - 17.00 | \-       |1ste tot 4de middelbaar | 
       18.00 - 21.30 |4de tot 6de middelbaar | \-        |
-    textBottom: null
+    textBottom: j﻿ongeren 1ste tot 6de middelbaar - 12 tot 18 jaar
 volwassenen:
   tekenkunst:
-    title: Tekenkunst - volwassenen (Spiegelstraat 62)
+    title: Tekenkunst (Spiegelstraat 62)
     textTop: null
     table: |-
       |               | ma  | di  | do  | za  | zo  |
@@ -62,7 +61,7 @@ volwassenen:
       | 9:00 - 12:30  | ✔   | ✔   | \-  | ✔   | ✔   |
       | 13:30 - 17:00 | \-  | ✔   | \-  | \-  | \-  |
       | 18:00 - 21:30 | \-  | ✔   | ✔   | \-  | \-  |
-    textBottom: null
+    textBottom: v﻿olwassenen 18+
   projectatelier:
     title: Projectatelier
     textTop: null
@@ -70,8 +69,8 @@ volwassenen:
       bespreken in overleg met betrokken docent(en) bij intake gesprek."
     textBottom: null
   grafiekkunst:
-    title: Grafiekkunst - volwassenen (Spiegelstraat 62)
-    textTop: null
+    title: Grafiekkunst (Spiegelstraat 62)
+    textTop: v﻿olwassenen 18+
     table: |-
       |               | ma  | wo  |
       | ------------- | --- | --- |
@@ -115,16 +114,16 @@ volwassenen:
 
       B﻿ijvoorbeeld: U komt de eerste les op 12 september, dan dient u ook op de andere data uit de eerste kolom te komen.
   beeldhouwen:
-    title: Beeldhouwen en ruimtelijke kunst - volwassenen (Spiegelstraat 62)
+    title: Beeldhouwen en ruimtelijke kunst (Spiegelstraat 62)
     textTop: null
     table: |-
       |               | ma  | wo  |
       | ------------- | --- | --- |
       | 13:30 - 17:00 | ✔   | \-  |
       | 18:00 - 21:30 | ✔   | ✔   |
-    textBottom: null
+    textBottom: v﻿olwassenen 18+
   schilderkunst:
-    title: Schilderkunst - volwassenen (Spiegelstraat 62)
+    title: Schilderkunst (Spiegelstraat 62)
     textTop: null
     table: |-
       |               | ma  | di  | wo  | do  |
@@ -132,7 +131,7 @@ volwassenen:
       | 9:00 - 12:30  | ✔   | ✔   | \-  | \-  |
       | 13:30 - 17:00 | ✔   | ✔   | \-  | ✔   |
       | 18:00 - 21:30 | ✔   | \-  | ✔   | \-  |
-    textBottom: null
+    textBottom: v﻿olwassenen 18+
   audiovisuele:
     title: Beeldende en Audiovisuele Cultuur
     textTop: null
@@ -162,7 +161,16 @@ volwassenen:
       || 7﻿ mei 24               | H﻿emelvaart               | F﻿acultatieve verlofdag  | 14 mei 24               | 18 mei 24                | 21 mei 24               | 25 mei 24               |
 
       || 4﻿ juni 24              | 6 juni 24                 | 8 juni 24                | 11 juni 24              | 15 juni 24               | 18 juni 24              | 22 juni 24              |
-    textBottom: null
+    textBottom: >-
+      **Je volgt 2 keer per maand les.** \
+
+      **Het eerste lesmoment** wordt 5 keer herhaald, dat zijn de eerste 5 kolommen. Je kiest daar 1 kolom uit, dat wordt dan uw vast lesmoment.\
+
+      B﻿ijvoorbeeld: U komt de eerste les op 12 september, dan dient u ook op de andere data uit de eerste kolom te komen (10 okt, 14 nov,...).\
+
+      **H﻿et tweede lesmoment** wordt 2 keer herhaald, dat zijn de laatste 2 kolommen. Je kiest daar ook 1 kolom uit, dat wordt dan uw tweede vast lesmoment.\
+
+      B﻿ijvoorbeeld: U komt de eerste les (van het tweede lesmoment) op 26 september, dan dient u ook op de andere data uit die kolom te komen (24 okt, 28 nov,...).
   crossover:
     title: Cross-over
     textTop: null
