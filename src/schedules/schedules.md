@@ -136,32 +136,19 @@ volwassenen:
   audiovisuele:
     title: Beeldende en Audiovisuele Cultuur
     textTop: null
-    table: >-
-      |     | Bac 1ste
-      leesmoment     |                           |                          |                         |                          |
-      Bac 2de leesmoment      |                         |
-
+    table: >-2
+       Bac 1ste lesmoment      |                           |                          |                         |                          | Bac 2de lesmoment       |                         |
       | --- | ----------------------- | ------------------------- | ------------------------ | ----------------------- | ------------------------ | ----------------------- | ----------------------- |
-
-      |     | **dinsdag 13:30-17:00** | **donderdag 18:00-21:30** | **zaterdag 09:00-12:30** | **dinsdag 13:30-17:00** | **zaterdag 09:00-12:30** | **dinsdag 13:30-17:00** | **zaterdag 9:00-12:30** |
-
-      |     | 12 sept 23              | 14 sept 23                | 16 sept 23               | 19 sept 23              | 23 sept 23               | 26 sept 23              | 3﻿0 sept 23             |
-
-      |     | 10 okt 23               | 12 okt 23                 | 14 okt 23                | 17 okt 23               | 21 okt 23                | 24 okt 23               | 28 okt 23               |
-
-      |     | 14 nov 23               | 16 nov 23                 | 18 nov 23                | 21 nov 23               | 25 nov 23                | 28 nov 23               | 2 dec 23                |
-
-      |     | 12 dec 23               | 14 dec 23                 | 16 dec 23                | 19 dec 23               | 23 dec 23                | 9﻿ jan 24               | 1﻿3 jan 24              |
-
-      |     | 23 jan 24               | 25 jan 24                 | 27 jan 24                | 30 jan 24               | 3﻿ feb 24                | 6﻿ feb 24               | 1﻿0 feb 24              |
-
-      |     | 27 febr 24              | 29 febr 24                | 2﻿ maart 24              | 5 maart 24              | 9﻿ maart 24              | 12 maart 24             | 16 maart 24             |
-
-      |     | 26 maart 24             | 28 maart 24               | 30 maart 24              | 1﻿6 april 24            | 20 april 24              | 2﻿3 april 24            | 27 april 24             |
-
-      |     | 7﻿ mei 24               | H﻿emelvaart               | F﻿acultatieve verlofdag  | 14 mei 24               | 18 mei 24                | 21 mei 24               | 25 mei 24               |
-
-      |     | 4﻿ juni 24              | 6 juni 24                 | 8 juni 24                | 11 juni 24              | 15 juni 24               | 18 juni 24              | 22 juni 24              |
+       **dinsdag 13:30-17:00** | **donderdag 18:00-21:30** | **zaterdag 09:00-12:30** | **dinsdag 13:30-17:00** | **zaterdag 09:00-12:30** | **dinsdag 13:30-17:00** | **zaterdag 9:00-12:30** |
+       12 sept 23              | 14 sept 23                | 16 sept 23               | 19 sept 23              | 23 sept 23               | 26 sept 23              | 3﻿0 sept 23             |
+       10 okt 23               | 12 okt 23                 | 14 okt 23                | 17 okt 23               | 21 okt 23                | 24 okt 23               | 28 okt 23               |
+       14 nov 23               | 16 nov 23                 | 18 nov 23                | 21 nov 23               | 25 nov 23                | 28 nov 23               | 2 dec 23                |
+       12 dec 23               | 14 dec 23                 | 16 dec 23                | 19 dec 23               | 23 dec 23                | 9﻿ jan 24               | 1﻿3 jan 24              |
+       23 jan 24               | 25 jan 24                 | 27 jan 24                | 30 jan 24               | 3﻿ feb 24                | 6﻿ feb 24               | 1﻿0 feb 24              |
+       27 febr 24              | 29 febr 24                | 2﻿ maart 24              | 5 maart 24              | 9﻿ maart 24              | 12 maart 24             | 16 maart 24             |
+       26 maart 24             | 28 maart 24               | 30 maart 24              | 1﻿6 april 24            | 20 april 24              | 2﻿3 april 24            | 27 april 24             |
+       7﻿ mei 24               | H﻿emelvaart               | F﻿acultatieve verlofdag  | 14 mei 24               | 18 mei 24                | 21 mei 24               | 25 mei 24               |
+       4﻿ juni 24              | 6 juni 24                 | 8 juni 24                | 11 juni 24              | 15 juni 24               | 18 juni 24              | 22 juni 24              |
     textBottom: null
   crossover:
     title: Cross-over
