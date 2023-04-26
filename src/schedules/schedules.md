@@ -42,7 +42,8 @@ kinderen:
 jongeren:
   codename: jongeren
   jongeren:
-    title: Jongeren 3de graad (12-18 jaar), (1ste tot 6de middelbaar)
+    title: Jongeren 3de graad - 12 tot 18 jaar - 1ste tot 6de middelbaar
+      (Spiegelstraat 62)
     textTop: null
     table: >-
       |            | di                      | za                     |
