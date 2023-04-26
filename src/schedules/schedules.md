@@ -19,7 +19,7 @@ kinderen:
       | 9.00 - 10.40  | \-                | \-  | 1ste en 2de graad |
       | 10.50 - 12.30 | \-                | \-  | 1ste en 2de graad |
       | 13.30 - 15.10 | 1ste en 2de graad | \-  | 1ste en 2de graad |
-      | 15.20 - 17.00 | 1ste en 2de graad | \-  | 1ste en 2de graad |
+      | 15.20 - 17.00 | 1ste en 2de graad | \-  |  
     textBottom: null
   koningslo:
     title: Koningslo - Streekbaan 189A
