@@ -137,36 +137,36 @@ volwassenen:
     title: Beeldende en Audiovisuele Cultuur
     textTop: null
     table: >-
-      | Bac 1ste
-      leesmoment  |                       |                      |                     |                      |
-      Bac 2de leesmoment   |                     |
+      | Bac 1ste leesmoment
+      |                       |                         |                     |                      |
+      Bac 2de leesmoment  |                     |
 
-      | ------------------- | --------------------- | -------------------- | ------------------- | -------------------- | ------------------- | ------------------- |
+      | ------------------- | --------------------- | ----------------------- | ------------------- | -------------------- | ------------------- | ------------------- |
 
-      | dinsdag 13:30-17:00 | donderdag 18:00-21:30 | zaterdag 09:00-12:30 | dinsdag 13:30-17:00 | zaterdag 09:00-12:30 | dinsdag 13:30-17:00 | zaterdag 9:00-12:30 |
+      | dinsdag 13:30-17:00 | donderdag 18:00-21:30 | zaterdag 09:00-12:30    | dinsdag 13:30-17:00 | zaterdag 09:00-12:30 | dinsdag 13:30-17:00 | zaterdag 9:00-12:30 |
 
-      | 13 sept 22          | 15 sept 22            | 17 sept 22           | 20 sept 22          | 24 sept 22           | 27 sept 22          | 1 okt 22            |
+      | 12 sept 23          | 14 sept 23            | 16 sept 23              | 19 sept 23          | 23 sept 23           | 26 sept 23          | 3﻿0 sept 23         |
 
-      | 11 okt 22           | 13 okt 22             | 15 okt 22            | 18 okt 22           | 22 okt 22            | 25 okt 22           | 29 okt 22           |
+      | 10 okt 23           | 12 okt 23             | 14 okt 23               | 17 okt 23           | 21 okt 23            | 24 okt 23           | 28 okt 23           |
 
-      | 8 nov 22            | 10 nov 22             | 12 nov 22            | 15 nov 22           | 19 nov 22            | 22 nov 22           | 26 nov 22           |
+      | 14 nov 23           | 16 nov 23             | 18 nov 23               | 21 nov 23           | 25 nov 23            | 28 nov 23           | 2 dec 23            |
 
-      | 6 dec 22            | 8 dec 22              | 10 dec 22            | 13 dec 22           | 17 dec 22            | 20 dec 22           | 24 dec 22           |
+      | 12 dec 23           | 14 dec 23             | 16 dec 23               | 19 dec 23           | 23 dec 23            | 9﻿ jan 24           | 1﻿3 jan 24          |
 
-      | 10 jan 23           | 12 jan 23             | 14 jan 23            | 17 jan 23           | 21 jan 23            | 24 jan 23           | 28 jan 23           |
+      | 23 jan 24           | 25 jan 24             | 27 jan 24               | 30 jan 24           | 3﻿ feb 24            | 6﻿ feb 24           | 1﻿0 feb 24          |
 
-      | 7 febr 23           | 9 febr 23             | 11 febr 23           | 14 febr 23          | 18 febr 23           | 28 febr 23          | 4 maart 23          |
+      | 27 febr 24          | 29 febr 24            | 2﻿ maart 24             | 5 maart 24          | 9﻿ maart 24          | 12 maart 24         | 16 maart 24         |
 
-      | 14 maart 23         | 16 maart 23           | 18 maart 23          | 21 maart 23         | 25 maart 23          | 28 maart 23         | 1 april 23          |
+      | 26 maart 24         | 28 maart 24           | 30 maart 24             | 1﻿6 april 24        | 20 april 24          | 2﻿3 april 24        | 27 april 24         |
 
-      | 25 april 23         | 27 april 23           | 29 april 23          | 2 mei 23            | 6 mei 23             | 9 mei 23            | 13 mei 23           |
+      | 7﻿ mei 24           | H﻿emelvaart           | F﻿acultatieve verlofdag | 14 mei 24           | 18 mei 24            | 21 mei 24           | 25 mei 24           |
 
-      | 30 mei 23           | 1 juni 23             | 3 juni 23            | 6 juni 23           | 10 juni 23           | 13 juni 23          | 17 juni 23          |
+      | 4﻿ juni 24          | 6 juni 24             | 8 juni 24               | 11 juni 24          | 15 juni 24           | 18 juni 24          | 22 juni 24          |
     textBottom: null
   crossover:
     title: Cross-over
     textTop: null
-    table: "Studenten **Cross-over** : 2 lesmomenten binnen 2 verschillende opties
+    table: "Studenten **Cross-over** : 2 leesmomenten binnen 2 verschillende opties
       te bespreken in overleg met betrokken docenten bij intake gesprek."
   textBottom: null
   codename: volwassene
