@@ -70,7 +70,7 @@ volwassenen:
       bespreken in overleg met betrokken docent(en) bij intake gesprek."
     textBottom: null
   grafiekkunst:
-    title: Grafiekkunst
+    title: Grafiekkunst - volwassenen (Spiegelstraat 62)
     textTop: null
     table: |-
       |               | ma  | wo  |
