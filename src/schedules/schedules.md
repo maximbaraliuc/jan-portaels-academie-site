@@ -11,7 +11,7 @@ kinderen:
       | 10.50 - 12.30 | \-  | \-  | 1ste en 2de graad |
     textBottom: null
   spiegelstraat:
-    title: Spiegelstraat
+    title: Vilvoorde - Spiegelstraat 62
     textTop: null
     table: |-
       |               | wo                | do  | za                |
@@ -22,7 +22,7 @@ kinderen:
       | 15.20 - 17.00 | 1ste en 2de graad | \-  | 1ste en 2de graad |
     textBottom: null
   koningslo:
-    title: Koningslo
+    title: Koningslo - Streekbaan 189A
     textTop: null
     table: |-
       |               | wo                | do  | za  |
@@ -31,7 +31,7 @@ kinderen:
       | 15.20 - 17.00 | 1ste en 2de graad | \-  | \-  |
     textBottom: null
   faubourg:
-    title: Houtem
+    title: Houtem - K. Trekelstraat 36
     textTop: null
     table: |-
       |               | wo  | do                | za  |
