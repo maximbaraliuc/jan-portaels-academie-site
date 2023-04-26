@@ -73,35 +73,35 @@ tarieven:
 
     | 1ste en 2de graad (6 - 12 jaar)                         |                |                   |
 
-    | Beeldatelier                                            | 85,00 €        | 64,00 €           |
+    | Beeldatelier                                            | 85,00 €        | 58,00 €           |
 
     | 3de graad (12 - 18 jaar)                                |                |                   |
 
-    | Beeldatelier                                            | 105,00 €       | 84,00 €           |
+    | Beeldatelier                                            | 105,00 €       | 78,00 €           |
 
     | 4de graad - jongeren (18 - 24 jaar)                     |                |                   |
 
-    | Tekenkunst, schilderkunst, cross-over, projectatelier   | 200,00 €       | \-                |
+    | Tekenkunst, schilderkunst, cross-over, projectatelier   | 164,00 €       | \-                |
 
-    | Grafiekkunst                                            | 230,00 €       | \-                |
+    | Grafiekkunst                                            | 194,00 €       | \-                |
 
-    | Beeldhouwen en ruimtelijke kunst                        | 290,00 €       | \-                |
+    | Beeldhouwen en ruimtelijke kunst                        | 254,00 €       | \-                |
 
-    | Beeldende en audiovisuele cultuur BAC                   | 200,00 €       | \-                |
+    | Beeldende en audiovisuele cultuur BAC                   | 158,00 €       | \-                |
 
     | 4de graad - volwassenen (+ 25 jaar)                     |                |                   |
 
-    | Tekenkunst, schilderkunst, cross-over, projectatelier   | 378,00 €       | 200,00 €          |
+    | Tekenkunst, schilderkunst, cross-over, projectatelier   | 378,00 €       | 164,00 €          |
 
-    | Grafiekkunst Beeldhouwen en ruimtelijke kunst 1ste jaar | 408,00 €       | 230,00 €          |
+    | Grafiekkunst Beeldhouwen en ruimtelijke kunst 1ste jaar | 408,00 €       | 194,00 €          |
 
-    | Beeldhouwen en ruimtelijke kunst vanaf 2de jaar         | 468,00 €       | 290,00 €          |
+    | Beeldhouwen en ruimtelijke kunst vanaf 2de jaar         | 468,00 €       | 254,00 €          |
 
-    | Beeldende en audiovisuele cultuur BAC                   | 344,00 €       | 145,00 €          |
+    | Beeldende en audiovisuele cultuur BAC                   | 372,00 €       | 158,00 €          |
 
     | Vrije leerling                                          |                |                   |
 
-    | Kunst- en cultuurfilosofie                              | 172,00 €       | \-                |
+    | Kunst- en cultuurfilosofie                              | 186,00 €       | \-                |
   textBottom: >-
     ### Voorwaarden verminderd tarief
 
