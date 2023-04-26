@@ -162,7 +162,16 @@ volwassenen:
       || 7﻿ mei 24               | H﻿emelvaart               | F﻿acultatieve verlofdag  | 14 mei 24               | 18 mei 24                | 21 mei 24               | 25 mei 24               |
 
       || 4﻿ juni 24              | 6 juni 24                 | 8 juni 24                | 11 juni 24              | 15 juni 24               | 18 juni 24              | 22 juni 24              |
-    textBottom: null
+    textBottom: >-
+      **Je volgt 2 keer per maand les.** \
+
+      **Het eerste lesmoment** wordt 5 keer herhaald, dat zijn de eerste 5 kolommen. Je kiest daar 1 kolom uit, dat wordt dan uw vast lesmoment.\
+
+      B﻿ijvoorbeeld: U komt de eerste les op 12 september, dan dient u ook op de andere data uit de eerste kolom te komen (10 okt, 14 nov,...).\
+
+      **H﻿et tweede lesmoment** wordt 2 keer herhaald, dat zijn de laatste 2 kolommen. Je kiest daar ook 1 kolom uit, dat wordt dan uw tweede vast lesmoment.\
+
+      B﻿ijvoorbeeld: U komt de eerste les (van het tweede lesmoment) op 26 september, dan dient u ook op de andere data uit die kolom te komen (24 okt, 28 nov,...).
   crossover:
     title: Cross-over
     textTop: null
