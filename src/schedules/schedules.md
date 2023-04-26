@@ -86,17 +86,17 @@ volwassenen:
 
       | ------------------- | --------------------- | -------------------- | ------------------- | -------------------- |
 
-      | 13 sept 22          | 15 sept 22            | 17 sept 22           | 20 sept 22          | 24 sept 22           |
+      | 12 sept 23          | 14 sept 23            | 16 sept 23           | 19 sept 23          | 23 sept 23           |
 
-      | 11 okt 22           | 13 okt 22             | 15 okt 22            | 18 okt 22           | 22 okt 22            |
+      | 10 okt 23           | 12 okt 23             | 14 okt 23            | 17 okt 23           | 21 okt 23            |
 
-      | 8 nov 22            | 10 nov 22             | 12 nov 22            | 15 nov 22           | 19 nov 22            |
+      | 14 nov 23           | 16 nov 23             | 18 nov 23            | 21 nov 23           | 25 nov 23            |
 
-      | 6 dec 22            | 8 dec 22              | 10 dec 22            | 13 dec 22           | 17 dec 22            |
+      | 12 dec 23           | 14 dec 23             | 16 dec 23            | 19 dec 23           | 23 dec 23            |
 
-      | 10 jan 23           | 12 jan 23             | 14 jan 23            | 17 jan 23           | 21 jan 23            |
+      | 23 jan 24           | 25 jan 24             | 27 jan 24            | 30 jan 24           | 3 feb 24             |
 
-      | 7 febr 23           | 9 febr 23             | 11 febr 23           | 14 febr 23          | 18 febr 23           |
+      | 27 febr 24          | 29 febr 24            | 2﻿ maart 24          | 14 febr 23          | 18 febr 23           |
 
       | 14 maart 23         | 16 maart 23           | 18 maart 23          | 21 maart 23         | 25 maart 23          |
 
