@@ -31,12 +31,13 @@ kinderen:
       | 15.20 - 17.00 | 1ste en 2de graad | \-  | \-  |
     textBottom: null
   faubourg:
-    title: Faubourg (Kastanjelaar)
+    title: Houtem
     textTop: null
     table: |-
       |               | wo  | do                | za  |
       | ------------- | --- | ----------------- | --- |
-      | 16.00 - 17.40 | \-  | 1ste en 2de graad | \-  |
+      | 13.30u - 15.10u | 1ste en 2de graad|- | \-  
+        15.20u - 17.00u | 1ste en 2de graad|- | \-  ﻿
     textBottom: null
 jongeren:
   codename: jongeren
