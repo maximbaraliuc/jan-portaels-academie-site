@@ -8,17 +8,17 @@ inschrijfmomenten:
   text: >-
     **Inschrijvingsperiode:**\
 
-    1 juni tot uiterlijk 30 september.
+    30 mei tot uiterlijk 30 september
 
 
     **Voorinschrijvingen:**\
 
-    1 juni tem 15 juni.
+    Online vanaf dinsdag 30 mei 14u tem woensdag 14 juni 14u via **[mijnacademie.be](http://www.mijnacademie.be/ "naar mijnacademie.be")**
 
 
     **Nieuwe leerlingen/studenten:**\
 
-    vanaf 16 juni.
+    O﻿nline vanaf woensdag 14 juni 14u tem zaterdag 30 september via **[mijnacademie.be](http://www.mijnacademie.be/ "naar mijnacademie.be")**
 
 
     **Online inschrijven** en **betalen** via **[mijnacademie.be](http://www.mijnacademie.be/ "naar mijnacademie.be")**
@@ -28,7 +28,6 @@ inschrijfmomenten:
 
 
     * Elke maandag/dinsdag/woensdag/donderdag tussen 13u en 18u
-
 
 
     **Meebrengen:** identiteitskaart in te schrijven leerling
