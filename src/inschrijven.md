@@ -109,32 +109,37 @@ tarieven:
     **Om in aanmerking te komen voor verminderd inschrijvingsgeld moet de leerling op de dag van de inschrijving aan minstens één van de volgende voorwaarden voldoen:**
 
 
-    * uitkeringsgerechtigd volledig werkloos zijn of daarmee gelijkgesteld zijn
+    * Verplicht ingeschreven zijn als werkzoekende of daarmee gelijkgesteld.
 
-    * verplicht ingeschreven zijn als werkzoekende op grond van de reglementering in verband met de arbeidsvoorziening en de werkloosheid
+    * Een leefloon van het OCMW ontvangen of een uitkering die daarmee gelijkgesteld is.
 
-    * een leefloon van het OCMW ontvangen of een uitkering die daarmee gelijkgesteld is
+    * Een inkomensgarantie voor ouderen of een rentebijslag ontvangen.
 
-    * een inkomensgarantie voor ouderen of een rentebijslag ontvangen
+    * Erkend zijn als persoon met een handicap en een tegemoetkoming van de Federale Overheidsdienst Sociale Zekerheid ontvangen of houder zijn van een European Disability Card.
 
-    * erkend zijn als persoon met een handicap en een tegemoetkoming van de Federale Overheidsdienst Sociale Zekerheid ontvangen
+    * Begunstigde zijn van een verhoogde kinderbijslag (erkend voor ten minste 66%).
 
-    * begunstigde zijn van een verhoogde kinderbijslag (erkend voor ten minste 66%)
+    * Voor ten minste 66% arbeidsongeschikt zijn.
 
-    * voor ten minste 66% arbeidsongeschikt zijn
+    * In een gezinsvervangend tehuis of in een medisch-pedagogische instelling of in een pleeggezin verblijven.
 
-    * in een gezinsvervangend tehuis of in een medisch-pedagogische instelling of in een pleeggezin verblijven
+    * Het statuut van erkend politiek vluchteling bezitten.
 
-    * het statuut van erkend politiek vluchteling bezitten
+    * B﻿egunstigde zijn van een verhoogde verzekeringstegemoetkoming.
 
 
-    **Een leerling die ten laste is van een persoon die aan minstens één van de voorwaarden voldoet, vermeld bij A., komt eveneens in aanmerking voor het verminderde inschrijvingsgeld.**
+    **Een leerling die ten laste is van een persoon die aan minstens één van de voorwaarden voldoet, hierboven vermeld, komt eveneens in aanmerking voor het verminderde inschrijvingsgeld.**
 
 
     **Een leerling die de leeftijd van 18 jaar niet bereikt heeft op 31 december van het schooljaar in kwestie, betaalt het verminderd inschrijvingsgeld:**
 
 
-    **Houder V-pas:**
+    * A﻿ls op de dag van de inschrijving een ander lid van de leefeenheid waartoe hij behoort het inschrijvingsgeld al heeft betaald in dezelfde of een andere academie.
+
+    * V﻿oor iedere extra inschrijving in een andere domein aan dezelfde of een andere academie.
+
+
+    **Houder Vilvoordse vrijtijdspas:**
 
 
     De houder betaalt 20 % van het normale tarief of van het verminderd tarief mits voorlegging van de nodige attesten vermeld in rubriek A en 20 % van de materiaalkost, reeds verrekend in het tarief.
