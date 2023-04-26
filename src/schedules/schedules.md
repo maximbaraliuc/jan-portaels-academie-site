@@ -2,7 +2,7 @@
 kinderen:
   codename: kinderen
   peutie:
-    title: Peutie - Aarschotsestraat 94
+    title: Peutie - Aarschotsestraat 94 (kinderen 1ste tot 6de leerjaar)
     textTop: ""
     table: |-
       |               | wo  | do  | za                |
@@ -11,7 +11,7 @@ kinderen:
       | 10.50 - 12.30 | \-  | \-  | 1ste en 2de graad |
     textBottom: null
   spiegelstraat:
-    title: Vilvoorde - Spiegelstraat 62
+    title: Vilvoorde - Spiegelstraat 62 (kinderen 1ste tot 6de leerjaar)
     textTop: null
     table: |-
       |               | wo                | do  | za                |
@@ -22,7 +22,7 @@ kinderen:
       | 15.20 - 17.00 | 1ste en 2de graad | \-  |  -
     textBottom: null
   koningslo:
-    title: Koningslo - Streekbaan 189A
+    title: Koningslo - Streekbaan 189A (kinderen 1ste tot 6de leerjaar)
     textTop: null
     table: |-
       |               | wo                | do  | za  |
@@ -31,7 +31,7 @@ kinderen:
       | 15.20 - 17.00 | 1ste en 2de graad | \-  | \-  |
     textBottom: null
   faubourg:
-    title: Houtem - K. Trekelstraat 36
+    title: Houtem - K. Trekelstraat 36 (kinderen 1ste tot 6de leerjaar)
     textTop: null
     table: |-
       |               | wo  | do                | za  |
