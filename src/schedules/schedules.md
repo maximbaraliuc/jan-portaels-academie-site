@@ -3,7 +3,7 @@ kinderen:
   codename: kinderen
   peutie:
     title: Peutie
-    textTop: null
+    textTop: A﻿arschotsestraat 94
     table: |-
       |               | wo  | do  | za                |
       | ------------- | --- | --- | ----------------- |
