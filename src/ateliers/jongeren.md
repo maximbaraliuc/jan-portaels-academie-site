@@ -11,11 +11,10 @@ description:
     ontdekt en wordt creatief en flexibel denken gestimuleerd.
 
 
-    Waarneming en fantasie spelen een grote rol bij de opdrachten interageren met elkaar. Er worden linken gelegd met kunstgeschiedenis en hedendaagse tendensen in de kunstwereld.
+    Waarneming en fantasie spelen een grote rol bij de opdrachten en interageren met elkaar. Er worden linken gelegd met kunstgeschiedenis en hedendaagse tendensen in de kunstwereld.
 
 
-    De leerling wordt individueel begeleid met respect voor zijn unieke zelf. Er wordt getracht een ruimte bieden waarin iedereen zoveel mogelijk zichzelf kan zijn, zich kan uitdrukken, kan ontdekken en zich beeldend kan ontwikkelen. Les volgen in het beeldatelier kan een welkome aanvulling zijn bij het dagonderwijs en/of een goede voorbereiding op verdergezet kunstonderwijs.
-uurroosterFile: ""
+    De leerling wordt individueel begeleid met respect voor zijn unieke zelf. Er wordt getracht een ruimte te bieden waarin iedereen zoveel mogelijk zichzelf kan zijn, zich kan uitdrukken, kan ontdekken en zich beeldend kan ontwikkelen. Les volgen in het beeldatelier kan een welkome aanvulling zijn bij het dagonderwijs en/of een goede voorbereiding op verdergezet kunstonderwijs.
 gallery:
   - file: /media/uploads/atelier-jongeren-7-1024.jpg
     altText: handen met pizzaplakken gemaakt van papier
@@ -33,6 +32,7 @@ gallery:
     altText: gestileerd silhouet van liggende vrouw
   - file: /media/uploads/atelier-jongeren-24-1024.jpg
     altText: zwart-wit tekening van bloemen
+uurroosterFile: ""
 materials: >-
   **Materiaallijst Middelbare Graad**
 
