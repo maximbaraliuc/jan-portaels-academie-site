@@ -42,7 +42,7 @@ calender: |-
     **Zaterdag 1 juli tem**
     **donderdag 31 augustus 2023**
   * De zaterdag vóór de vakantie is er les.
-    De zaterdag
+    De zaterdag in de vakantie is er geen les.
 reglementen:
   - fileName: Academiereglement
     fileLink: /media/uploads/2022-04-21-Academiereglement_2022_2023_BK_Portaels.pdf
