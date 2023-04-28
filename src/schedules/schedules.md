@@ -37,8 +37,8 @@ kinderen:
     table: |-
       |               | wo  | do                | za  |
       | ------------- | --- | ----------------- | --- |
-      | 13.30u - 15.10u | 1ste en 2de graad|- | \-  
-        15.20u - 17.00u | 1ste en 2de graad|- | \-  ﻿
+      | 13.30u - 15.10u | 1ste en 2de graad| \- | \-  |
+      | 15.20u - 17.00u | 1ste en 2de graad| \- | \-  ﻿|
     textBottom: k﻿inderen 1ste tot 6de leerjaar
 jongeren:
   codename: jongeren
