@@ -550,7 +550,7 @@ collections:
                       required: false,
                     }
                   - { label: "Text at the bottom", name: "textBottom", widget: "markdown", required: false, minimal: true, editor_components: [],}
-              - label: "Faubourg (Kastanjelaar)"
+              - label: "Houtem"
                 name: "faubourg"
                 widget: "object"
                 collapsed: true
