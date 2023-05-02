@@ -55,7 +55,7 @@ inschrijfmomenten:
 
     * identiteitskaart in te schrijven leerling
 
-    * i﻿ndien van toepassing verminderingsattest of V-pas
+    * i﻿ndien van toepassing verminderingsattest of Vilvoordse vrijetijdspas
 
 
     **Betaling** met ![bancontact logo](https://jan-portaels-dev.netlify.app/images/bancontact-logo.svg)
