@@ -66,7 +66,7 @@ volwassenen:
   projectatelier:
     title: Projectatelier
     textTop: null
-    table: "Studenten **Projectatelier** : 2 leesmomenten binnen dezelfde optie te
+    table: "Studenten **Projectatelier** : 2 lesmomenten binnen dezelfde optie te
       bespreken in overleg met betrokken docent(en) bij intake gesprek."
     textBottom: null
   grafiekkunst:
@@ -175,7 +175,7 @@ volwassenen:
   crossover:
     title: Cross-over
     textTop: null
-    table: "Studenten **Cross-over** : 2 leesmomenten binnen 2 verschillende opties
+    table: "Studenten **Cross-over** : 2 lesmomenten binnen 2 verschillende opties
       te bespreken in overleg met betrokken docenten bij intake gesprek."
   textBottom: null
   codename: volwassene
