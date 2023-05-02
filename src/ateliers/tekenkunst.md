@@ -5,15 +5,14 @@ description:
   title: Tekenkunst
   text: >-
     In het atelier tekenkunst wordt een brede waaier aan technieken en
-    materialen aan aangereikt. Een breed scala aan onderwerpen en stijlen komt
-    aan bod.
+    materialen aangereikt. Een breed scala aan onderwerpen en stijlen komt aan
+    bod.
 
 
     Er is een duidelijke opbouw in het verloop van gegeven opdrachten. Geleidelijkheid en individuele opvolging zorgen voor de ontwikkeling van een persoonlijke vormgeving en een uniek artistiek project.
 
 
     Gerichte begeleiding zorgt voor evenwicht bij de student tussen persoonlijke expressie en het toepassen en combineren van technische vaardigheden.
-uurroosterFile: ""
 gallery:
   - altText: alt text placeholder
     file: /media/uploads/atelier-tekenkunst-7-1024.jpg
@@ -37,6 +36,7 @@ gallery:
     file: /media/uploads/atelier-tekenkunst-4.jpg
   - altText: alt text placeholder
     file: /media/uploads/atelier-tekenkunst-5.jpg
+uurroosterFile: ""
 materials: ""
 extraText: ""
 show3D: false
