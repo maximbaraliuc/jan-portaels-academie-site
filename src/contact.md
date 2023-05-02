@@ -11,14 +11,14 @@ emailSecretariaat: secretariaat.academiebeeldendekunsten@sovilvoorde.be
 openingsurenSchool:
   title: School
   table: |-
-    | maandag   | 9:00  | 21:30    |
-    | --------- | ----- | -------- |
-    | dinsdag   | 9:00  | 21:30    |
-    | woensdag  | 13:30 | 21:30    |
-    | donderdag | 13:30 | 21:30    |
-    | vrijdag   |       | gesloten |
-    | zaterdag  | 9:00  | 17:30    |
-    | zondag    | 9:00  | 12:30    |
+    | maandag   | 9:00     | 21:30    |
+    | --------- | -------- | -------- |
+    | dinsdag   | 9:00     | 21:30    |
+    | woensdag  | 13:30    | 21:30    |
+    | donderdag | 13:30    | 21:30    |
+    | vrijdag   | gesloten | gesloten |
+    | zaterdag  | 9:00     | 17:30    |
+    | zondag    | 9:00     | 12:30    |
 openingsurenSecretariaat:
   title: Secretariaat
   table: |-
