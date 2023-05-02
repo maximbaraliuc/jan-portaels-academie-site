@@ -75,7 +75,7 @@ materials: >-
   Te vinden bij: **ATITA**, **Kruidvat**, **Makro**, **Dreamland**, **Lucas creativ**, **Schleiper**.
 
 
-  Indien andere materialen noodzakelijk zijn voor een bepaalde opdracht wordt dit voorafgaandelijk door de leerkracht meegedeeld
+  A﻿ls er andere materialen nodig zijn voor een bepaalde opdracht, wordt dit door de leerkracht gecommuniceerd.
 extraText: |-
   **Een briefje van ouders nodig:**
 
