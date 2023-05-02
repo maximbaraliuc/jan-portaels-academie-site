@@ -71,12 +71,12 @@ volwassenen:
     textBottom: null
   grafiekkunst:
     title: Grafiekkunst (Spiegelstraat 62)
-    textTop: v﻿olwassenen 18+
+    textTop: ""
     table: |-
       |               | ma  | wo  |
       | ------------- | --- | --- |
       | 18:00 - 21:30 | ✔   | ✔   |
-    textBottom: null
+    textBottom: v﻿olwassenen 18+
   cultuurfilosofie:
     title: Cultuurfilosofie
     textTop: null
