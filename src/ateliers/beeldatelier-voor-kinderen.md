@@ -17,7 +17,6 @@ description:
 
 
     Elk kind kan op zijn/haar ritme werken, leren, proberen en soms mislukken. Net als Picasso geloven we dat elk kind een kunstenaar is.
-uurroosterFile: ""
 gallery:
   - file: /media/uploads/photos-original-7.jpg
     altText: placeholder
@@ -31,6 +30,7 @@ gallery:
     altText: placeholder
   - file: /media/uploads/photos-small-25.jpg
     altText: placeholder
+uurroosterFile: ""
 materials: >-
   **Materiaallijst Lagere Graad**
 
@@ -67,19 +67,20 @@ materials: >-
   Te vinden bij: **ATITA**, **Kruidvat**, **Makro**, **Dreamland**, **Lucas creativ**, **Schleiper**.
 
 
-  Draag alstublieft kleding die **vuil** kan worden of neem een schort mee.
+  Draag alstublieft kleding die **vuil** mag worden of neem een schort mee.
 extraText: >-
   **Een briefje van ouders nodig:**
 
-  - Als je alleen naar huis gaat
 
-  - Bij afwezigheid _(eventueel doktersattest)_
+  * Als je alleen naar huis gaat
+
+  * Bij afwezigheid *(eventueel doktersattest)*
 
 
   Gelieve kinderen op tijd op te halen!
 
 
-  Als er andere materialen nodig zijn voor een bepaalde opdracht, deze is voorlopig gemaakt door de leraar gecommuniceerd.
+  Als er andere materialen nodig zijn voor een bepaalde opdracht, wordt dit door de leerkracht gecommuniceerd.
 show3D: true
 video: ""
 ---
