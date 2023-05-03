@@ -16,8 +16,8 @@ description:
 
     De leerling wordt individueel begeleid met respect voor zijn unieke zelf. Er wordt getracht een ruimte te bieden waarin iedereen zoveel mogelijk zichzelf kan zijn, zich kan uitdrukken, kan ontdekken en zich beeldend kan ontwikkelen. Les volgen in het beeldatelier kan een welkome aanvulling zijn bij het dagonderwijs en/of een goede voorbereiding op verdergezet kunstonderwijs.
 gallery:
-  - file: /media/uploads/atelier-jongeren-7-1024.jpg
-    altText: handen met pizzaplakken gemaakt van papier
+  - file: /media/uploads/atelier-jongeren-12-1024.jpg
+    altText: ""
   - file: /media/uploads/atelier-jongeren-1-1024.jpg
     altText: composition drawing combining different parts of animals
   - file: /media/uploads/photos-original-9.jpg
