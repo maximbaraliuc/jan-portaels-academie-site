@@ -2,7 +2,7 @@
 kinderen:
   codename: kinderen
   peutie:
-    title: "Peutie (Aarschotsestraat 94) "
+    title: "Peutie (Aarschotsestraat 124) "
     textTop: ""
     table: |-
       |               | wo  | do  | za                |
