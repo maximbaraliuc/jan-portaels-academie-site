@@ -8,7 +8,7 @@ media:
   image_01: /media/uploads/atelier-beeldhouwen-5-1024.jpg
   image_02: /media/uploads/atelier-kinderen-10.jpg
   image_03: /media/uploads/atelier-kinderen-01.jpg
-  image_04: /media/uploads/photos-small-14.jpg
+  image_04: /media/uploads/atelier-tekenkunst-2-1024.jpg
   image_05: /media/uploads/atelier-grafiek-17-1024.jpg
   image_06: /media/uploads/photos-original-1.jpg
   image_06_alt_text: kind zit op gras en tekent
