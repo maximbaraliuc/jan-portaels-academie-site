@@ -6,7 +6,7 @@ welcome_text: Kunst zit soms in een klein hoekje. Onze academie biedt u veel
   langer dan een leven meegaat.
 media:
   image_01: /media/uploads/atelier-beeldhouwen-5-1024.jpg
-  image_02: /media/uploads/atelier-kinderen-10.jpg
+  image_02: /media/uploads/img_7687.jpg
   image_03: /media/uploads/atelier-kinderen-01.jpg
   image_04: /media/uploads/atelier-tekenkunst-2-1024.jpg
   image_05: /media/uploads/atelier-schilderkunst-12-1024.jpg
