@@ -132,7 +132,10 @@ volwassenen:
       | 9:00 - 12:30  | ✔   | ✔   | \-  | \-  |
       | 13:30 - 17:00 | ✔   | ✔   | \-  | ✔   |
       | 18:00 - 21:30 | ✔   | \-  | ✔   | \-  |
-    textBottom: v﻿olwassenen 18+
+    textBottom: >-
+      v﻿olwassenen 18+\
+
+      H﻿et atelier op donderdagnamiddag is in principe voorbehouden voor studenten vanaf 4.4
   audiovisuele:
     title: Beeldende en Audiovisuele Cultuur
     textTop: null
