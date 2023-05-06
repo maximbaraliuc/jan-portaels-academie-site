@@ -10,7 +10,7 @@ media:
   image_03: /media/uploads/atelier-kinderen-01.jpg
   image_04: /media/uploads/atelier-tekenkunst-2-1024.jpg
   image_05: /media/uploads/atelier-grafiek-17-1024.jpg
-  image_06: /media/uploads/photos-original-1.jpg
+  image_06: /media/uploads/5b17f5ac-281c-4123-816d-f70705048517.jpg
   image_06_alt_text: kind zit op gras en tekent
   image_05_alt_text: achter foto van vrouw bezig met beeldhouwkunst
   image_04_alt_text: een vrouw tekent aan een tafel vol met tekenmateriaal
