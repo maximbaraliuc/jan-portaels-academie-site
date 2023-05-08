@@ -19,7 +19,7 @@ inschrijfmomenten:
     * O﻿p het secretariaat
 
       * D﻿insdag 30 mei van 14u tot 19u
-      * W﻿oensdag 31 mei va 13u tot 19u
+      * W﻿oensdag 31 mei van 13u tot 19u
       * Z﻿aterdag 3 juni van 9u tot 14u
       * M﻿aandag 5 juni van 13u tot 19u
       * D﻿insdag 6 juni van 13u tot 19u
@@ -45,7 +45,7 @@ inschrijfmomenten:
       * D﻿insdag 27 juni van 13u tot 19u
       * W﻿oensdag 28 juni van 13u tot 19u
       * D﻿onderdag 29 juni van 13u tot 19u
-      * V﻿an 21 augustus tem1 september op maandag, dinsdag, woensdag, donderdag en vrijdag van 13u tot 19u
+      * V﻿an 21 augustus tem 1 september op maandag, dinsdag, woensdag, donderdag en vrijdag van 13u tot 19u
       * Z﻿aterdag 2 september van 9u tot 14u
       * V﻿an 3 tem 30 september op maandag, dinsdag en woensdag van 13u tot 19u \
         Donderdag en zaterdag enkel mogelijk na afspraak via secretariaat.academiebeeldendekunsten@sovilvoorde.be
