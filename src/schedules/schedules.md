@@ -5,10 +5,10 @@ kinderen:
     title: "Peutie (Aarschotsestraat 124) "
     textTop: ""
     table: |-
-      |               | wo  | do  | za                |
-      | ------------- | --- | --- | ----------------- |
-      | 9.00 - 10.40  | \-  | \-  | 1ste en 2de graad |
-      | 10.50 - 12.30 | \-  | \-  | 1ste en 2de graad |
+      |               | wo  | za                |
+      | ------------- | --- | ----------------- |
+      | 9.00 - 10.40  | \-  | 1ste en 2de graad |
+      | 10.50 - 12.30 | \-  | 1ste en 2de graad |
     textBottom: k﻿inderen 1ste tot 6de leerjaar
   spiegelstraat:
     title: "Vilvoorde (Spiegelstraat 62) "
@@ -22,22 +22,22 @@ kinderen:
       | 15.20 - 17.00 | 1ste en 2de graad |  \-               |
     textBottom: k﻿inderen 1ste tot 6de leerjaar
   koningslo:
-    title: Koningslo (Streekbaan 189A)
+    title: Koningslo .K (Streekbaan 189A)
     textTop: null
     table: |-
-      |               | wo                | do  | za  |
-      | ------------- | ----------------- | --- | --- |
-      | 13.30 - 15.10 | 1ste en 2de graad | \-  | \-  |
-      | 15.20 - 17.00 | 1ste en 2de graad | \-  | \-  |
+      |               | wo                | za  |
+      | ------------- | ----------------- | --- |
+      | 13.30 - 15.10 | 1ste en 2de graad | \-  |
+      | 15.20 - 17.00 | 1ste en 2de graad | \-  |
     textBottom: k﻿inderen 1ste tot 6de leerjaar
   faubourg:
     title: "Houtem (K. Trekelstraat 36) "
     textTop: null
     table: |-
-      |               | wo  | do                | za  |
-      | ------------- | --- | ----------------- | --- |
-      | 13.30u - 15.10u | 1ste en 2de graad| \- | \-  |
-      | 15.20u - 17.00u | 1ste en 2de graad| \- | \-  ﻿|
+      |               | wo  | za  |
+      | ------------- | --- | --- |
+      | 13.30u - 15.10u | 1ste en 2de graad| \-  |
+      | 15.20u - 17.00u | 1ste en 2de graad| \-  ﻿|
     textBottom: |-
       k﻿inderen 1ste tot 6de leerjaar
 
