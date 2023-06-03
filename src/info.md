@@ -47,7 +47,7 @@ reglementen:
   - fileName: Academiereglement
     fileLink: /media/uploads/2022-04-21-Academiereglement_2022_2023_BK_Portaels.pdf
   - fileName: Retributiereglement
-    fileLink: /media/uploads/retributiereglement.pdf
+    fileLink: /media/uploads/retributiereglement_2023_2024_bk_portaels.pdf
   - fileName: APP
     fileLink: /media/uploads/app.pdf
 timetables: null
