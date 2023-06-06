@@ -31,41 +31,26 @@ gallery:
   - file: /media/uploads/photos-small-25.jpg
     altText: placeholder
 uurroosterFile: ""
-materials: >-
+materials: |-
   **Materiaallijst Lagere Graad**
 
-
   * 1 dikke + 1 dunne/fijne zwarte alcoholstift + 1 balpen
-
   * Potloden : 1HB + 2B
-
   * 1 gewone gom
-
   * 1 kneedgom
-
   * 1 slijper (met potje)
-
   * 1 schaar
-
   * 3 ronde penselen: maat 2 + maat 6 + maat 12
-
   * 3 platte penselen: maat 2 + maat 6 + maat 12
-
   * 1 vloeibare knutsellijm
-
   * 2 pritt lijmstiften
-
   * 1 doosje pandakrijt
-
   * 1 vod of handdoek
-
   * 2 rollen papieren schilderstape
-
   * Kleurpotloden
+  * T﻿ekenmap formaat A3
 
-
-  Te vinden bij: **ATITA**, **Kruidvat**, **Makro**, **Dreamland**, **Lucas creativ**, **Schleiper**.
-
+  Te vinden bij: **Kruidvat**, **Dreamland**, **Lucas creativ**, **Schleiper**.
 
   Draag alstublieft kleding die **vuil** mag worden of neem een schort mee.
 extraText: >-
