@@ -72,7 +72,7 @@ materials: >-
   * Schort
 
 
-  Te vinden bij: **ATITA**, **Kruidvat**, **Makro**, **Dreamland**, **Lucas creativ**, **Schleiper**.
+  Te vinden bij: **Kruidvat**, **Dreamland**, **Lucas creativ**, **Schleiper**.
 
 
   A﻿ls er andere materialen nodig zijn voor een bepaalde opdracht, wordt dit door de leerkracht gecommuniceerd.
