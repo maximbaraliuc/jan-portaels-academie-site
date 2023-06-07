@@ -1,5 +1,5 @@
 ---
-title: Eindejaarsexpo
+title: EINDEJAARSEXPO
 date: git Last Modified
 images:
   - file: /media/uploads/academie-jan-portaels-expo-22-23.jpg
