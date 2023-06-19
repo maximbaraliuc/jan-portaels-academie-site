@@ -44,7 +44,6 @@ inschrijfmomenten:
       * M﻿aandag 26 juni van 13u tot 19u
       * D﻿insdag 27 juni van 13u tot 19u
       * W﻿oensdag 28 juni van 13u tot 19u
-      * D﻿onderdag 29 juni van 13u tot 19u
       * V﻿an 21 augustus tem 1 september op maandag, dinsdag, woensdag, donderdag en vrijdag van 13u tot 19u
       * Z﻿aterdag 2 september van 9u tot 14u
       * V﻿an 3 tem 30 september op maandag, dinsdag en woensdag van 13u tot 19u \
