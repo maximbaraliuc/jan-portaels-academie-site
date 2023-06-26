@@ -1,5 +1,5 @@
 ---
-title: PROEFLESSEN TEKENKUNST
+title: proeflessen TEKENKUNST
 date: git Last Modified
 images:
   - file: /media/uploads/atelier-tekenkunst-3-1024.jpg
