@@ -8,4 +8,4 @@ images:
   - file: /media/uploads/brug-tussen-twee-werelden_pagina-2.jpg
 files: []
 ---
-P﻿ROJECTATELIER
+B﻿RUG-TUSSEN-TWEE-WERELDEN
