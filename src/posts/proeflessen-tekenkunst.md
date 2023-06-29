@@ -1,5 +1,5 @@
 ---
-title: Proeflessen TEKENKUNST
+title: Proeflessen TEKENKUNST (Rainier Boidin en Johan Clocheret)
 date: git Last Modified
 images:
   - file: /media/uploads/atelier-tekenkunst-3-1024.jpg
