@@ -17,7 +17,7 @@ openingsurenSchool:
     | woensdag  | 13:30    | 21:30    |
     | donderdag | 13:30    | 21:30    |
     | vrijdag   | gesloten | gesloten |
-    | zaterdag  | 9:00     | 17:30    |
+    | zaterdag  | 9:00     | 17:00    |
     | zondag    | 9:00     | 12:30    |
 openingsurenSecretariaat:
   title: Secretariaat
