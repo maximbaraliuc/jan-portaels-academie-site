@@ -45,7 +45,7 @@ calender: |-
     De zaterdag in de vakantie is er geen les.
 reglementen:
   - fileName: Academiereglement
-    fileLink: /media/uploads/2022-04-21-Academiereglement_2022_2023_BK_Portaels.pdf
+    fileLink: /media/uploads/abk_academiereglement_23_24-versie-08-06-2023.pdf
   - fileName: Retributiereglement
     fileLink: /media/uploads/retributiereglement_2023_2024_bk_portaels.pdf
   - fileName: APP
