@@ -4,44 +4,34 @@ permalink: /info.html
 section: Info
 title: Info
 calender: |-
-  * **Vakantiekalender 2022 – 2023**
-  * **Donderdag 1 september 2022**
-
-    Opstart lessen
-  * **Woensdag 5 oktober 2022**
-
-    1e facultatieve verlofdag
-  * **Herfstvakantie**
-    **Maandag 31 oktober tem**
-    **zondag 6 november 2022**
+  * **Vakantiekalender 2023 – 2024**
+  * **O﻿pstart lessen**\
+    Z﻿aterdag 2 september 2023
+  * **Herfstvakantie**\
+    Maandag 30 oktober tem zondag 5 november 2023
+  * **Wapenstilstand**\
+    Z﻿aterdag 11 november 2023
   * **Kerstvakantie**
-    **Zondag 25 december tem**
-    **zondag 8 januari 2023**
+    Maandag 25 december 2023 tem zondag 7 januari 2024
   * **Krokusvakantie**
-    **Maandag 20 februari tem**
-    **zondag 26 februari 2023**
+    Maandag 12 februari tem zondag 18 februari 2024
   * **Paasvakantie**
-    **Maandag 3 april tem zondag**
-    **16 april 2023**
-  * **Maandag 1 mei 2023**
-
-    Dag van de Arbeid / Jaarmarkt
-  * **Donderdag 18 mei 2023**
-
-    Hemelvaart
-  * **Zaterdag 20 mei 2023**
-
-    2e facultatieve verlofdag
-  * **Zondag 28 mei 2023**
-
-    Pinksteren
-  * **Maandag 29 mei 2023**
-
-    Pinkstermaandag
-  * **Zomervakantie**
-    **Zaterdag 1 juli tem**
-    **donderdag 31 augustus 2023**
-  * De zaterdag vóór de vakantie is er les.
+    Maandag 1 april tem zondag 14 april 2024
+  * **F﻿acultatieve verlofdag: jaarmarkt**\
+    M﻿aandag 22 april 2024
+  * **D﻿ag van de arbeid**\
+    W﻿oensdag 1 mei 2024
+  * **H﻿emelvaart**\
+    D﻿onderdag 9 mei 2024
+  * **Facultatieve verlofdag**\
+    Z﻿aterdag 11 mei 2024
+  * **P﻿inksteren**\
+    Z﻿ondag 19 mei 2024
+  * **P﻿inkstermaandag**\
+    M﻿aandag 20 mei 2024
+  * **Zomervakantie**\
+    M﻿aandag 1 juli tem zaterdag 31 augustus 2024
+  * De zaterdag vóór de vakantie is er wel les.
     De zaterdag in de vakantie is er geen les.
 reglementen:
   - fileName: Academiereglement
