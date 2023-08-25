@@ -66,6 +66,6 @@ extraText: >-
 
 
   Als er andere materialen nodig zijn voor een bepaalde opdracht, wordt dit door de leerkracht gecommuniceerd.
-show3D: true
+show3D: false
 video: ""
 ---
