@@ -10,3 +10,9 @@ images:
 E﻿XPO NATACHA DIMOVSKA
 
 I﻿edereen van harte welkom!!
+
+<https://natachadimovska.wordpress.com/>
+
+<https://www.instagram.com/natacha.dimovska/>
+
+<https://www.facebook.com/BloemenOpJeWeg/about>
