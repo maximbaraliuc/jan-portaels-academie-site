@@ -4,7 +4,7 @@ permalink: /info.html
 section: Info
 title: Info
 calender: |-
-  ## **Vakantiekalender 2023 – 2024**  
+  ## **Vakantiekalender 2023 – 2024**
 
   * **O﻿pstart lessen**\
     Z﻿aterdag 2 september 2023
@@ -17,7 +17,7 @@ calender: |-
   * **Krokusvakantie**
     Maandag 12 februari tem zondag 18 februari 2024
   * **Paasvakantie**
-    Maandag 1 april tem zondag 14 april 2024
+    Zondag 31 maart tem zondag 14 april 2024
   * **F﻿acultatieve verlofdag: jaarmarkt**\
     M﻿aandag 22 april 2024
   * **D﻿ag van de arbeid**\
@@ -38,7 +38,7 @@ calender: |-
   ## **A﻿ctiviteiten 2023 - 2024**
 
   * **S﻿maakdagen**\
-    z﻿aterdag 21 oktober 2023 en woensdag 25 oktober 2023
+    woensdag 25 oktober 2023 en zaterdag 28 oktober 2023
   * **D﻿ag van de academies**\
     z﻿aterdag 3 februari 2024
   * **J﻿uryweek graad 4**\
