@@ -6,12 +6,14 @@ featuredImage:
 images:
   - file: /media/uploads/2023-uitnodiging-expo-moment1-natacha-dimovska.jpg
   - file: /media/uploads/2023-uitnodiging-expo-moment2-natacha-dimovska.jpg
-extraText: |-
+extraText: >-
   <https://natachadimovska.wordpress.com/>
+
 
   <https://www.instagram.com/natacha.dimovska/>
 
-  <https://www.facebook.com/BloemenOpJeWeg/about>
+
+  [](https://www.facebook.com/BloemenOpJeWeg/about)<https://www.facebook.com/natacha.dimovska>
 ---
 E﻿XPO NATACHA DIMOVSKA
 
