@@ -47,6 +47,7 @@ materials: |-
   * 1 doosje pandakrijt
   * 1 vod of handdoek
   * 2 rollen papieren schilderstape
+  * 1﻿ schetsboek (lege bladen)
   * Kleurpotloden
   * T﻿ekenmap formaat A3
 
