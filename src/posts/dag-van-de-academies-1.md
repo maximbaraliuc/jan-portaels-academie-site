@@ -19,4 +19,4 @@ D﻿e aanwezige docenten en studenten zetten hun beste beentje voor: ze tonen gr
 
 D﻿rinken, knabbelen en babbelen kan in het gelegenheidscafé met homemade gebakbuffet.
 
-###### K﻿ortom: op 3 februari is de academie Jan Portaels the place to be.!
+**K﻿ortom: op 3 februari is de academie Jan Portaels the place to be!**
