@@ -40,7 +40,7 @@ calender: |-
   * **S﻿maakdagen**\
     woensdag 25 oktober 2023 en zaterdag 28 oktober 2023
   * **D﻿ag van de academies**\
-    z﻿aterdag 3 februari 2024
+    z﻿aterdag 3 februari 2024 van 13u30 tot 17u
   * **J﻿uryweek graad 4**\
     w﻿oensdag 12 juni 2024 tem dinsdag 18 juni 2024
   * **P﻿roclamatie**\
