@@ -32,3 +32,6 @@ openingsurenSecretariaat:
     | zondag    |  gesloten | gesloten |
 googleEmbed: https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2514.6322351379167!2d4.417528315848299!3d50.930519760537614!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c3e800440761f1%3A0xe1b00c2673d8656c!2sSpiegelstraat%2062%2C%201800%20Vilvoorde!5e0!3m2!1snl!2sbe!4v1651680471386!5m2!1snl!2sbe
 ---
+I﻿nfo over Stedelijk Onderwijs Vilvoorde in het algemeen vind je op onderstaande website
+
+<https://www.stedelijkonderwijsvilvoorde.be>
