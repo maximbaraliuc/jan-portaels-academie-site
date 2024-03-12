@@ -25,7 +25,7 @@ openingsurenSecretariaat:
     | maandag   | 9:00      | 19:00    |
     | --------- | --------- | -------- |
     | dinsdag   | 9:00      | 19:00    |
-    | woensdag  | 13:00     | 19:00    |
+    | woensdag  | 13:00     | 18:00    |
     | donderdag | 13:00     | 19:00    |
     | vrijdag   |  gesloten | gesloten |
     | zaterdag  | 9:00      | 14:00    |
