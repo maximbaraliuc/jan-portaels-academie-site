@@ -8,53 +8,57 @@ inschrijfmomenten:
   text: >-
     **Inschrijvingsperiode:**\
 
-    30 mei tot uiterlijk 30 september
+    28 mei 2024 tot uiterlijk 30 september 2024
 
 
     **Voorinschrijvingen:**
 
 
-    * Online vanaf dinsdag 30 mei 14u tem woensdag 14 juni 14u via **[mijnacademie.be](http://www.mijnacademie.be/ "naar mijnacademie.be")**
+    * Online vanaf dinsdag 28 mei 14u tem dinsdag 11 juni 14u via **[mijnacademie.be](http://www.mijnacademie.be/ "naar mijnacademie.be")**
 
-    * O﻿p het secretariaat
+    * O﻿p het secretariaat **ENKEL** op de volgende momenten:
 
-      * D﻿insdag 30 mei van 14u tot 19u
-      * W﻿oensdag 31 mei van 13u tot 19u
-      * Z﻿aterdag 3 juni van 9u tot 14u
-      * M﻿aandag 5 juni van 13u tot 19u
-      * D﻿insdag 6 juni van 13u tot 19u
-      * W﻿oensdag 7 juni van 13u tot 19u
-      * D﻿onderdag 8 juni van 13u tot 19u
-      * M﻿aandag 12 juni van 13u tot 19u
-      * D﻿insdag 13 juni van 13u tot 19u
+      * D﻿insdag 28 mei van 14u tot 19u
+      * W﻿oensdag 29 mei van 13u tot 17u
+      * Z﻿aterdag 1 juni van 9u tot 15u
+      * M﻿aandag 3 juni van 13u tot 19u
+      * D﻿insdag 4 juni van 13u tot 19u
+      * W﻿oensdag 5 juni van 13u tot 17u
+      * D﻿onderdag 6 juni van 13u tot 19u
+      * M﻿aandag 10 juni van 13u tot 19u
 
-    **Nieuwe leerlingen/studenten:**
+    **Nieuwe leerlingen/studenten:**\
+
+    (﻿ook herinschrijvingen nog mogelijk)
 
 
-    * O﻿nline vanaf woensdag 14 juni 14u tem zaterdag 30 september via **[mijnacademie.be](http://www.mijnacademie.be/ "naar mijnacademie.be")**
+    * O﻿nline vanaf dinsdag 11 juni 14u tem maandag 30 september 23u59 via **[mijnacademie.be](http://www.mijnacademie.be/ "naar mijnacademie.be")**
 
-    * O﻿p het secretariaat
+    * O﻿p het secretariaat **ENKEL** op de volgende momenten:
 
-      * W﻿oensdag 14 juni van 14u tot 19u
-      * Z﻿aterdag 17 juni van 9u tot 14u
-      * M﻿aandag 19 juni van 13u tot 19u
-      * D﻿insdag 20 juni van 13u tot 19u
-      * W﻿oensdag 21 juni van 13u tot 19u
-      * D﻿onderdag 22 juni van 13u tot 19u
-      * M﻿aandag 26 juni van 13u tot 19u
-      * D﻿insdag 27 juni van 13u tot 19u
-      * W﻿oensdag 28 juni van 13u tot 19u
-      * V﻿an 21 augustus tem 1 september op maandag, dinsdag, woensdag, donderdag en vrijdag van 13u tot 19u
-      * Z﻿aterdag 2 september van 9u tot 14u
-      * V﻿an 3 tem 30 september op maandag, dinsdag en woensdag van 13u tot 19u \
-        Donderdag en zaterdag enkel mogelijk na afspraak via secretariaat.academiebeeldendekunsten@sovilvoorde.be
+      * Dinsdag 11 juni van 14u tot 19u
+      * W﻿oensdag 12 juni van 13u tot 17u
+      * Z﻿aterdag 15 juni van 9u tot 15u
+      * M﻿aandag 17 juni van 13u tot 19u
+      * D﻿insdag 18 juni van 13u tot 19u
+      * W﻿oensdag 19 juni van 13u tot 17u
+      * D﻿onderdag 20 juni van 13u tot 19u
+      * M﻿aandag 24 juni van 13u tot 19u
+      * D﻿insdag 25 juni van 13u tot 19u
+      * W﻿oensdag 26 juni van 13u tot 17u
+      * Z﻿aterdag 29 juni van 9u tot 15u
+      * V﻿an 19 augustus tem 29 augustus op maandag, dinsdag, woensdag en donderdag van 13u tot 19u
+      * V﻿an 2 tem 30 september \
+        op maandag en dinsdag van 13u tot 19u\
+        o﻿p woensdag van 13u tot 17u\
+        o﻿p zaterdag van 9u tot 15u
 
     **Meebrengen:** 
 
 
     * identiteitskaart in te schrijven leerling
 
-    * i﻿ndien van toepassing verminderingsattest of Vilvoordse vrijetijdspas
+    * i﻿ndien van toepassing verminderingsattest of Vilvoordse vrijetijdspas of Uitpas
 
 
     **Betaling** met ![bancontact logo](https://jan-portaels-dev.netlify.app/images/bancontact-logo.svg)
