@@ -71,15 +71,15 @@ tarieven:
 
     | -------------------------------------------------------- | -------------- | ----------------- |
 
-    | 1ste en 2de graad (6 - 12 jaar)                          |                |                   |
+    | **1ste en 2de graad (6 - 12 jaar)**                      |                |                   |
 
     | Beeldatelier                                             | 85,00 €        | 58,00 €           |
 
-    | 3de graad (12 - 18 jaar)                                 |                |                   |
+    | **3de graad (12 - 18 jaar)**                             |                |                   |
 
     | Beeldatelier                                             | 105,00 €       | 78,00 €           |
 
-    | 4de graad - jongeren (18 - 24 jaar)                      |                |                   |
+    | **4de graad - jongeren (18 - 24 jaar)**                  |                |                   |
 
     | Tekenkunst, schilderkunst, cross-over, projectatelier    | 164,00 €       | \-                |
 
@@ -89,7 +89,7 @@ tarieven:
 
     | Beeldende en audiovisuele cultuur BAC                    | 158,00 €       | \-                |
 
-    | 4de graad - volwassenen (+ 25 jaar)                      |                |                   |
+    | **4de graad - volwassenen (+ 25 jaar)**                  |                |                   |
 
     | Tekenkunst, schilderkunst, cross-over, projectatelier    | 378,00 €       | 164,00 €          |
 
@@ -97,11 +97,9 @@ tarieven:
 
     | Beeldhouwen en ruimtelijke kunst vanaf 2de jaar          | 468,00 €       | 254,00 €          |
 
-    | Beeldende en audiovisuele cultuur BAC                    | 372,00 €       | 158,00 €          |
+    | Beeldende en audiovisuele cultuur BAC                    | 372,00 €       | 158,00 €          |           |
 
-    | Vrije leerling                                           |                |                   |
-
-    | Kunst- en cultuurfilosofie                               | 186,00 €       | \-                |
+    | Kunst- en cultuurfilosofie (Vrije leerling)               | 186,00 €       | \-              
   textBottom: >-
     ### Voorwaarden verminderd tarief
 
