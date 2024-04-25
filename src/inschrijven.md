@@ -107,23 +107,23 @@ tarieven:
     **Om in aanmerking te komen voor verminderd inschrijvingsgeld moet de leerling op de dag van de inschrijving aan minstens één van de volgende voorwaarden voldoen:**
 
 
-    1.Verplicht ingeschreven zijn als werkzoekende of daarmee gelijkgesteld.
+    1. Verplicht ingeschreven zijn als werkzoekende of daarmee gelijkgesteld.
 
-    2.Een leefloon van het OCMW ontvangen of een uitkering die daarmee gelijkgesteld is.
+    2. Een leefloon van het OCMW ontvangen of een uitkering die daarmee gelijkgesteld is.
 
-    3.Een inkomensgarantie voor ouderen of een rentebijslag ontvangen.
+    3. Een inkomensgarantie voor ouderen of een rentebijslag ontvangen.
 
-    4.Erkend zijn als persoon met een handicap en een tegemoetkoming van de Federale Overheidsdienst Sociale Zekerheid ontvangen of houder zijn van een European Disability Card.
+    4. Erkend zijn als persoon met een handicap en een tegemoetkoming van de Federale Overheidsdienst Sociale Zekerheid ontvangen of houder zijn van een European Disability Card.
 
-    5.Begunstigde zijn van een verhoogde kinderbijslag (erkend voor ten minste 66%).
+    5. Begunstigde zijn van een verhoogde kinderbijslag (erkend voor ten minste 66%).
 
-    6.Voor ten minste 66% arbeidsongeschikt zijn.
+    6. Voor ten minste 66% arbeidsongeschikt zijn.
 
-    7.In een gezinsvervangend tehuis of in een medisch-pedagogische instelling of in een pleeggezin verblijven.
+    7. In een gezinsvervangend tehuis of in een medisch-pedagogische instelling of in een pleeggezin verblijven.
 
-    8.Het statuut van erkend politiek vluchteling bezitten.
+    8. Het statuut van erkend politiek vluchteling bezitten.
 
-    9.B﻿egunstigde zijn van een verhoogde verzekeringstegemoetkoming.
+    9. B﻿egunstigde zijn van een verhoogde verzekeringstegemoetkoming.
 
 
     **Een leerling die ten laste is van een persoon die aan minstens één van de voorwaarden voldoet, hierboven vermeld, komt eveneens in aanmerking voor het verminderde inschrijvingsgeld.**
