@@ -143,7 +143,7 @@ tarieven:
     De houder betaalt 20 % van het normale tarief of van het verminderd tarief mits voorlegging van de nodige attesten hierboven vermeld en 20 % van de materiaalkost, reeds verrekend in het tarief.
 
 
-    *﻿*Houder Uitpas met kortingstarief:**
+    **Houder Uitpas met kortingstarief:**
 
 
     D﻿e houder betaalt 20% van het verminderd tarief mits voorlegging van een Uitpas met kortingstarief bij de inschrijving. De korting geldt niet op de bijkomende materiaalbijdrage. De Uitpas met kortingstarief geldt bij de categorieën in punt 2 en 9.
