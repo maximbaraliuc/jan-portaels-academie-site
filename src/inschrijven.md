@@ -146,7 +146,7 @@ tarieven:
     **Houder Uitpas met kortingstarief:**
 
 
-    D﻿e houder betaalt 20% van het verminderd tarief mits voorlegging van een Uitpas met kortingstarief bij de inschrijving. De korting geldt niet op de bijkomende materiaalbijdrage. De Uitpas met kortingstarief geldt bij de categorieën in punt 2 en 9.
+    D﻿e houder betaalt 20% van het verminderd tarief mits voorlegging van een Uitpas met kortingstarief **bij de inschrijving**. **(Terugbetaling achteraf is NIET mogelijk.)** De korting geldt niet op de bijkomende materiaalbijdrage. De Uitpas met kortingstarief geldt bij de categorieën in punt 2 en 9.
   tarievenFile:
     ? fileName
     ? fileLink
