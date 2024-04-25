@@ -99,7 +99,7 @@ tarieven:
 
     | Beeldende en audiovisuele cultuur BAC                    | 379,00 €       | 161,00 €          |           |
 
-    | Kunst- en cultuurfilosofie (Vrije leerling)               | 230 €       | \-              
+    | Kunst- en cultuurfilosofie (Vrije leerling)               | 230,00 €       | \-              
   textBottom: >-
     ### Voorwaarden verminderd tarief
 
