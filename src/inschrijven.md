@@ -63,7 +63,7 @@ inschrijfmomenten:
 
     **Betaling** met ![bancontact logo](https://jan-portaels-dev.netlify.app/images/bancontact-logo.svg)
 tarieven:
-  title: Inschrijvingstarieven
+  title: Inschrijvingstarieven schooljaar 2024-2025
   textTop: ""
   table: >-
     |                                                          | normaal tarief
