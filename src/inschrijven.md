@@ -73,17 +73,17 @@ tarieven:
 
     | **1ste en 2de graad (6 - 12 jaar)**                      |                |                   |
 
-    | Beeldatelier                                             | 85,00 €        | 58,00 €           |
+    | Beeldatelier                                             | 87,00 €        | 59,00 €           |
 
     | **3de graad (12 - 18 jaar)**                             |                |                   |
 
-    | Beeldatelier                                             | 105,00 €       | 78,00 €           |
+    | Beeldatelier                                             | 93,00 €       | 65,00 €           |
 
     | **4de graad - jongeren (18 - 24 jaar)**                  |                |                   |
 
-    | Tekenkunst, schilderkunst, cross-over, projectatelier    | 164,00 €       | \-                |
+    | Tekenkunst, schilderkunst, cross-over, projectatelier    |              | 171,00€          
 
-    | Grafiekkunst                                             | 194,00 €       | \-                |
+    | Grafiekkunst                                             |        |    181,00€       |   
 
     | Beeldhouwen en ruimtelijke kunst                         | 254,00 €       | \-                |
 
