@@ -81,25 +81,25 @@ tarieven:
 
     | **4de graad - jongeren (18 - 24 jaar)**                  |                |                   |
 
-    | Tekenkunst, schilderkunst, cross-over, projectatelier    |              | 171,00€          
+    | Tekenkunst, schilderkunst, cross-over, projectatelier    |     -         | 171,00€          
 
-    | Grafiekkunst                                             |        |    181,00€       |   
+    | Grafiekkunst                                             |     -   |    181,00€       |   
 
-    | Beeldhouwen en ruimtelijke kunst                         | 254,00 €       | \-                |
+    | Beeldhouwen en ruimtelijke kunst                         |    -    |221,00€              
 
-    | Beeldende en audiovisuele cultuur BAC                    | 158,00 €       | \-                |
+    | Beeldende en audiovisuele cultuur BAC                    | -       |161,00€                |
 
     | **4de graad - volwassenen (+ 25 jaar)**                  |                |                   |
 
-    | Tekenkunst, schilderkunst, cross-over, projectatelier    | 378,00 €       | 164,00 €          |
+    | Tekenkunst, schilderkunst, cross-over, projectatelier    | 389,00 €       | 171,00 €          |
 
-    | Grafiekkunst, beeldhouwen en ruimtelijke kunst 1ste jaar | 408,00 €       | 194,00 €          |
+    | Grafiekkunst, beeldhouwen en ruimtelijke kunst 1ste jaar | 399,00 €       | 181,00 €          |
 
-    | Beeldhouwen en ruimtelijke kunst vanaf 2de jaar          | 468,00 €       | 254,00 €          |
+    | Beeldhouwen en ruimtelijke kunst vanaf 2de jaar          | 439,00 €       | 221,00 €          |
 
-    | Beeldende en audiovisuele cultuur BAC                    | 372,00 €       | 158,00 €          |           |
+    | Beeldende en audiovisuele cultuur BAC                    | 379,00 €       | 161,00 €          |           |
 
-    | Kunst- en cultuurfilosofie (Vrije leerling)               | 186,00 €       | \-              
+    | Kunst- en cultuurfilosofie (Vrije leerling)               | 230 €       | \-              
   textBottom: >-
     ### Voorwaarden verminderd tarief
 
