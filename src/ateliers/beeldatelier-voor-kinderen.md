@@ -17,6 +17,11 @@ description:
 
 
     Elk kind kan op zijn/haar ritme werken, leren, proberen en soms mislukken. Net als Picasso geloven we dat elk kind een kunstenaar is.
+
+
+    ***V﻿rijblijvend gratis proefles mogelijk in de maand september in een klas naar keuze zolang er plaats is.*** \
+
+    ***E﻿en proefles aanvragen doe je via het secretariaat op secretariaat.academiebeeldendekunsten@sovilvoorde.be of 02 251 51 51***
 gallery:
   - file: /media/uploads/photos-original-7.jpg
     altText: placeholder
