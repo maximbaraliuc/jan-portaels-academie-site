@@ -27,9 +27,9 @@ description:
 
     ***o﻿f rechtstreeks bij de docent***\
 
-    ***r﻿ainier.boidin@sovilvoorde.be***\
+    ***r﻿ainier.boidin@sovilvoorde.be*** \
 
-    ***n﻿atacha.dimovska@sovilvoorde.be***\
+    ***n﻿atacha.dimovska@sovilvoorde.be*** \
 
     ***j﻿ohan.clocheret@sovilvoorde.be***
 gallery:
