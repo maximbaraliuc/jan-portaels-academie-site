@@ -27,5 +27,5 @@ uurroosterFile: null
 materials: ""
 extraText: ""
 show3D: false
-video: /media/uploads/20240326_155412.mp4
+video: ""
 ---
