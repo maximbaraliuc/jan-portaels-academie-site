@@ -22,8 +22,7 @@ description:
     M﻿eer info via secretariaat.academiebeeldendekunsten@sovilvoorde.be of 02/251 51 51\
 
     o﻿f rechtstreeks bij de docent marianne.knop@sovilvoorde.be
-gallery:
-  - file: /media/uploads/20240123_140147-1-2-.jpg
+gallery: []
 uurroosterFile: null
 materials: ""
 extraText: ""
