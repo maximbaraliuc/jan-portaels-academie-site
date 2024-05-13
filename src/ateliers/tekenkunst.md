@@ -13,6 +13,25 @@ description:
 
 
     Gerichte begeleiding zorgt voor evenwicht bij de student tussen persoonlijke expressie en het toepassen en combineren van technische vaardigheden.
+
+
+    ***V﻿rijblijvend gratis proefles mogelijk in de maand september op***\
+
+    ***z﻿aterdag-, zondag- of maandagvoormiddag telkens van 9u tot 12u30 (docent Rainier Boidin)***\
+
+    ***d﻿insdagvoormiddag van 9u tot 12u30 of donderdagavond van 18u tot 21u30 (docent Natacha Dimovska)***\
+
+    ***d﻿insdagnamiddag van 13u30u tot 17u of dinsdagavond van 18u tot 21u30 (docent Johan Clocheret)***\
+
+    ***Een proefles aanvragen kan via het secretariaat op secretariaat.academiebeeldendekunsten@sovilvoorde.be of 02 251 51 51***\
+
+    ***o﻿f rechtstreeks bij de docent***\
+
+    ***r﻿ainier.boidin@sovilvoorde.be***\
+
+    ***n﻿atacha.dimovska@sovilvoorde.be***\
+
+    ***j﻿ohan.clocheret@sovilvoorde.be***
 gallery:
   - altText: alt text placeholder
     file: /media/uploads/atelier-tekenkunst-7-1024.jpg
