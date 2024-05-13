@@ -15,7 +15,13 @@ description:
 
 
     Alle materialen en inherente combinaties kunnen in aanmerking komen om een individuele invulling te geven aan een kunstzinnige identiteit
-uurroosterFile: ""
+
+
+    ***V﻿rijblijvend gratis proefles mogelijk in de maand september op maandagnamiddag van 13u30 tot 17u of maandag- of woensdagavond telkens van 18u tot 21u30.***\
+
+    ***E﻿en proefles aanvragen kan via het secretariaat op secretariaat.academiebeeldendekunsten@sovilvoorde.be of 02 251 51 51***\
+
+    ***o﻿f rechtstreeks bij de docent johan.clocheret@sovilvoorde.be***
 gallery:
   - altText: alt text placeholder
     file: /media/uploads/atelier-beeldhouwen-13-1024.jpg
@@ -37,6 +43,7 @@ gallery:
     file: /media/uploads/atelier-beeldhouwen-10-1024.jpg
   - altText: alt text placeholder
     file: /media/uploads/atelier-beeldhouwen-2.jpg
+uurroosterFile: ""
 materials: ""
 extraText: ""
 show3D: false
