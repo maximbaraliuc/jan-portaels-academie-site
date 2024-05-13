@@ -1,5 +1,5 @@
 ---
-title: "Beeldende en Audiovisuele Cultuur "
+title: Beeldende en Audiovisuele Cultuur (BAC)
 name: audiovisuele
 description:
   title: Beeldende en Audiovisuele Cultuur
@@ -22,7 +22,8 @@ description:
     M﻿eer info via secretariaat.academiebeeldendekunsten@sovilvoorde.be of 02/251 51 51\
 
     o﻿f rechtstreeks bij de docent marianne.knop@sovilvoorde.be
-gallery: []
+gallery:
+  - file: /media/uploads/20240123_140147-1-2-.jpg
 uurroosterFile: null
 materials: ""
 extraText: ""
