@@ -24,7 +24,7 @@ description:
     o﻿f rechtstreeks bij de docent marianne.knop@sovilvoorde.be
 gallery:
   - file: /media/uploads/20240123_140236-1-.jpg
-  - file: /media/uploads/20240123_140542-1-1-.jpg
+  - file: /media/uploads/20240123_140542-1-2-.jpg
 uurroosterFile: null
 materials: ""
 extraText: ""
