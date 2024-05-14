@@ -20,7 +20,7 @@ description:
 
     E﻿en proefles aanvragen kan via het secretariaat op secretariaat.academiebeeldendekunsten@sovilvoorde.be of 02 251 51 51\
 
-    o﻿f rechtstreeks bij de docent [a﻿n.verbouwe@sovilvoorde.be](mailto:an.verbouwe@sovilvoorde.be) / s﻿amuel.vanderveken@sovilvoorde.be
+    o﻿f rechtstreeks bij de docent [a﻿n.verbouwe@sovilvoorde.be](mailto:an.verbouwe@sovilvoorde.be) / [s﻿amuel.vanderveken@sovilvoorde.be](mailto:samuel.vanderveken@sovilvoorde.be)
 gallery:
   - altText: alt text placeholder
     file: /media/uploads/img_1304.jpeg
