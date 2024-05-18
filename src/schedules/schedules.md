@@ -88,26 +88,27 @@ volwassenen:
 
       | ----------------------- | ------------------------- | ------------------------ | ----------------------- | ------------------------ |
 
-      | 12 sept 23              | 14 sept 23                | 16 sept 23               | 19 sept 23              | 23 sept 23               |
+      | 10 sept 24              | 12 sept 24                | 14 sept 24               | 17 sept 24              | 21 sept 24               |
 
-      | 10 okt 23               | 12 okt 23                 | 14 okt 23                | 17 okt 23               | 21 okt 23                |
+      | 8 okt 24                | 10 okt 24                 | 12 okt 24                | 15 okt 24               | 19 okt 24                |
 
-      | 14 nov 23               | 16 nov 23                 | 18 nov 23                | 21 nov 23               | 25 nov 23                |
+      | 12 nov 24               | 14 nov 24                 | 16 nov 24                | 19 nov 24               | 23 nov 24                |
 
-      | 12 dec 23               | 14 dec 23                 | 16 dec 23                | 19 dec 23               | 23 dec 23                |
+      | 10 dec 24               | 12 dec 24                 | 14 dec 24                | 17 dec 24               | 21 dec 24                |
 
-      | 23 jan 24               | 25 jan 24                 | 27 jan 24                | 30 jan 24               | 3 feb 24                 |
+      | 21 jan 25               | 23 jan 25                 | 25 jan 25                | 28 jan 25               | 1 feb 25                 |
 
-      | 27 feb 24               | 29 feb 24                 | 2﻿ maart 24              | 5﻿ maart 24             | 9﻿ maart 24              |
+      | 18 feb 25               | 20 feb 25                 | 22﻿ feb 25               | 25﻿ feb 25              | 1﻿ maart 25              |
 
-      | 26 maart 24             | 28 maart 24               | 30 maart 24              | 16 april 24             | 20 april 24              |
+      | 25 maart 25             | 27 maart 25               | 29 maart 25              | 1 april 25              | 5 april 25               |
 
-      | 7﻿ mei 24               | H﻿emelvaart               | F﻿acultatieve verlofdag  | 14 mei 24               | 18 mei 24                |
+      | 6 mei 25                | 8﻿ mei 25                 | 1﻿0 mei 25               | 13 mei 25               | 17 mei 25                |
 
-      | 4﻿ juni 24              | 6 juni 24                 | 8 juni 24                | 11 juni 24              | 15 juni 24               |
+      | 3﻿ juni 25              | 5 juni 25                 | 7 juni 25                | 10 juni 25              | 14 juni 25               |
     textBottom: >-
       Er zijn 9﻿ lessen per jaar, keuze uit 2 dinsdagnamiddagen, 1
-      donderdagavond en 2 zaterdagvoormiddagen. \
+      donderdagavond en 2 zaterdagvoormiddagen. De lessen gaan door in cc Het
+      Bolwerk.\
 
       D﻿eze lessen zijn verplicht te volgen door studenten 4.3, 4.4, S.1 en S.2 (schilderkunst, tekenkunst, grafiekkunst, beeldhouwen en ruimtelijke kunst).\
 
@@ -115,7 +116,7 @@ volwassenen:
 
       E﻿enmaal u uw vaste lesmoment kiest, dient u altijd op dat moment te komen. \
 
-      B﻿ijvoorbeeld: U komt de eerste les op 12 september, dan dient u ook op de andere data uit de eerste kolom te komen.
+      B﻿ijvoorbeeld: U komt de eerste les op 10 september, dan dient u ook op de andere data uit de eerste kolom te komen.
   beeldhouwen:
     title: Beeldhouwen en ruimtelijke kunst (Spiegelstraat 62)
     textTop: null
@@ -150,33 +151,33 @@ volwassenen:
 
       | **dinsdag 13:30-17:00** | **donderdag 18:00-21:30** | **zaterdag 09:00-12:30** | **dinsdag 13:30-17:00** | **zaterdag 09:00-12:30** | **dinsdag 13:30-17:00** | **zaterdag 9:00-12:30** |
 
-      | 12 sept 23              | 14 sept 23                | 16 sept 23               | 19 sept 23              | 23 sept 23               | 26 sept 23              | 3﻿0 sept 23             |
+      | 10 sept 24              | 12 sept 24                | 14 sept 24               | 17 sept 24              | 21 sept 24               | 24 sept 24              | 28 sept 24              |
 
-      | 10 okt 23               | 12 okt 23                 | 14 okt 23                | 17 okt 23               | 21 okt 23                | 24 okt 23               | 28 okt 23               |
+      | 8 okt 24                | 10 okt 24                 | 12 okt 24                | 15 okt 24               | 19 okt 24                | 22 okt 24               | 26 okt 24               |
 
-      | 14 nov 23               | 16 nov 23                 | 18 nov 23                | 21 nov 23               | 25 nov 23                | 28 nov 23               | 2 dec 23                |
+      | 12 nov 24               | 14 nov 24                 | 16 nov 24                | 19 nov 24               | 23 nov 24                | 26 nov 24               | 30 nov 24               |
 
-      | 12 dec 23               | 14 dec 23                 | 16 dec 23                | 19 dec 23               | 23 dec 23                | 9﻿ jan 24               | 1﻿3 jan 24              |
+      | 10 dec 24               | 12 dec 24                 | 14 dec 24                | 17 dec 24               | 21 dec 24                | 7﻿ jan 25               | 1﻿1 jan 25              |
 
-      | 23 jan 24               | 25 jan 24                 | 27 jan 24                | 30 jan 24               | 3﻿ feb 24                | 6﻿ feb 24               | 1﻿0 feb 24              |
+      | 21 jan 25               | 23 jan 25                 | 25 jan 25                | 28 jan 25               | 1﻿ feb 25                | 4﻿ feb 25               | 8 feb 25                |
 
-      | 27 febr 24              | 29 febr 24                | 2﻿ maart 24              | 5 maart 24              | 9﻿ maart 24              | 12 maart 24             | 16 maart 24             |
+      | 18 feb 25               | 20 feb 25                 | 22﻿ feb 25               | 25 feb 25               | 1 maart 25               | 11 maart 25             | 15 maart 25             |
 
-      | 26 maart 24             | 28 maart 24               | 30 maart 24              | 1﻿6 april 24            | 20 april 24              | 2﻿3 april 24            | 27 april 24             |
+      | 25 maart 25             | 27 maart 25               | 29 maart 25              | 1﻿ april 25             | 5 april 25               | 2﻿2 april 25            | 26 april 25             |
 
-      | 7﻿ mei 24               | H﻿emelvaart               | F﻿acultatieve verlofdag  | 14 mei 24               | 18 mei 24                | 21 mei 24               | 25 mei 24               |
+      | 6﻿ mei 25               | 8﻿ mei 25                 | 1﻿0 mei 25               | 13 mei 25               | 17 mei 25                | 20 mei 25               | 24 mei 25               |
 
-      | 4﻿ juni 24              | 6 juni 24                 | 8 juni 24                | 11 juni 24              | 15 juni 24               | 18 juni 24              | 22 juni 24              |
+      | 3﻿ juni 25              | 5 juni 25                 | 7 juni 25                | 10 juni 25              | 14 juni 25               | 17 juni 25              | 21 juni 25              |
     textBottom: >-
       **Je volgt 2 keer per maand les.** \
 
       **Het eerste lesmoment** wordt 5 keer herhaald, dat zijn de eerste 5 kolommen. Je kiest daar 1 kolom uit, dat wordt dan uw vast lesmoment.\
 
-      B﻿ijvoorbeeld: U komt de eerste les op 12 september, dan dient u ook op de andere data uit de eerste kolom te komen (10 okt, 14 nov,...).\
+      B﻿ijvoorbeeld: U komt de eerste les op 10 september, dan dient u ook op de andere data uit de eerste kolom te komen (8 okt, 12 nov,...).\
 
       **H﻿et tweede lesmoment** wordt 2 keer herhaald, dat zijn de laatste 2 kolommen. Je kiest daar ook 1 kolom uit, dat wordt dan uw tweede vast lesmoment.\
 
-      B﻿ijvoorbeeld: U komt de eerste les (van het tweede lesmoment) op 26 september, dan dient u ook op de andere data uit die kolom te komen (24 okt, 28 nov,...).
+      B﻿ijvoorbeeld: U komt de eerste les (van het tweede lesmoment) op 24 september, dan dient u ook op de andere data uit die kolom te komen (22 okt, 26 nov,...).
   crossover:
     title: Cross-over
     textTop: null
