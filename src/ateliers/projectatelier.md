@@ -13,7 +13,11 @@ description:
 
 
     Het atelier richt zich naar studenten die op zoek zijn naar zelfexpressie.
-uurroosterFile: ""
+
+
+    ***M﻿eer info bij docente Natacha Dimovska*** \
+
+    ***[n﻿atacha.dimovska@sovilvoorde.be ](mailto:natacha.dimovska@sovilvoorde.be)***
 gallery:
   - altText: alt text placeholder
     file: /media/uploads/atelier-projectatelier-3.jpg
@@ -27,6 +31,7 @@ gallery:
     file: /media/uploads/atelier-projectatelier-7.jpg
   - altText: alt text placeholder
     file: /media/uploads/atelier-projectatelier-8.jpg
+uurroosterFile: ""
 materials: ""
 extraText: ""
 show3D: false
