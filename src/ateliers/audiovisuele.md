@@ -17,7 +17,7 @@ description:
 
     ***V﻿rijblijvend gratis proefles mogelijk op dinsdag 10, 17 of 24 september telkens van 13u30 tot 17u***\
 
-    ***o﻿f zaterdag 14 of 28 september van 9u tot 12u30u.***\
+    ***o﻿f zaterdag 14, 21 of 28 september van 9u tot 12u30u.  Leslocatie is cc Het Bolwerk.*** \
 
     ***M﻿eer info via secretariaat.academiebeeldendekunsten@sovilvoorde.be of 02/251 51 51***\
 
