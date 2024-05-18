@@ -136,7 +136,7 @@ tarieven:
     * V﻿oor iedere extra inschrijving in een andere domein aan dezelfde of een andere academie.
 
 
-    **Houder Vilvoordse vrijtijdspas:**
+    **Houder Vilvoordse V-pas:**
 
 
     De houder betaalt 20 % van het normale tarief of van het verminderd tarief mits voorlegging van de nodige attesten hierboven vermeld en 20 % van de materiaalkost, reeds verrekend in het tarief.
