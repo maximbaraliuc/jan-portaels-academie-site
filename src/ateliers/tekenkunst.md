@@ -25,7 +25,7 @@ description:
 
     ***Een proefles aanvragen kan via het secretariaat op secretariaat.academiebeeldendekunsten@sovilvoorde.be of 02 251 51 51***\
 
-    ***o﻿f rechtstreeks bij de docent r﻿ainier.boidin@sovilvoorde.be / n﻿atacha.dimovska@sovilvoorde.be / j﻿ohan.clocheret@sovilvoorde.be***
+    ***o﻿f rechtstreeks bij de [docent r﻿ainier.boidin@sovilvoorde.be](mailto:rainier.boidin@sovilvoorde.be) / [n﻿atacha.dimovska@sovilvoorde.be](mailto:natacha.dimovska@sovilvoorde.be) / [j﻿ohan.clocheret@sovilvoorde.be](mailto:johan.clocheret@sovilvoorde.be)***
 gallery:
   - altText: alt text placeholder
     file: /media/uploads/atelier-tekenkunst-7-1024.jpg
