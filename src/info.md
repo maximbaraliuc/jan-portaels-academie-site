@@ -4,49 +4,45 @@ permalink: /info.html
 section: Info
 title: Info
 calender: |-
-  ## **Vakantiekalender 2023 – 2024**
+  ## **Vakantiekalender 2024 – 2025**
 
   * **O﻿pstart lessen**\
-    Z﻿aterdag 2 september 2023
+    Zondag 1 september 2024
   * **Herfstvakantie**\
-    Maandag 30 oktober tem zondag 5 november 2023
+    Maandag 28 oktober tem zondag 3 november 2024
   * **Wapenstilstand**\
-    Z﻿aterdag 11 november 2023
+    Z﻿aterdag 11 november 2024
   * **Kerstvakantie**
-    Maandag 25 december 2023 tem zondag 7 januari 2024
+    Maandag 23 december 2024 tem zondag 5 januari 2025
   * **Krokusvakantie**
-    Maandag 12 februari tem zondag 18 februari 2024
+    Maandag 3 maart tem zondag 9 maart 2025
   * **Paasvakantie**
-    Zondag 31 maart tem zondag 14 april 2024
-  * **F﻿acultatieve verlofdag: jaarmarkt**\
-    M﻿aandag 22 april 2024
+    Maandag 7 april tem maandag 21 april 2025 (Paasmaandag)
   * **D﻿ag van de arbeid**\
-    W﻿oensdag 1 mei 2024
+    Donderdag 1 mei 2025
+  * **F﻿acultatieve verlofdag jaarmarkt**\
+    M﻿aandag 12 mei 2025
   * **H﻿emelvaart**\
-    D﻿onderdag 9 mei 2024
+    D﻿onderdag 29 mei 2025
   * **Facultatieve verlofdag**\
-    Z﻿aterdag 11 mei 2024
+    Z﻿aterdag 31 mei 2025
   * **P﻿inksteren**\
-    Z﻿ondag 19 mei 2024
+    Z﻿ondag 8 juni 2025
   * **P﻿inkstermaandag**\
-    M﻿aandag 20 mei 2024
+    M﻿aandag 9 juni 2025
   * **Zomervakantie**\
-    M﻿aandag 1 juli tem zaterdag 31 augustus 2024
-  * De zaterdag vóór de vakantie is er wel les.
-    De zaterdag in de vakantie is er geen les.
+    Dinsdag 1 juli tem zondag 31 augustus 2025
+  * De zaterdag en zondag vóór de vakantie is er wel les.
+    De zaterdag en zondag in de vakantie is er geen les.
 
-  ## **A﻿ctiviteiten 2023 - 2024**
+  ## **A﻿ctiviteiten 2024 - 2025**
 
-  * **S﻿maakdagen**\
-    woensdag 25 oktober 2023 en zaterdag 28 oktober 2023
+  * **S﻿maakdagen**
   * **D﻿ag van de academies**\
-    z﻿aterdag 3 februari 2024 van 13u30 tot 17u
-  * **J﻿uryweek graad 4**\
-    w﻿oensdag 12 juni 2024 tem dinsdag 18 juni 2024
-  * **P﻿roclamatie**\
-    z﻿aterdag 22 juni 2024 om 14u
-  * **E﻿xpo**\
-    z﻿aterdag 22 juni 2024 tem dinsdag 25 juni 2024 telkens van 14u tot 18u
+    z﻿aterdag 22 februari 2025 van 13u30 tot 17u
+  * **J﻿uryweek graad 4**
+  * **P﻿roclamatie**
+  * **E﻿xpo**
 reglementen:
   - fileName: Academiereglement
     fileLink: /media/uploads/academiereglement-23_24-versie-website.pdf
