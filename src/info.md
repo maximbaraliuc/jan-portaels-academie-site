@@ -11,7 +11,7 @@ calender: |-
   * **Herfstvakantie**\
     Maandag 28 oktober tem zondag 3 november 2024
   * **Wapenstilstand**\
-    Z﻿aterdag 11 november 2024
+    Maandag 11 november 2024
   * **Kerstvakantie**
     Maandag 23 december 2024 tem zondag 5 januari 2025
   * **Krokusvakantie**
