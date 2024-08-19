@@ -11,45 +11,14 @@ inschrijfmomenten:
     28 mei 2024 tot uiterlijk 30 september 2024
 
 
-    **Voorinschrijvingen:**
+    * Online via www.mijnacademie.be
 
+    * O﻿p het secretariaat ENKEL op de volgende momenten:
 
-    * Online vanaf dinsdag 28 mei 14u tem dinsdag 11 juni 14u via **[mijnacademie.be](http://www.mijnacademie.be/ "naar mijnacademie.be")**
-
-    * O﻿p het secretariaat **ENKEL** op de volgende momenten:
-
-      * D﻿insdag 28 mei van 14u tot 19u
-      * W﻿oensdag 29 mei van 13u tot 17u
-      * Z﻿aterdag 1 juni van 9u tot 15u
-      * M﻿aandag 3 juni van 13u tot 19u
-      * D﻿insdag 4 juni van 13u tot 19u
-      * W﻿oensdag 5 juni van 13u tot 17u
-      * D﻿onderdag 6 juni van 13u tot 19u
-      * M﻿aandag 10 juni van 13u tot 19u
-
-    **Nieuwe leerlingen/studenten:**\
-
-    (﻿ook herinschrijvingen nog mogelijk)
-
-
-    * O﻿nline vanaf dinsdag 11 juni 14u tem maandag 30 september 23u59 via **[mijnacademie.be](http://www.mijnacademie.be/ "naar mijnacademie.be")**
-
-    * O﻿p het secretariaat **ENKEL** op de volgende momenten:
-
-      * Dinsdag 11 juni van 14u tot 19u
-      * W﻿oensdag 12 juni van 13u tot 17u
-      * Z﻿aterdag 15 juni van 9u tot 15u
-      * M﻿aandag 17 juni van 13u tot 19u
-      * D﻿insdag 18 juni van 13u tot 19u
-      * W﻿oensdag 19 juni van 13u tot 17u
-      * D﻿onderdag 20 juni van 13u tot 19u
-      * M﻿aandag 24 juni van 13u tot 19u
-      * D﻿insdag 25 juni van 13u tot 19u
-      * Z﻿aterdag 29 juni van 9u tot 15u
-      * V﻿an 19 augustus tem 29 augustus op maandag, dinsdag, woensdag en donderdag van 13u tot 19u
-      * V﻿an 2 tem 30 september \
-        op maandag en dinsdag van 13u tot 19u\
-        o﻿p woensdag van 13u tot 17u\
+      * v﻿an 19 augustus tem 29 augustus op maandag, dinsdag, woensdag en donderdag van 13u tot 19u
+      * v﻿an 2 tem 30 september \
+        o﻿p maandag en dinsdag van 16u tot 19u\
+        o﻿p woensdag van 13u tot 19u\
         o﻿p zaterdag van 9u tot 15u
 
     **Meebrengen:** 
