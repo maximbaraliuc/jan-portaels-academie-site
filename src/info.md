@@ -37,7 +37,8 @@ calender: |-
 
   ## **A﻿ctiviteiten 2024 - 2025**
 
-  * **S﻿maakdagen**
+  * **S﻿maakdagen**\
+    w﻿oensdag 6 november en zaterdag 9 november
   * **D﻿ag van de academies**\
     z﻿aterdag 22 februari 2025 van 13u30 tot 17u
   * **J﻿uryweek graad 4**
