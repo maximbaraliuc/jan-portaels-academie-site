@@ -38,7 +38,9 @@ calender: |-
   ## **A﻿ctiviteiten 2024 - 2025**
 
   * **S﻿maakdagen**\
-    w﻿oensdag 6 november en zaterdag 9 november
+    w﻿oensdag 6 november en zaterdag 9 november 2024
+  * **W﻿elkom in het atelier**\
+    w﻿oensdag 22 januari tem zaterdag 1 februari 2025
   * **D﻿ag van de academies**\
     z﻿aterdag 22 februari 2025 van 13u30 tot 17u
   * **J﻿uryweek graad 4**
