@@ -15,7 +15,10 @@ inschrijfmomenten:
 
     * O﻿p het secretariaat ENKEL op de volgende momenten:
 
-      * v﻿an 19 augustus tem 29 augustus op maandag, dinsdag, woensdag en donderdag van 13u tot 19u
+      * maandag 26 augustus van 13u tot 19u
+      * d﻿insdag 27 augustus van 13u tot 19u
+      * w﻿oensdag 28 augustus van 13u tot 19u
+      * d﻿onderdag 29 augustus van 13u tot 17u
       * v﻿an 2 tem 30 september \
         o﻿p maandag en dinsdag van 16u tot 19u\
         o﻿p woensdag van 13u tot 19u\
