@@ -1,5 +1,5 @@
 ---
-title: Proefles beeldhouwen en ruimtelijke kunst
+title: Proeflessen beeldhouwen en ruimtelijke kunst
 date: git Last Modified
 images:
   - file: /media/uploads/20240122_193402.jpg
