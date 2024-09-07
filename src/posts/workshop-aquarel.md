@@ -1,8 +1,7 @@
 ---
 title: WORKSHOP AQUAREL
 date: git Last Modified
-images:
-  - file: /media/uploads/workshop-aquarel-25_09_20231024_1.jpg
+images: []
 ---
 **W﻿orkshop aquarelleren op maandag 25/09/23 van 9u tot 12u30!**
 
