@@ -10,11 +10,8 @@ images:
 
 E﻿en proefles is mogelijk op één van de volgende momenten:
 
-z﻿aterdag-, zondag- of maandagvoormiddag bij Rainier Boidin\
+zondag- of maandagvoormiddag bij Rainier Boidin\
 r﻿ainier.boidin@sovilvoorde.be
 
 d﻿insdagvoormiddag of donderdagavond bij Natacha Dimovska\
 n﻿atacha.dimovska@sovilvoorde.be
-
-d﻿insdagnamiddag of -avond bij Johan Clocheret\
-j﻿ohan.clocheret@sovilvoorde.be
