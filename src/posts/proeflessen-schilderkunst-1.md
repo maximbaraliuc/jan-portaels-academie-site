@@ -13,5 +13,5 @@ E﻿en proefles is mogelijk op één van de volgende momenten:
 w﻿oensdagavond bij Samuel Vanderveken\
 s﻿amuel.vanderveken@sovilvoorde.be
 
-m﻿aandagvoormiddag of -namiddag of dinsdagvoormiddag of -namiddag bij An Verbouwe\
+m﻿aandagvoormiddag of -namiddag of dinsdagnamiddag bij An Verbouwe\
 a﻿n.verbouwe@sovilvoorde.be
