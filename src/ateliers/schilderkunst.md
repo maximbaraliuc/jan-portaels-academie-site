@@ -14,7 +14,7 @@ description:
 
     ***V﻿rijblijvend gratis proefles mogelijk in de maand september op*** \
 
-    ***\-﻿maandag- of dinsdagvoormiddag telkens van 9u tot 12u30 of maandag- of dinsdagnamiddag telkens van 13u30 tot 17u (docent An verbouwe)***\
+    ***\-﻿maandagvoormiddag van 9u tot 12u30 of maandag- of dinsdagnamiddag telkens van 13u30 tot 17u (docent An verbouwe)***\
 
     ***\-﻿woensdagavond van 18u tot 21u30 (docent Samuel Vanderveken)***\
 
