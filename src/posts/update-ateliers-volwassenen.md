@@ -13,7 +13,7 @@ W﻿el nog plaats op de andere lesmomenten
 **A﻿TELIER TEKENKUNST**
 
 D﻿insdagnamiddag volledig volzet\
-D﻿insdagavond nog 2 plaatsen\
-D﻿onderdagavond nog 2 plaatsen\
-Z﻿aterdagvoormiddag nog 1 plaats\
-N﻿og plaats op zondag-, maandag-, en dinsdagvoormiddag
+D﻿insdagavond bijna volzet\
+D﻿onderdagavond bijna volzet\
+Z﻿aterdagvoormiddag bijna volzet\
+N﻿og voldoende plaats op zondag-, maandag-, en dinsdagvoormiddag
