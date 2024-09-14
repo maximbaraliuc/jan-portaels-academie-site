@@ -20,6 +20,11 @@ description:
     ***V﻿rijblijvend gratis proefles mogelijk in de maand september in een klas naar keuze zolang er plaats is.***\
 
     ***E﻿en proefles aanvragen doe je via het secretariaat op secretariaat.academiebeeldendekunsten@sovilvoorde.be of 02 251 51 51***
+
+
+    ***U﻿PDATE:***\
+
+    ***Z﻿aterdagvoormiddag bijna volzet***
 gallery:
   - file: /media/uploads/atelier-jongeren-12-1024.jpg
     altText: ""
