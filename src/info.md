@@ -38,7 +38,7 @@ calender: |-
   ## **A﻿ctiviteiten 2024 - 2025**
 
   * **S﻿maakdagen**\
-    w﻿oensdag 23 oktober en zaterdag 26 oktober
+    w﻿oensdag 23 oktober en zaterdag 26 oktober 2024
   * **W﻿elkom in het atelier**\
     w﻿oensdag 22 januari tem zaterdag 1 februari 2025
   * **D﻿ag van de academies**\
