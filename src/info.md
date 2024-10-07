@@ -50,7 +50,7 @@ reglementen:
   - fileName: Academiereglement
     fileLink: /media/uploads/academiereglement-23_24-versie-website.pdf
   - fileName: Retributiereglement
-    fileLink: /media/uploads/retributiereglement_2023_2024_bk_portaels.pdf
+    fileLink: /media/uploads/24-25-bijlage-2_retributiereglement_2024_2025_bk_portaels.pdf
   - fileName: APP
     fileLink: /media/uploads/app.pdf
 timetables: null
