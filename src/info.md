@@ -48,7 +48,7 @@ calender: |-
   * **E﻿xpo**
 reglementen:
   - fileName: Academiereglement
-    fileLink: /media/uploads/academiereglement-23_24-versie-website.pdf
+    fileLink: /media/uploads/academiereglement-24_25-versie-website.pdf
   - fileName: Retributiereglement
     fileLink: /media/uploads/24-25-bijlage-2_retributiereglement_2024_2025_bk_portaels.pdf
   - fileName: APP
