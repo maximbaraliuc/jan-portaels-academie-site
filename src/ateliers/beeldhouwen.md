@@ -14,14 +14,7 @@ description:
     Studies naar waarneming, verhouding, schaalvergroting, het leren interpreteren en experimenteren met betrekking tot materie en vorm creëren binnen dit atelier een dynamisch en boeiend gegeven.
 
 
-    Alle materialen en inherente combinaties kunnen in aanmerking komen om een individuele invulling te geven aan een kunstzinnige identiteit
-
-
-    ***V﻿rijblijvend gratis proefles mogelijk in de maand september op maandagnamiddag van 13u30 tot 17u of maandag- of woensdagavond telkens van 18u tot 21u30.***\
-
-    ***E﻿en proefles aanvragen kan via het secretariaat op secretariaat.academiebeeldendekunsten@sovilvoorde.be of 02 251 51 51***\
-
-    ***o﻿f rechtstreeks bij de docent johan.clocheret@sovilvoorde.be***
+    Alle materialen en inherente combinaties kunnen in aanmerking komen om een individuele invulling te geven aan een kunstzinnige identiteit.
 gallery:
   - altText: alt text placeholder
     file: /media/uploads/atelier-beeldhouwen-13-1024.jpg
