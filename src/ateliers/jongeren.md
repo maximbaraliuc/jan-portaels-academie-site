@@ -15,16 +15,6 @@ description:
 
 
     De leerling wordt individueel begeleid met respect voor zijn unieke zelf. Er wordt getracht een ruimte te bieden waarin iedereen zoveel mogelijk zichzelf kan zijn, zich kan uitdrukken, kan ontdekken en zich beeldend kan ontwikkelen. Les volgen in het beeldatelier kan een welkome aanvulling zijn bij het dagonderwijs en/of een goede voorbereiding op verdergezet kunstonderwijs.
-
-
-    ***V﻿rijblijvend gratis proefles mogelijk in de maand september in een klas naar keuze zolang er plaats is.***\
-
-    ***E﻿en proefles aanvragen doe je via het secretariaat op secretariaat.academiebeeldendekunsten@sovilvoorde.be of 02 251 51 51***
-
-
-    ***U﻿PDATE:***\
-
-    ***Z﻿aterdagvoormiddag bijna volzet***
 gallery:
   - file: /media/uploads/atelier-jongeren-12-1024.jpg
     altText: ""
