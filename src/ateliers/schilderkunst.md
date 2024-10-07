@@ -10,17 +10,6 @@ description:
 
 
     Onderzoek van de relevante beeldaspecten vorm, kleur, materie, compositie is een fundament. Aan de hand van die beeldaspecten wordt het medium schilderen op een individuele manier onderzocht. Het proces verloopt door studie, expressie, persoonlijk engagement en zelfonderzoek: het atelier is een laboratorium.
-
-
-    ***V﻿rijblijvend gratis proefles mogelijk in de maand september op*** \
-
-    ***\-﻿maandagvoormiddag van 9u tot 12u30 of maandag- of dinsdagnamiddag telkens van 13u30 tot 17u (docent An verbouwe)***\
-
-    ***\-﻿woensdagavond van 18u tot 21u30 (docent Samuel Vanderveken)***\
-
-    ***E﻿en proefles aanvragen kan via het secretariaat op secretariaat.academiebeeldendekunsten@sovilvoorde.be of 02 251 51 51***\
-
-    ***o﻿f rechtstreeks bij de docent [a﻿n.verbouwe@sovilvoorde.be](mailto:an.verbouwe@sovilvoorde.be) / [s﻿amuel.vanderveken@sovilvoorde.be](mailto:samuel.vanderveken@sovilvoorde.be)***
 gallery:
   - altText: alt text placeholder
     file: /media/uploads/img_1304.jpeg
