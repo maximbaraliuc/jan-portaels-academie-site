@@ -5,7 +5,7 @@ permalink: /contact.html
 title: Stedelijke academie voor beeldende kunsten Jan Portaels | Vilvoorde
 googleMapAddress: https://www.google.com/maps/place/Spiegelstraat+62,+1800+Vilvoorde/
 physicalAddress: Spiegelstraat 62, 1800 Vilvoorde
-telephoneNumber: +32 2 251 51 51
+telephoneNumber: +32 2 254 82 39
 emailDirectie: directie.academiebeeldendekunsten@sovilvoorde.be
 emailSecretariaat: secretariaat.academiebeeldendekunsten@sovilvoorde.be
 openingsurenSchool:
