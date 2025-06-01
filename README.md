@@ -1,4 +1,4 @@
-A website for [**Stedelijke academie voor beeldende kunsten Jan Portaels | Vilvoorde**](https://academiebeeldendekunstenvilvoorde.be/)
+A website for (temporary deploy) [**Stedelijke academie voor beeldende kunsten Jan Portaels | Vilvoorde**](https://janportaels.netlify.app/)
 
 Built using: **HTML, CSS, JavaScript, 11ty, netlify**
 
